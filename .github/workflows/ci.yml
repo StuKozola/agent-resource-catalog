@@ -27,10 +27,11 @@ on:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-# Cancel in-progress runs on the same ref so new pushes don't queue up
+# Cancel in-progress runs on the same branch; tags get their own group so
+# they are never cancelled by a concurrent branch push.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ startsWith(github.ref, 'refs/tags/') && github.ref || github.ref_name }}
+  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
 
 jobs:
   # ---------------------------------------------------------------------------
@@ -452,10 +453,10 @@ jobs:
           EOF
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: '_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5.0.0
