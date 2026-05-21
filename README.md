@@ -26,7 +26,7 @@ claude plugin install product-manager@agent-resource-catalog
 
 | Plugin | Description | Skills | Commands | Connectors |
 |--------|-------------|--------|----------|------------|
-| `financial-analyst` | Equity research, portfolio analysis, and financial modeling. Pairs with market-data and accounting MCP servers. | `equity-research`, `earnings-analysis`, `portfolio-review` | `/build-model`, `/run-comps` | `boosted-insights`, `market-data` |
+| `financial-analyst` | Equity research, portfolio analysis, and financial modeling. Pairs with market-data and data-warehouse MCP servers. | `equity-research`, `earnings-analysis`, `portfolio-review` | `/build-model`, `/run-comps` | `market-data`, `data-warehouse` |
 | `product-manager` | Product strategy, roadmap planning, PRD authoring, and cross-functional alignment. | `feature-prd`, `roadmap-planning`, `stakeholder-comms` | `/write-prd`, `/status-update` | `linear`, `notion`, `slack` |
 | `data-engineer` | Data pipeline design, SQL optimization, schema migration, and dbt workflow support. | `pipeline-design`, `sql-review`, `schema-migration` | `/gen-migration`, `/profile-table` | `dbt`, `bigquery`, `postgres` |
 

@@ -34,7 +34,7 @@ The manifest lives at `plugins/<name>/.claude-plugin/plugin.json` and must valid
   "name": "product-manager",
   "version": "1.0.0",
   "description": "Product strategy, roadmap planning, PRD authoring, and cross-functional alignment for product managers.",
-  "author": "GBI Core Team",
+  "author": "your-name-or-team",
   "category": "role",
   "tags": ["product", "roadmap", "prd", "stakeholders"],
   "min_claude_version": "claude-sonnet-4",
@@ -136,21 +136,21 @@ Plugins that need access to external data sources or APIs declare their MCP serv
 ```json
 {
   "mcpServers": {
-    "boosted-insights": {
-      "registry_id": "mcp-boosted-insights",
-      "description": "Boosted.ai equity research and portfolio analytics platform.",
+    "market-data": {
+      "registry_id": "mcp-market-data",
+      "description": "Real-time and historical market price and fundamentals data.",
       "required": true
     },
-    "market-data": {
-      "registry_id": "mcp-market-data-generic",
-      "description": "Real-time and historical market price data.",
+    "data-warehouse": {
+      "registry_id": "mcp-snowflake",
+      "description": "Cloud data warehouse for portfolio and financial data.",
       "required": false
     }
   }
 }
 ```
 
-Server names (e.g. `boosted-insights`) are the logical identifiers that skills and commands reference. The `registry_id` values reference published MCP registry IDs — not hardcoded connection strings or credentials. This allows each installer to wire in their own stack while the plugin code remains portable.
+Server names (e.g. `market-data`) are the logical identifiers that skills and commands reference. The `registry_id` values reference published MCP registry IDs — not hardcoded connection strings or credentials. This allows each installer to wire in their own stack while the plugin code remains portable.
 
 ---
 
@@ -184,7 +184,7 @@ The manifest lives at `standalone/tools/<name>/manifest.json` (or `standalone/te
   "type": "tool",
   "version": "1.0.0",
   "description": "Extracts structured text, tables, and metadata from PDF files into Markdown or JSON.",
-  "authors": ["GBI Core Team"],
+  "authors": ["your-name-or-team"],
   "license": "MIT",
   "files": ["pdf_extractor.py", "requirements.txt", "README.md"],
   "entry_point": "pdf_extractor.py",
