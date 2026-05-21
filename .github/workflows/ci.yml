@@ -158,3 +158,303 @@ jobs:
             catalog.json
           # Let GitHub auto-generate release notes from merged PRs and commits
           generate_release_notes: true
+
+  # ---------------------------------------------------------------------------
+  # Job 4: deploy-pages
+  # Deploy catalog.json and a human-readable index page to GitHub Pages.
+  # Only runs on pushes to main, after build-catalog succeeds.
+  # Public URL: https://stukozola.github.io/agent-resource-catalog/catalog.json
+  # ---------------------------------------------------------------------------
+  deploy-pages:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: build-catalog
+
+    # Only run on direct pushes to main (not PRs, not tags)
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    # Pages deployment requires these specific permissions
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    # Prevent simultaneous Pages deployments; do not cancel in-progress
+    # so an ongoing deploy isn't interrupted mid-flight.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install jsonschema
+
+      - name: Build catalog
+        run: python scripts/build-catalog.py --ref main
+
+      - name: Prepare _site directory
+        run: |
+          mkdir -p _site
+          cp catalog.json _site/catalog.json
+
+      - name: Create index.html
+        run: |
+          cat > _site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Agent Resource Catalog</title>
+            <style>
+              *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+              body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                background: #f4f6f9;
+                color: #1a1a2e;
+                min-height: 100vh;
+              }
+              header {
+                background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+                color: #fff;
+                padding: 2.5rem 2rem 2rem;
+                text-align: center;
+              }
+              header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+              header p { margin-top: 0.5rem; opacity: 0.75; font-size: 0.95rem; }
+              header a { color: #a8d8ea; text-decoration: none; }
+              header a:hover { text-decoration: underline; }
+              main { max-width: 1100px; margin: 2rem auto; padding: 0 1.25rem 3rem; }
+              .section-title {
+                font-size: 1.25rem;
+                font-weight: 600;
+                margin: 2rem 0 1rem;
+                padding-bottom: 0.4rem;
+                border-bottom: 2px solid #dde3ec;
+                color: #0f3460;
+              }
+              .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 1rem;
+              }
+              .card {
+                background: #fff;
+                border: 1px solid #dde3ec;
+                border-radius: 10px;
+                padding: 1.25rem 1.25rem 1rem;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+                transition: box-shadow 0.15s;
+              }
+              .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+              .card-name {
+                font-size: 1rem;
+                font-weight: 700;
+                color: #0f3460;
+                margin-bottom: 0.35rem;
+              }
+              .card-desc {
+                font-size: 0.85rem;
+                color: #555;
+                line-height: 1.45;
+                margin-bottom: 0.75rem;
+              }
+              .tag-row { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+              .tag {
+                display: inline-block;
+                font-size: 0.72rem;
+                font-weight: 600;
+                padding: 0.2rem 0.55rem;
+                border-radius: 999px;
+                background: #e8f0fe;
+                color: #1a56db;
+              }
+              .tag.connector { background: #fef3c7; color: #92400e; }
+              .stat {
+                font-size: 0.78rem;
+                color: #888;
+                margin-bottom: 0.5rem;
+              }
+              .empty { color: #aaa; font-style: italic; font-size: 0.9rem; }
+              #status { text-align: center; padding: 3rem 1rem; color: #888; }
+            </style>
+          </head>
+          <body>
+            <header>
+              <h1>Agent Resource Catalog</h1>
+              <p>
+                Browsable index of Claude plugins, skills, and standalone resources
+                &mdash; <a href="https://github.com/StuKozola/agent-resource-catalog" target="_blank" rel="noopener">View on GitHub</a>
+              </p>
+            </header>
+            <main id="app">
+              <p id="status">Loading catalog&hellip;</p>
+            </main>
+
+            <script>
+              async function loadCatalog() {
+                const app = document.getElementById('app');
+                const status = document.getElementById('status');
+                try {
+                  const res = await fetch('catalog.json');
+                  if (!res.ok) throw new Error('HTTP ' + res.status);
+                  const catalog = await res.json();
+
+                  app.innerHTML = '';
+
+                  // ---- Plugins section ----
+                  const plugins = catalog.plugins || [];
+                  const pluginTitle = document.createElement('h2');
+                  pluginTitle.className = 'section-title';
+                  pluginTitle.textContent = `Plugins (${plugins.length})`;
+                  app.appendChild(pluginTitle);
+
+                  if (plugins.length === 0) {
+                    const empty = document.createElement('p');
+                    empty.className = 'empty';
+                    empty.textContent = 'No plugins found.';
+                    app.appendChild(empty);
+                  } else {
+                    const grid = document.createElement('div');
+                    grid.className = 'grid';
+                    plugins.forEach(plugin => {
+                      const card = document.createElement('div');
+                      card.className = 'card';
+
+                      const name = document.createElement('div');
+                      name.className = 'card-name';
+                      name.textContent = plugin.name || plugin.id || '(unnamed)';
+                      card.appendChild(name);
+
+                      if (plugin.description) {
+                        const desc = document.createElement('div');
+                        desc.className = 'card-desc';
+                        desc.textContent = plugin.description;
+                        card.appendChild(desc);
+                      }
+
+                      const skills = plugin.skills || [];
+                      const connectors = plugin.connectors || [];
+                      if (skills.length || connectors.length) {
+                        const stat = document.createElement('div');
+                        stat.className = 'stat';
+                        const parts = [];
+                        if (skills.length) parts.push(`${skills.length} skill${skills.length !== 1 ? 's' : ''}`);
+                        if (connectors.length) parts.push(`${connectors.length} connector${connectors.length !== 1 ? 's' : ''}`);
+                        stat.textContent = parts.join(' · ');
+                        card.appendChild(stat);
+                      }
+
+                      if (skills.length) {
+                        const tagRow = document.createElement('div');
+                        tagRow.className = 'tag-row';
+                        skills.slice(0, 8).forEach(skill => {
+                          const tag = document.createElement('span');
+                          tag.className = 'tag';
+                          tag.textContent = (typeof skill === 'string') ? skill : (skill.name || skill.id || '?');
+                          tagRow.appendChild(tag);
+                        });
+                        if (skills.length > 8) {
+                          const more = document.createElement('span');
+                          more.className = 'tag';
+                          more.textContent = `+${skills.length - 8} more`;
+                          tagRow.appendChild(more);
+                        }
+                        card.appendChild(tagRow);
+                      }
+
+                      if (connectors.length) {
+                        const tagRow = document.createElement('div');
+                        tagRow.className = 'tag-row';
+                        tagRow.style.marginTop = '0.35rem';
+                        connectors.slice(0, 6).forEach(conn => {
+                          const tag = document.createElement('span');
+                          tag.className = 'tag connector';
+                          tag.textContent = (typeof conn === 'string') ? conn : (conn.name || conn.id || '?');
+                          tagRow.appendChild(tag);
+                        });
+                        if (connectors.length > 6) {
+                          const more = document.createElement('span');
+                          more.className = 'tag connector';
+                          more.textContent = `+${connectors.length - 6} more`;
+                          tagRow.appendChild(more);
+                        }
+                        card.appendChild(tagRow);
+                      }
+
+                      grid.appendChild(card);
+                    });
+                    app.appendChild(grid);
+                  }
+
+                  // ---- Standalone section ----
+                  const standalone = catalog.standalone || [];
+                  const saTitle = document.createElement('h2');
+                  saTitle.className = 'section-title';
+                  saTitle.textContent = `Standalone Resources (${standalone.length})`;
+                  app.appendChild(saTitle);
+
+                  if (standalone.length === 0) {
+                    const empty = document.createElement('p');
+                    empty.className = 'empty';
+                    empty.textContent = 'No standalone resources.';
+                    app.appendChild(empty);
+                  } else {
+                    const grid = document.createElement('div');
+                    grid.className = 'grid';
+                    standalone.forEach(item => {
+                      const card = document.createElement('div');
+                      card.className = 'card';
+
+                      const name = document.createElement('div');
+                      name.className = 'card-name';
+                      name.textContent = item.name || item.id || '(unnamed)';
+                      card.appendChild(name);
+
+                      if (item.description) {
+                        const desc = document.createElement('div');
+                        desc.className = 'card-desc';
+                        desc.textContent = item.description;
+                        card.appendChild(desc);
+                      }
+
+                      grid.appendChild(card);
+                    });
+                    app.appendChild(grid);
+                  }
+
+                } catch (err) {
+                  app.innerHTML = '';
+                  const msg = document.createElement('p');
+                  msg.id = 'status';
+                  msg.textContent = 'Failed to load catalog: ' + err.message;
+                  app.appendChild(msg);
+                }
+              }
+
+              loadCatalog();
+            </script>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
