@@ -39,7 +39,7 @@ The `skills/` directory is a standalone library of reusable skill files organize
 | Category | Skills | What it covers |
 |----------|--------|----------------|
 | [`pragmatic-framework`](skills/pragmatic-framework/) | 39 | Product management and marketing methodology — market problems, buyer personas, positioning, pricing, launch, roadmap, requirements, and more |
-| [`seven-powers-framework`](skills/seven-powers-framework/) | 5 | Competitive strategy and business moats — branding, cornered resource, counter-positioning, network economies, process power |
+| [`seven-powers-framework`](skills/seven-powers-framework/) | 7 | Competitive strategy and business moats — branding, cornered resource, counter-positioning, network economies, process power, scale economies, switching costs |
 | [`agentic-systems`](skills/agentic-systems/) | 1 | AI agent operation and meta-reasoning — context management, subagent routing |
 | [`matlab`](skills/matlab/) | 1 | MATLAB-specific skills — toolbox packaging and distribution |
 
