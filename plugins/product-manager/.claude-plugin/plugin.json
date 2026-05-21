@@ -1,0 +1,9 @@
+{
+  "name": "product-manager",
+  "version": "1.0.0",
+  "description": "Comprehensive skills for product managers — Pragmatic Framework execution (PRDs, roadmaps, personas, positioning, pricing, launch) combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
+  "author": "agent-resource-catalog contributors",
+  "category": "role",
+  "tags": ["product-management", "pragmatic-framework", "seven-powers", "roadmap", "positioning", "competitive-strategy", "moats"],
+  "plugin_format_version": "1"
+}

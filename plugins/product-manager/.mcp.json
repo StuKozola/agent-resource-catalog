@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "project-tracker": {
+      "registry_id": "mcp-linear",
+      "description": "Issue tracker and project management for product work.",
+      "required": false
+    },
+    "knowledge-base": {
+      "registry_id": "mcp-notion",
+      "description": "Knowledge base for PRDs, specs, and research.",
+      "required": false
+    },
+    "messaging": {
+      "registry_id": "mcp-slack",
+      "description": "Team communication and stakeholder updates.",
+      "required": false
+    },
+    "design": {
+      "registry_id": "mcp-figma",
+      "description": "Design files and prototypes.",
+      "required": false
+    },
+    "research": {
+      "registry_id": "mcp-dovetail",
+      "description": "User research repository and insights.",
+      "required": false
+    }
+  }
+}

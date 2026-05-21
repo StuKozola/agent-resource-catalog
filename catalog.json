@@ -1,7 +1,46 @@
 {
   "version": "1",
-  "generated_at": "2026-05-21T18:58:01Z",
+  "generated_at": "2026-05-21T19:48:44Z",
   "repo_url": "https://github.com/StuKozola/agent-resource-catalog",
-  "plugins": [],
+  "plugins": [
+    {
+      "name": "product-manager",
+      "path": "plugins/product-manager",
+      "version": "1.0.0",
+      "description": "Comprehensive skills for product managers — Pragmatic Framework execution (PRDs, roadmaps, personas, positioning, pricing, launch) combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
+      "skills": [
+        "branding",
+        "buyer-experience",
+        "buyer-personas",
+        "competitive-landscape",
+        "cornered-resource",
+        "counter-positioning",
+        "distinctive-competencies",
+        "market-problems",
+        "network-economies",
+        "pragmatic-innovation",
+        "pragmatic-launch",
+        "pragmatic-market-definition",
+        "pragmatic-positioning",
+        "pragmatic-pricing",
+        "pragmatic-requirements",
+        "pragmatic-stakehloder-communications",
+        "pragmatic-use-scenarios",
+        "pragmatic-user-personas",
+        "process-power",
+        "product-roadmap",
+        "win-loss-analysis"
+      ],
+      "commands": [],
+      "connectors": [
+        "design",
+        "knowledge-base",
+        "messaging",
+        "project-tracker",
+        "research"
+      ],
+      "raw_url_prefix": "https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager"
+    }
+  ],
   "standalone": []
 }
