@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/gbi-core/agent-resource-catalog/schema/standalone.schema.json",
+  "title": "Standalone Resource Manifest",
+  "description": "JSON Schema for standalone/*/manifest.json files in the agent-resource-catalog.",
+  "type": "object",
+  "required": ["name", "type", "version", "description", "authors", "license", "files", "entry_point"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Unique resource identifier in kebab-case.",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "type": {
+      "type": "string",
+      "description": "Resource classification.",
+      "enum": ["tool", "template", "config"]
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of this resource.",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable summary of what this resource does.",
+      "minLength": 10
+    },
+    "authors": {
+      "type": "array",
+      "description": "One or more author or maintainer names.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier (e.g. MIT, Apache-2.0)."
+    },
+    "files": {
+      "type": "array",
+      "description": "List of files included in this resource, relative to its directory.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "entry_point": {
+      "type": "string",
+      "description": "Primary file to invoke or reference when using this resource."
+    },
+    "tags": {
+      "type": "array",
+      "description": "Kebab-case tags for discovery and filtering.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "uniqueItems": true
+    },
+    "compatibility": {
+      "type": "object",
+      "description": "Optional platform and runtime compatibility constraints.",
+      "additionalProperties": false,
+      "properties": {
+        "platforms": {
+          "type": "array",
+          "description": "Supported platforms (e.g. win32, darwin, linux).",
+          "items": {
+            "type": "string"
+          }
+        },
+        "runtime": {
+          "type": "string",
+          "description": "Required runtime environment (e.g. python>=3.11, node>=18)."
+        }
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "Runtime dependencies in pip/npm specifier format.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checksum": {
+      "type": "string",
+      "description": "SHA-256 hex digest of the entry_point file for integrity verification.",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

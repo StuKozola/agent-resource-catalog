@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/gbi-core/agent-resource-catalog/schema/plugin.schema.json",
+  "title": "Claude Plugin Manifest",
+  "description": "JSON Schema for .claude-plugin/plugin.json manifests used in the agent-resource-catalog.",
+  "type": "object",
+  "required": ["name", "version", "description", "author"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Unique plugin identifier in kebab-case.",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of this plugin (e.g. 1.0.0).",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable summary of what this plugin does.",
+      "minLength": 10
+    },
+    "author": {
+      "type": "string",
+      "description": "Plugin author or maintainer name."
+    },
+    "category": {
+      "type": "string",
+      "description": "High-level category for catalog filtering.",
+      "enum": ["role", "workflow", "domain"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Kebab-case tags for discovery and filtering.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "uniqueItems": true
+    },
+    "min_claude_version": {
+      "type": "string",
+      "description": "Minimum Claude version required to use this plugin."
+    },
+    "homepage": {
+      "type": "string",
+      "description": "URL to the plugin's homepage or documentation.",
+      "format": "uri"
+    },
+    "plugin_format_version": {
+      "type": "string",
+      "description": "Version of the Claude plugin format this manifest targets.",
+      "default": "1"
+    }
+  }
+}
