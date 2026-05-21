@@ -29,8 +29,8 @@ claude plugin install product-manager@agent-resource-catalog
 
 | Plugin | Description | Skills | Connectors |
 |--------|-------------|--------|------------|
-| [`product-manager`](plugins/product-manager/) | Pragmatic Framework execution (PRDs, roadmaps, personas, positioning, pricing, launch) combined with Seven Powers competitive strategy. | 21 | Linear, Notion, Slack, Figma, Dovetail |
-| [`product-marketing`](plugins/product-marketing/) | Pragmatic Framework go-to-market toolkit (positioning, launch, content, channels, sales tools, measurement) combined with Seven Powers competitive strategy. | 24 | Notion, Slack, Salesforce, Dovetail, Amplitude |
+| [`product-manager`](plugins/product-manager/) | Pragmatic Framework execution (PRDs, roadmaps, personas, positioning, pricing, launch) combined with Seven Powers competitive strategy. | 23 | Linear, Notion, Slack, Figma, Dovetail |
+| [`product-marketing`](plugins/product-marketing/) | Pragmatic Framework go-to-market toolkit (positioning, launch, content, channels, sales tools, measurement) combined with Seven Powers competitive strategy. | 26 | Notion, Slack, Salesforce, Dovetail, Amplitude |
 
 ## Skills Library
 
