@@ -7,7 +7,12 @@
       "name": "product-manager",
       "version": "1.0.0",
       "description": "Comprehensive skills for product managers — Pragmatic Framework execution (PRDs, roadmaps, personas, positioning, pricing, launch) combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding)."
+    },
+    {
+      "name": "product-marketing",
+      "version": "1.0.0",
+      "description": "Comprehensive skills for product marketers — Pragmatic Framework go-to-market execution (positioning, launch, content, channels, sales tools, measurement) combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding)."
     }
   ],
-  "generated_at": "2026-05-21T19:48:44Z"
+  "generated_at": "2026-05-21T19:54:59Z"
 }

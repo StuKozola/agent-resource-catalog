@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "knowledge-base": {
+      "registry_id": "mcp-notion",
+      "description": "Knowledge base for positioning docs, launch plans, and campaign briefs.",
+      "required": false
+    },
+    "messaging": {
+      "registry_id": "mcp-slack",
+      "description": "Team communication and campaign coordination.",
+      "required": false
+    },
+    "crm": {
+      "registry_id": "mcp-salesforce",
+      "description": "CRM for pipeline, win/loss data, and sales enablement.",
+      "required": false
+    },
+    "research": {
+      "registry_id": "mcp-dovetail",
+      "description": "User and buyer research repository.",
+      "required": false
+    },
+    "analytics": {
+      "registry_id": "mcp-amplitude",
+      "description": "Product and marketing analytics.",
+      "required": false
+    }
+  }
+}
