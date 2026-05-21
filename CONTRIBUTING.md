@@ -38,7 +38,7 @@ The manifest lives at `plugins/<name>/.claude-plugin/plugin.json` and must valid
   "category": "role",
   "tags": ["product", "roadmap", "prd", "stakeholders"],
   "min_claude_version": "claude-sonnet-4",
-  "homepage": "https://github.com/gbi-core/agent-resource-catalog/tree/main/plugins/product-manager",
+  "homepage": "https://github.com/StuKozola/agent-resource-catalog/tree/main/plugins/product-manager",
   "plugin_format_version": "1"
 }
 ```

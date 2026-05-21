@@ -7,7 +7,7 @@ A browsable, installable catalog of agentic plugins, standalone tools, and templ
 Register the catalog as a marketplace source:
 
 ```bash
-claude plugin marketplace add gbi-core/agent-resource-catalog
+claude plugin marketplace add StuKozola/agent-resource-catalog
 ```
 
 Browse available plugins and tools:
@@ -45,19 +45,19 @@ You can fetch catalog metadata or individual skill files directly via raw GitHub
 Fetch the full catalog index:
 
 ```bash
-curl https://raw.githubusercontent.com/gbi-core/agent-resource-catalog/main/catalog.json
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/catalog.json
 ```
 
 Fetch a specific skill file:
 
 ```bash
-curl https://raw.githubusercontent.com/gbi-core/agent-resource-catalog/main/plugins/product-manager/skills/feature-prd.md
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager/skills/feature-prd.md
 ```
 
 Fetch a standalone tool manifest:
 
 ```bash
-curl https://raw.githubusercontent.com/gbi-core/agent-resource-catalog/main/standalone/tools/pdf-extractor/manifest.json
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/standalone/tools/pdf-extractor/manifest.json
 ```
 
 ## Contributing

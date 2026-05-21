@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema",
-  "$id": "https://github.com/gbi-core/agent-resource-catalog/schema/plugin.schema.json",
+  "$id": "https://github.com/StuKozola/agent-resource-catalog/schema/plugin.schema.json",
   "title": "Claude Plugin Manifest",
   "description": "JSON Schema for .claude-plugin/plugin.json manifests used in the agent-resource-catalog.",
   "type": "object",

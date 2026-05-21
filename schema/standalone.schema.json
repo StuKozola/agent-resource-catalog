@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema",
-  "$id": "https://github.com/gbi-core/agent-resource-catalog/schema/standalone.schema.json",
+  "$id": "https://github.com/StuKozola/agent-resource-catalog/schema/standalone.schema.json",
   "title": "Standalone Resource Manifest",
   "description": "JSON Schema for standalone/*/manifest.json files in the agent-resource-catalog.",
   "type": "object",
