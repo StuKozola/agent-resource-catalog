@@ -23,6 +23,10 @@ on:
     branches:
       - main
 
+# Opt into Node.js 24 for all actions (avoids Node.js 20 deprecation warnings)
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Cancel in-progress runs on the same ref so new pushes don't queue up
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
