@@ -2,6 +2,9 @@
 
 A browsable, installable catalog of agentic plugins, standalone tools, and templates for Claude Cowork and Claude Code. Every plugin follows the Claude Cowork plugin format and is installable with a single `claude plugin install` command. The catalog is versioned in Git and rebuilt automatically on every merge to `main`.
 
+**Browse online:** https://stukozola.github.io/agent-resource-catalog/
+**Catalog JSON:** https://stukozola.github.io/agent-resource-catalog/catalog.json
+
 ## Quick Start
 
 Register the catalog as a marketplace source:
@@ -35,7 +38,7 @@ The `skills/` directory is a standalone library of reusable skill files organize
 
 | Category | Skills | What it covers |
 |----------|--------|----------------|
-| [`pragmatic-framework`](skills/pragmatic-framework/) | 35 | Product management and marketing methodology — market problems, buyer personas, positioning, pricing, launch, roadmap, requirements, and more |
+| [`pragmatic-framework`](skills/pragmatic-framework/) | 39 | Product management and marketing methodology — market problems, buyer personas, positioning, pricing, launch, roadmap, requirements, and more |
 | [`seven-powers-framework`](skills/seven-powers-framework/) | 5 | Competitive strategy and business moats — branding, cornered resource, counter-positioning, network economies, process power |
 | [`agentic-systems`](skills/agentic-systems/) | 1 | AI agent operation and meta-reasoning — context management, subagent routing |
 | [`matlab`](skills/matlab/) | 1 | MATLAB-specific skills — toolbox packaging and distribution |
