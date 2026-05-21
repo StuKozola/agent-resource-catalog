@@ -10,7 +10,7 @@ Register the catalog as a marketplace source:
 claude plugin marketplace add StuKozola/agent-resource-catalog
 ```
 
-Browse available plugins and tools:
+Browse available plugins:
 
 ```bash
 claude plugin search @agent-resource-catalog
@@ -24,23 +24,23 @@ claude plugin install product-manager@agent-resource-catalog
 
 ## Plugins
 
-| Plugin | Description | Skills | Commands | Connectors |
-|--------|-------------|--------|----------|------------|
-| `financial-analyst` | Equity research, portfolio analysis, and financial modeling. Pairs with market-data and data-warehouse MCP servers. | `equity-research`, `earnings-analysis`, `portfolio-review` | `/build-model`, `/run-comps` | `market-data`, `data-warehouse` |
-| `product-manager` | Product strategy, roadmap planning, PRD authoring, and cross-functional alignment. | `feature-prd`, `roadmap-planning`, `stakeholder-comms` | `/write-prd`, `/status-update` | `linear`, `notion`, `slack` |
-| `data-engineer` | Data pipeline design, SQL optimization, schema migration, and dbt workflow support. | `pipeline-design`, `sql-review`, `schema-migration` | `/gen-migration`, `/profile-table` | `dbt`, `bigquery`, `postgres` |
+| Plugin | Description | Skills | Connectors |
+|--------|-------------|--------|------------|
+| [`product-manager`](plugins/product-manager/) | Pragmatic Framework execution (PRDs, roadmaps, personas, positioning, pricing, launch) combined with Seven Powers competitive strategy. | 21 | Linear, Notion, Slack, Figma, Dovetail |
+| [`product-marketing`](plugins/product-marketing/) | Pragmatic Framework go-to-market toolkit (positioning, launch, content, channels, sales tools, measurement) combined with Seven Powers competitive strategy. | 24 | Notion, Slack, Salesforce, Dovetail, Amplitude |
 
-## Standalone Tools & Templates
+## Skills Library
 
-| Name | Type | Description |
-|------|------|-------------|
-| `pdf-extractor` | tool | Extracts structured text, tables, and metadata from PDF files into Markdown or JSON. |
-| `data-analysis` | template | Starter template for exploratory data analysis with pandas, summary stats, and chart scaffolding. |
-| `prd-scaffold` | template | Opinionated PRD document scaffold following the Pragmatic Product framework. |
+The `skills/` directory is a standalone library of reusable skill files organized by framework. Skills can be used directly in any plugin or fetched individually via raw URL.
+
+| Category | Skills | What it covers |
+|----------|--------|----------------|
+| [`pragmatic-framework`](skills/pragmatic-framework/) | 35 | Product management and marketing methodology — market problems, buyer personas, positioning, pricing, launch, roadmap, requirements, and more |
+| [`seven-powers-framework`](skills/seven-powers-framework/) | 5 | Competitive strategy and business moats — branding, cornered resource, counter-positioning, network economies, process power |
+| [`agentic-systems`](skills/agentic-systems/) | 1 | AI agent operation and meta-reasoning — context management, subagent routing |
+| [`matlab`](skills/matlab/) | 1 | MATLAB-specific skills — toolbox packaging and distribution |
 
 ## Fetching Without Cowork
-
-You can fetch catalog metadata or individual skill files directly via raw GitHub URLs without installing anything.
 
 Fetch the full catalog index:
 
@@ -48,21 +48,56 @@ Fetch the full catalog index:
 curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/catalog.json
 ```
 
-Fetch a specific skill file:
+Fetch a single skill directly:
 
 ```bash
-curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager/skills/feature-prd.md
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/competitive-landscape/SKILL.md
 ```
 
-Fetch a standalone tool manifest:
+Fetch a plugin skill:
 
 ```bash
-curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/standalone/tools/pdf-extractor/manifest.json
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager/skills/competitive-landscape.md
+```
+
+Or use the fetch helper scripts:
+
+```bash
+# Bash (Linux/macOS)
+./scripts/fetch.sh skill pragmatic-framework/competitive-landscape
+
+# PowerShell (Windows)
+.\scripts\fetch.ps1 skill pragmatic-framework/competitive-landscape
+```
+
+## Repository Structure
+
+```
+agent-resource-catalog/
+├── catalog.json               # Auto-generated index of all plugins and standalone resources
+├── plugins/                   # Installable Claude Cowork plugins
+│   ├── product-manager/
+│   └── product-marketing/
+├── skills/                    # Reusable skill library (source of truth)
+│   ├── pragmatic-framework/
+│   ├── seven-powers-framework/
+│   ├── agentic-systems/
+│   └── matlab/
+├── standalone/                # Executable tools and templates (coming soon)
+├── scripts/                   # Automation: validate, build-catalog, fetch
+└── schema/                    # JSON Schemas for manifests and catalog
 ```
 
 ## Contributing
 
-Contributions are welcome — new plugins, standalone tools, templates, and bug fixes. See [CONTRIBUTING.md](CONTRIBUTING.md) for directory layout, manifest requirements, naming conventions, and the PR checklist.
+Contributions are welcome — new plugins, skills, standalone tools, templates, and bug fixes. See [CONTRIBUTING.md](CONTRIBUTING.md) for directory layout, manifest requirements, naming conventions, and the PR checklist.
+
+To validate locally before opening a PR:
+
+```bash
+pip install jsonschema
+python scripts/validate.py
+```
 
 ## License
 
