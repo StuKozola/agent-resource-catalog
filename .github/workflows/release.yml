@@ -1,0 +1,63 @@
+# =============================================================================
+# release.yml — Publish a GitHub Release on version tag pushes
+#
+# Triggers on any tag matching v* (e.g. v1.0.0, v1.2.3-beta.1).
+# Builds catalog.json for the tag ref, packages each plugin as a zip,
+# and publishes a GitHub Release with auto-generated release notes.
+# =============================================================================
+
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6.0.2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6.2.0
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install jsonschema
+
+      - name: Validate catalog
+        run: python scripts/validate.py
+
+      - name: Build catalog for release tag
+        run: python scripts/build-catalog.py --ref ${{ github.ref_name }}
+
+      - name: Package plugins into zip archives
+        run: |
+          mkdir -p dist
+          for plugin_dir in plugins/*/; do
+            plugin_name="$(basename "$plugin_dir")"
+            echo "Packaging: $plugin_name"
+            (cd plugins && zip -r "../dist/${plugin_name}.zip" "${plugin_name}/")
+          done
+          ls -lh dist/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v3.0.0
+        with:
+          files: |
+            dist/*.zip
+            catalog.json
+          generate_release_notes: true

@@ -17,8 +17,6 @@ on:
   push:
     branches:
       - main
-    tags:
-      - "v*"
   pull_request:
     branches:
       - main
@@ -27,11 +25,10 @@ on:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-# Cancel in-progress runs on the same branch; tags get their own group so
-# they are never cancelled by a concurrent branch push.
+# Cancel in-progress runs on the same ref so new pushes don't queue up
 concurrency:
-  group: ${{ github.workflow }}-${{ startsWith(github.ref, 'refs/tags/') && github.ref || github.ref_name }}
-  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   # ---------------------------------------------------------------------------
@@ -102,64 +99,6 @@ jobs:
           # the step from failing when nothing changed.
           git diff --cached --quiet || git commit -m "chore: rebuild catalog.json [skip ci]"
           git push
-
-  # ---------------------------------------------------------------------------
-  # Job 3: release
-  # On version tag pushes (v*), build plugin zip archives and publish a
-  # GitHub Release with auto-generated release notes.
-  # ---------------------------------------------------------------------------
-  release:
-    name: Create GitHub Release
-    runs-on: ubuntu-latest
-    needs: validate
-
-    # Only run when a version tag is pushed
-    if: startsWith(github.ref, 'refs/tags/')
-
-    # Allow the job to create releases and upload assets
-    permissions:
-      contents: write
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6.0.2
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v6.2.0
-        with:
-          python-version: "3.12"
-
-      - name: Install Python dependencies
-        run: pip install jsonschema
-
-      - name: Build catalog for release tag
-        run: python scripts/build-catalog.py --ref ${{ github.ref_name }}
-
-      - name: Package plugin directories into zip archives
-        run: |
-          mkdir -p dist
-
-          # Iterate over every top-level directory under plugins/ and zip each one.
-          # The zip is created from *inside* the plugins/ directory so that the
-          # archive contains   <plugin-name>/...   at its root (not plugins/<plugin-name>/...).
-          for plugin_dir in plugins/*/; do
-            plugin_name="$(basename "$plugin_dir")"
-            echo "Packaging plugin: $plugin_name"
-            (cd plugins && zip -r "../dist/${plugin_name}.zip" "${plugin_name}/")
-          done
-
-          echo "--- dist/ contents ---"
-          ls -lh dist/
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
-        with:
-          # Upload every plugin zip and the rebuilt catalog.json
-          files: |
-            dist/*.zip
-            catalog.json
-          # Let GitHub auto-generate release notes from merged PRs and commits
-          generate_release_notes: true
 
   # ---------------------------------------------------------------------------
   # Job 4: deploy-pages
