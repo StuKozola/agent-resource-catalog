@@ -1,0 +1,10 @@
+{
+  "name": "hermes-tweet",
+  "version": "0.1.6",
+  "description": "Hermes Agent X/Twitter workflow guidance for installing Hermes Tweet, selecting safe read-first routes, and keeping write actions explicitly gated.",
+  "author": "Xquik",
+  "category": "domain",
+  "tags": ["hermes-agent", "twitter", "x", "social-media", "automation", "xquik"],
+  "homepage": "https://github.com/Xquik-dev/hermes-tweet",
+  "plugin_format_version": "1"
+}
