@@ -71,12 +71,12 @@ Questions to explore:
 ### Step 2: Determine Which Benefit Mechanism Applies
 Assess whether the brand's pricing power derives from affective valence, uncertainty reduction, or both. This determines the type of analysis needed.
 
-For detailed frameworks on assessing each mechanism, read `references/branding-analysis.md`.
+For detailed frameworks on assessing each mechanism, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/branding/references/branding-analysis.md`.
 
 ### Step 3: Measure the Price Premium
 Quantify the actual price premium the brand commands over objectively comparable alternatives. This is the tangible evidence of the Benefit side of Branding Power.
 
-For price premium assessment methods and templates, read `references/branding-analysis.md`.
+For price premium assessment methods and templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/branding/references/branding-analysis.md`.
 
 ### Step 4: Assess the Barrier (Hysteresis)
 Evaluate whether the brand's advantages are truly protected by time-based barriers. Key questions:
@@ -88,13 +88,13 @@ Evaluate whether the brand's advantages are truly protected by time-based barrie
 ### Step 5: Apply the Branding Power Qualifiers
 Helmer identifies several conditions that limit or qualify Branding Power. These must be checked to avoid over-attributing Power to brand.
 
-For the complete qualifier checklist (Type of Good, Narrowness, Non-Exclusivity, Geographic Boundaries), read `references/branding-analysis.md`.
+For the complete qualifier checklist (Type of Good, Narrowness, Non-Exclusivity, Geographic Boundaries), read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/branding/references/branding-analysis.md`.
 
 ### Step 6: Test for Common Threats
 Apply the threat checklist to ensure you're accounting for forces that could erode Branding Power over time. See the "Common Threats" section below.
 
 ### Step 7: Deliver the Assessment
-Produce a clear, structured analysis. For output templates and scoring frameworks, read `references/branding-analysis.md`.
+Produce a clear, structured analysis. For output templates and scoring frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/branding/references/branding-analysis.md`.
 
 ## Common Threats to Branding Power
 
@@ -142,5 +142,5 @@ Branding interacts with other Powers in the 7 Powers framework:
 ## Reference Files
 
 For detailed analytical tools, assessment frameworks, worked examples, and templates:
-- `references/branding-analysis.md` — Complete analytical toolkit: price premium measurement, benefit mechanism assessment, barrier evaluation, Power scoring, and deliverable templates
-- `references/branding-examples.md` — Real-world case studies across industries showing how Branding Power manifests (and sometimes fails)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/branding/references/branding-analysis.md` — Complete analytical toolkit: price premium measurement, benefit mechanism assessment, barrier evaluation, Power scoring, and deliverable templates
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/branding/references/branding-examples.md` — Real-world case studies across industries showing how Branding Power manifests (and sometimes fails)

@@ -150,6 +150,8 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 
 ## 7. Readiness Gap Closure Plan
 
+Cover teams, systems, content, support, measures and customers.
+
 ### Critical Gaps (from Launch Readiness Assessment)
 
 | Functional Area | Gap Description | Importance | Current Readiness | Action Required | Owner | Deadline | Status |
@@ -199,9 +201,9 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 
 ## 9. Sales Enablement Plan
 
-### Sales Tool Map
+### Sales Asset Map
 
-| Buying Stage | Tool | Description | Owner | Delivery Date |
+| Buying Stage | Asset | Description | Owner | Delivery Date |
 |-------------|------|-------------|-------|:------------:|
 | Awareness | [Tool name] | [Purpose] | [Owner] | [Date] |
 | Education | [Tool name] | [Purpose] | [Owner] | [Date] |
@@ -224,7 +226,21 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 
 ---
 
-## 10. Communications Plan
+## 10. Adoption Plan
+
+[Plan adoption before launch. See `pragmatic-adoption`.]
+
+| Element | Detail |
+|---------|--------|
+| Meaningful use | [What counts as real use of this release, for which users] |
+| Activation milestone | [First action that predicts ongoing use] |
+| Onboarding path | [In-product guidance, training, CSM outreach] |
+| Adoption measures | [Activation rate, active use at L+30 / L+90] |
+| Owner | [Who owns adoption after launch] |
+
+---
+
+## 11. Communications Plan
 
 ### Internal Communications
 
@@ -234,6 +250,8 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 | All employees | Company announcement | All-hands / email | T-1 week | Launch Manager |
 | Support team | Technical briefing | Training session | T-3 weeks | Product Marketing |
 | Partners/channel | Partner enablement | Partner portal / webinar | T-2 weeks | Channel Marketing |
+| Regional teams | Regional launch brief, localized content, timing by region | Regional calls / channel | T-3 weeks | Launch Manager + regional leads |
+| Customer success | Adoption plan and customer messaging | Team meeting | T-3 weeks | Product Marketing |
 
 ### External Communications
 
@@ -246,12 +264,12 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 
 ---
 
-## 11. Budget
+## 12. Budget
 
 | Category | Planned Spend | Notes |
 |----------|:------------:|-------|
 | Marketing programs (digital, events, content) | $[Amount] | [Details] |
-| Sales enablement (tools, training) | $[Amount] | [Details] |
+| Sales enablement (assets, training) | $[Amount] | [Details] |
 | PR and analyst relations | $[Amount] | [Details] |
 | Creative and production | $[Amount] | [Details] |
 | Partner/channel enablement | $[Amount] | [Details] |
@@ -260,7 +278,7 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 
 ---
 
-## 12. Risks and Mitigation
+## 13. Risks and Mitigation
 
 | Risk | Probability (H/M/L) | Impact (H/M/L) | Mitigation Plan | Owner |
 |------|:---:|:---:|-----------------|-------|
@@ -279,7 +297,7 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 
 ---
 
-## 13. Approval and Go/No-Go
+## 14. Approval and Go/No-Go
 
 ### Go/No-Go Criteria
 
@@ -302,7 +320,7 @@ For [target persona] who [problem/need], [product name] is a [category] that [ke
 
 ---
 
-## 14. Post-Launch Review
+## 15. Post-Launch Review
 
 ### Results vs. Goals (Complete at L+90 days)
 

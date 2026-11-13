@@ -15,7 +15,7 @@
 #   CATALOG_REF    Branch or tag      (default: main)
 #
 # Examples:
-#   ./scripts/fetch.sh skill pragmatic-framework/competitive-landscape
+#   ./scripts/fetch.sh skill pragmatic-framework/pragmatic-competitive-landscape
 #   ./scripts/fetch.sh plugin product-manager
 #   ./scripts/fetch.sh standalone pdf-extractor
 # =============================================================================
@@ -79,7 +79,7 @@ ${BOLD}COMMANDS${RESET}
   help                              Show this message
 
 ${BOLD}EXAMPLES${RESET}
-  ./scripts/fetch.sh skill pragmatic-framework/competitive-landscape
+  ./scripts/fetch.sh skill pragmatic-framework/pragmatic-competitive-landscape
   ./scripts/fetch.sh plugin product-manager
   ./scripts/fetch.sh standalone pdf-extractor
 
@@ -94,7 +94,7 @@ EOF
 # preserving the relative path structure.
 #
 # Arguments:
-#   $1  path relative to repo root  (e.g. "skills/pragmatic-framework/competitive-landscape/SKILL.md")
+#   $1  path relative to repo root  (e.g. "skills/pragmatic-framework/pragmatic-competitive-landscape/SKILL.md")
 #   $2  optional local destination  (default: basename of $1)
 # ---------------------------------------------------------------------------
 fetch_file() {
@@ -176,7 +176,7 @@ fetch_directory() {
 # ---------------------------------------------------------------------------
 cmd_skill() {
     if [ -z "${1:-}" ]; then
-        die "Usage: fetch.sh skill <framework>/<skill-name>\n  Example: fetch.sh skill pragmatic-framework/competitive-landscape"
+        die "Usage: fetch.sh skill <framework>/<skill-name>\n  Example: fetch.sh skill pragmatic-framework/pragmatic-competitive-landscape"
     fi
 
     local skill_path="$1"

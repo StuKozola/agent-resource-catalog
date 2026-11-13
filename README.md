@@ -29,8 +29,8 @@ claude plugin install product-manager@agent-resource-catalog
 
 | Plugin | Description | Skills | Connectors |
 |--------|-------------|--------|------------|
-| [`product-manager`](plugins/product-manager/) | Pragmatic Framework execution (PRDs, roadmaps, personas, positioning, pricing, launch) combined with Seven Powers competitive strategy. | 23 | Linear, Notion, Slack, Figma, Dovetail |
-| [`product-marketing`](plugins/product-marketing/) | Pragmatic Framework go-to-market toolkit (positioning, launch, content, channels, sales tools, measurement) combined with Seven Powers competitive strategy. | 26 | Notion, Slack, Salesforce, Dovetail, Amplitude |
+| [`product-manager`](plugins/product-manager/) | 2027 Pragmatic Framework from market problems and product strategy through requirements, roadmaps, business outcomes and post-launch operations, combined with Seven Powers competitive strategy. | 35 | Linear, Notion, Slack, Figma, Dovetail |
+| [`product-marketing`](plugins/product-marketing/) | 2027 Pragmatic Framework go-to-market and enablement toolkit (positioning, buyer journey, launch, growth, retention, engagement, content, assets, channel support, measurement) combined with Seven Powers competitive strategy. | 31 | Notion, Slack, Salesforce, Dovetail, Amplitude |
 
 ## Skills Library
 
@@ -38,7 +38,7 @@ The `skills/` directory is a standalone library of reusable skill files organize
 
 | Category | Skills | What it covers |
 |----------|--------|----------------|
-| [`pragmatic-framework`](skills/pragmatic-framework/) | 39 | Product management and marketing methodology — market problems, buyer personas, positioning, pricing, launch, roadmap, requirements, and more |
+| [`pragmatic-framework`](skills/pragmatic-framework/) | 38 | The 2027 Pragmatic Framework: one skill for each of the 37 focus areas across Market, Focus, Business, Planning, Go-to-Market, Enablement and Operations, plus an overview and router. See the [folder README](skills/pragmatic-framework/README.md) for skills renamed in 2027. |
 | [`seven-powers-framework`](skills/seven-powers-framework/) | 7 | Competitive strategy and business moats — branding, cornered resource, counter-positioning, network economies, process power, scale economies, switching costs |
 | [`agentic-systems`](skills/agentic-systems/) | 1 | AI agent operation and meta-reasoning — context management, subagent routing |
 | [`matlab`](skills/matlab/) | 1 | MATLAB-specific skills — toolbox packaging and distribution |
@@ -54,23 +54,23 @@ curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/cat
 Fetch a single skill directly:
 
 ```bash
-curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/competitive-landscape/SKILL.md
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-competitive-landscape/SKILL.md
 ```
 
 Fetch a plugin skill:
 
 ```bash
-curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager/skills/competitive-landscape.md
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager/skills/pragmatic-competitive-landscape.md
 ```
 
 Or use the fetch helper scripts:
 
 ```bash
 # Bash (Linux/macOS)
-./scripts/fetch.sh skill pragmatic-framework/competitive-landscape
+./scripts/fetch.sh skill pragmatic-framework/pragmatic-competitive-landscape
 
 # PowerShell (Windows)
-.\scripts\fetch.ps1 skill pragmatic-framework/competitive-landscape
+.\scripts\fetch.ps1 skill pragmatic-framework/pragmatic-competitive-landscape
 ```
 
 ## Repository Structure

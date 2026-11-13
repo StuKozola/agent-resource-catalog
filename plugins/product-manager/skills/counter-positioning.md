@@ -109,13 +109,13 @@ Questions to explore:
 
 Confirm that the challenger's business model is genuinely superior — not just different. The new model must deliver real advantages in cost structure, customer value, or both.
 
-For detailed benefit validation frameworks, read `references/counter-positioning-analysis.md`.
+For detailed benefit validation frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/counter-positioning/references/counter-positioning-analysis.md`.
 
 ### Step 3: Apply the Collateral Damage Decision Tree
 
 This is the most critical analytical step. Walk through Helmer's decision tree to determine whether true Counter Positioning exists and which type of collateral damage applies.
 
-For the complete decision tree and evaluation framework, read `references/counter-positioning-analysis.md`.
+For the complete decision tree and evaluation framework, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/counter-positioning/references/counter-positioning-analysis.md`.
 
 ### Step 4: Assess the Barrier Strength and Duration
 
@@ -131,7 +131,7 @@ Apply the pitfall checklist to ensure you're not mistaking a different dynamic f
 
 ### Step 7: Deliver the Assessment
 
-Produce a clear, structured analysis. For output templates and scoring frameworks, read `references/counter-positioning-analysis.md`.
+Produce a clear, structured analysis. For output templates and scoring frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/counter-positioning/references/counter-positioning-analysis.md`.
 
 ## Common Pitfalls
 
@@ -185,5 +185,5 @@ If Counter Positioning Power is confirmed:
 ## Reference Files
 
 For detailed analytical tools, decision trees, scoring frameworks, and deliverable templates:
-- `references/counter-positioning-analysis.md` — Complete analytical toolkit: collateral damage decision tree, barrier strength assessment, Power scoring, and deliverable templates
-- `references/counter-positioning-examples.md` — Real-world case studies across industries showing how Counter Positioning manifests (and common misidentifications)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/counter-positioning/references/counter-positioning-analysis.md` — Complete analytical toolkit: collateral damage decision tree, barrier strength assessment, Power scoring, and deliverable templates
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/counter-positioning/references/counter-positioning-examples.md` — Real-world case studies across industries showing how Counter Positioning manifests (and common misidentifications)

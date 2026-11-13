@@ -1,154 +1,158 @@
 ---
 name: pragmatic-requirements
-description: "Guide product managers through the Requirements activity from the Pragmatic Framework. Helps teams articulate and prioritize personas and their problems to produce a Market Requirements Document (MRD). Use whenever the user mentions market requirements, writing an MRD, defining what to build based on market problems, prioritizing persona problems for development, writing use scenarios in a Pragmatic context, translating market problems into requirements for engineering, the difference between requirements and specifications, or Pragmatic Framework Planning category work. Also trigger for structuring requirements documents, prioritizing features based on market evidence, communicating market needs to dev teams, writing problem-based requirements, or bridging customer insights and product development."
+description: "Guide product managers through the Requirements focus area of the Pragmatic Framework (now including Use Scenarios): describing the market problem the team must solve, for whom, and how often, with the context, intent, constraints and priorities needed to build the right solution. Use whenever the user mentions market requirements, writing an MRD, problem-based requirements, use scenarios, problem narratives, user problem stories, requirements context, translating market problems into requirements for engineering, requirements vs. specifications, use scenarios vs. user stories vs. use cases, prioritizing persona problems for development, or writing requirements that people and AI coding or design tools can act on. Also trigger for structuring requirements documents, prioritizing features based on market evidence, handing requirements to dev teams or agile backlogs, or reviewing whether requirements or scenarios are solution-free."
 ---
 
-# Pragmatic Requirements Skill
+# Requirements — Pragmatic Framework (2027)
 
-## Context: Where Requirements Fits
+## Where this fits in the 2027 Pragmatic Framework
 
-Requirements is an activity in the **Planning** category of the Pragmatic Framework. The Pragmatic Institute defines it as:
+- **Category:** Planning — *What are we building, for whom, and why?*
+- **Focus-area question:** *What problem must the team solve, for whom, and how often does it happen?*
+- **Position:** Below the bar (product- and team-focused)
+- **Other focus areas in this category:** Positioning, Buyer Journey, Buyer Personas, User Personas, Ideation, Stakeholder Management
+- **Formerly:** Requirements and Use Scenarios (Use Scenarios is now part of Requirements)
 
-> Articulate and prioritize personas and their problems so that the appropriate products can be built.
+Requirements give development and design teams the context, intent, constraints and priorities they need to design and build the right solution. A good requirement describes the market problem — who has it, what it is and how often it happens — without prescribing a solution. That leaves the team free to innovate with the market context in hand. Product managers usually own requirements, for new products and updates alike. Write them specifically enough that both people and the AI tools your team uses can act on them.
 
-Requirements sits at the critical handoff point between strategy and execution. It translates upstream market knowledge into guidance that development teams can act on. The primary output is the **Market Requirements Document (MRD)** — a prioritized list of persona problems that tells the team *what* to solve without prescribing *how* to solve it.
+The primary output is the **Market Requirements Document (MRD)**: a prioritized list of persona problems, each expanded with use scenarios, that tells the team *what* to solve and *why*, not *how*. The Pragmatic Institute Build course covers Requirements.
 
-### Relationship to Adjacent Activities
+### Relationship to Other Focus Areas
 
-**Feeds into Requirements (upstream inputs):**
-- **Market Problems** — validated, pervasive problems from NIHITO interviews
-- **Buyer Personas** — archetypical buyers involved in purchase decisions
-- **User Personas** — archetypical users of the product
-- **Win/Loss Analysis** — reasons evaluators bought or didn't buy
-- **Positioning** — how the product solves market problems (provides framing context)
-- **Business Plan** — financial model and investment thesis that constrains scope
+**Inputs:**
+- **Market Problems** (Market, `pragmatic-market-problems`) — validated, pervasive problems from NIHITO interviews
+- **User Personas** and **Buyer Personas** (Planning, `pragmatic-user-personas`, `pragmatic-buyer-personas`)
+- **Win/Loss Analysis** (Market) — reasons evaluators bought or didn't
+- **Positioning** (Planning, `pragmatic-positioning`) — framing context
+- **Business Plan** (Business, `pragmatic-business-plan`) — investment case that constrains scope
+- **Ideation** (Planning, `pragmatic-ideation`) — concepts and experiments that earned evidence
+- **Exceptions** and **Escalations** (Operations) — repeated one-offs and critical issues that point to a missing capability
 
-**Requirements feeds (downstream consumers):**
-- **Use Scenarios** — stories that put requirements in context (Use Scenarios are a *component* of requirements)
-- **Product Roadmap** — phases of deliverables informed by prioritized requirements
-- **Development / Product Architects** — who write functional and technical specifications based on requirements
-- **QA / Testing** — who build test plans to verify that problems were solved
+**Outputs:**
+- **Product Roadmap** (Focus, `pragmatic-product-roadmap`) — outcomes sequenced from prioritized requirements
+- **Development / product architects** — functional and technical specifications
+- **QA / testing** — test plans that verify the problem was solved
+- **Stakeholder Management** (Planning, `pragmatic-stakeholder-management`) — shared clarity on priorities and trade-offs
 
 ### The Cardinal Rule: Requirements ≠ Specifications
 
-This is the single most important principle in Pragmatic requirements work. A requirement describes the *problem*. A specification describes the *solution*. Product managers own requirements; product architects and developers own specifications.
+A requirement describes the *problem*. A specification describes the *solution*. Product managers own requirements; architects, designers and developers own specifications. Combined "ReqSpecs" — part problem, part implementation — cause dysfunction: developers can't build to marketing-flavored specs, and product managers end up in design meetings instead of in the market.
 
-When these get combined into "ReqSpecs" — part problem, part implementation — dysfunction follows. Developers complain they can't program to marketing-flavored specs, and product managers end up in design meetings sharing blame for poor design instead of gathering market knowledge.
-
-The clean separation:
-- **Product Manager** → finds and quantifies market problems, articulates them as requirements
-- **Product Architect/Designer** → writes a functional specification describing the approach to solving the problem
-- **Product Developer** → creates a technical specification for implementation
+- **Product Manager** → finds and quantifies market problems; writes them as requirements
+- **Product Architect/Designer** → writes a functional specification describing the approach
+- **Product Developer** → creates the technical specification for implementation
 
 ## Workflow Router
 
-Determine the user's situation and route to the appropriate phase. Read the relevant reference file before proceeding.
+Read the relevant reference file before proceeding.
 
-**"I need to write requirements / an MRD from scratch"**
-→ Start at Phase 1. Read `references/gathering-inputs.md` then `references/writing-requirements.md`
-
-**"I have market problems and personas — help me turn them into requirements"**
-→ Start at Phase 2. Read `references/writing-requirements.md`
-
-**"I have a draft MRD — help me prioritize"**
-→ Start at Phase 3. Read `references/prioritization-guide.md`
-
-**"I need to produce the final MRD document"**
-→ Start at Phase 4. Read `templates/mrd-template.md`
-
-**"I need to communicate requirements to my dev team / work with agile"**
-→ Read `references/dev-handoff-and-agile.md`
-
-**"What's the difference between an MRD and PRD?" or conceptual questions**
-→ Answer from the Key Concepts section below, supplemented by relevant reference files
+| User says | Go to |
+|---|---|
+| "Write requirements / an MRD from scratch" | Phase 1: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/gathering-inputs.md`, then `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md` |
+| "I have market problems and personas — turn them into requirements" | Phase 2: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md` |
+| "Write / review use scenarios" | Use Scenarios section below; `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/use-scenario-template.md`, `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-examples.md`, `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-quality-checklist.md` |
+| "Help me prioritize my draft MRD" | Phase 3: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/prioritization-guide.md` |
+| "Produce the final MRD" | Phase 4: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/mrd-template.md` |
+| "Hand off to dev / work with agile / feed AI tools" | Phase 5: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/dev-handoff-and-agile.md` |
+| "MRD vs. PRD?" or other concept questions | Key Concepts below |
 
 ## Key Concepts
 
-### What Is a Market Requirements Document?
+### What a requirement contains
 
-The MRD is a prioritized list of problems for target personas. It serves as a bridge between customer needs and development solutions. Its contents include:
-- Persona definitions (both buyer and user personas)
-- Phases of deliverables (tied to the product roadmap)
-- Requirements: problems with use scenarios and frequency
+- **Who** has the problem (a named persona, not "the user")
+- **What** the problem is, in the persona's terms
+- **How often** it happens (frequency establishes urgency and impact)
+- **Context** — the situation and the market evidence
+- **Intent** — the outcome the persona needs
+- **Constraints** — legitimate limits on the solution
+- **Priority** — rank and rationale
 
-The MRD is distinct from a Product Requirements Document (PRD). The MRD focuses on the "why" — identifying and prioritizing market problems. The PRD focuses on the "how" — translating those problems into features and technical specifications. Product managers write MRDs; designers, developers, and QA consume PRDs.
+The core format: **[Persona] has this [problem] with [frequency].**
+Example: "Sarah, the college student, needs to pay her tuition each semester using multiple credit cards." No proposed solution; the reader sits in the customer's chair.
 
-### The Story-Based Requirement Format
+### Writing for people and AI tools
 
-The Pragmatic preferred format for a requirement is a **use scenario**:
+Requirements now go to AI coding, design and test tools as well as to people. Anything left implicit will be guessed. Name the persona and situation, give frequencies and volumes as numbers, state constraints and "solved when..." signals explicitly, and define domain terms. Being specific about the problem is not the same as prescribing the solution. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md`.
 
-**[Persona] has this [problem] with [frequency]**
+### Requirement types
 
-Example: "Sarah, the college student, needs to pay her tuition each semester using multiple credit cards."
+Beyond the story format, account for: **functional** (capabilities the persona needs), **performance** (capacity, speed, concurrency), **constraints**, **interface** (interactions with other hardware/software), and **security/privacy**. Software vendors should also consider standardization, certification, installation, implementation, customization, localization, documentation and education.
 
-- "Sarah" is the persona
-- "pay tuition using multiple credit cards" is the problem
-- "each semester" reveals the frequency
+### MRD vs. PRD
 
-Notice: no proposed solution. The story puts the designer in the customer's chair, seeing the problem from their point of view.
+The MRD focuses on the "why": which market problems, for whom, in what priority. A PRD (or specification) focuses on the "how": features and technical design. Product managers write MRDs; designers, developers and QA work from specifications.
 
-### Requirement Types
+### The three planning artifacts
 
-While the story format is primary, well-rounded requirements also account for:
+1. **Business Plan** — the business case for the product
+2. **Product Roadmap** — outcomes in sequence over the coming quarters and years
+3. **MRD** — the prioritized problems for the next release
 
-- **Functional** — observable capabilities the persona needs to complete their goals
-- **Performance** — capacity, speed, concurrency characteristics
-- **Constraints** — conditions that legitimately limit the design
-- **Interface** — defined interactions with hardware/software components
-- **Security** — compliance with mandates and customer privacy
+### Requirements management is ongoing
 
-Software vendors should also consider: standardization, certification, installation, implementation, customization, localization, documentation, and education requirements.
+Requirements are a living set, not a one-time document. Keep refining them as market insight arrives, think at least one product generation ahead, and you won't be writing the PRD after development has already started.
 
-### The Three Artifacts
+## Use Scenarios
 
-Requirements exist within a set of interrelated planning artifacts:
+Use scenarios (formerly their own focus area) are one component of requirements. A use scenario is a short narrative that shows one persona hitting one problem in a real situation: who, what, when/where and why it matters. It gives designers, developers and QA the problem context behind a requirement.
 
-1. **Business Plan** — the business of the product (market research, win/loss results, market definition, financial plan)
-2. **Product Roadmap** — phases of deliverables over the next 18-36 months
-3. **Market Requirements Document** — the prioritized problems to be addressed in the next release
+Use scenarios are **not** use cases (system interactions), user stories ("As a [role], I want [feature]..." often implies a solution), feature requests or process documentation.
 
-### Requirements Management Is Ongoing
+**Workflow:**
+1. **Confirm prerequisites** — validated User Personas, prioritized Market Problems, and at least a draft requirement to expand.
+2. **Pick one persona + one problem** — and how often the persona hits it.
+3. **Draft the narrative** — 2–6 sentences, third person: introduce the persona in context, the situation that surfaces the problem, what happens, the consequence. End at the problem, never at a solution.
+4. **Write 2–4 scenarios per requirement** where useful, each showing a different trigger or facet.
+5. **Validate** with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-quality-checklist.md`: one persona, one problem, solution-free, grounded in real market observation, clear on why it matters.
+6. **Link to the parent requirement** in the MRD so teams can trace problems to decisions.
 
-Requirements management is not a one-time document. Product managers should continuously refine requirements by driving customer insights into the organization, always thinking at least one product generation ahead. This ongoing refinement pays dividends when it is time to launch a new development effort and prevents the common failure of delivering the PRD after development has already started.
+**Solution-creep test:** if "should," "could," "would allow," "needs a way to," a feature name or a UI element appears, the scenario has crossed into solution territory. Remove it.
+
+Template: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/use-scenario-template.md`. Annotated examples: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-examples.md`.
 
 ## Phases Overview
 
-### Phase 1: Gather Upstream Inputs
-Collect and organize the market knowledge that feeds requirements: validated market problems, persona definitions, win/loss findings, competitive landscape, and business plan constraints.
-
-### Phase 2: Write Requirements
-Transform market problems into well-structured, implementation-free requirements using the persona + problem + frequency format. Apply the SMART criteria.
-
-### Phase 3: Prioritize Requirements
-Rank requirements using evidence-based scoring to determine what goes into the next release versus future releases.
-
-### Phase 4: Assemble the MRD
-Compile the prioritized requirements, persona profiles, and use scenarios into the Market Requirements Document.
-
-### Phase 5: Hand Off and Iterate
-Communicate requirements to development, support the transition to specifications, and manage requirements through the agile/development cycle.
+1. **Gather upstream inputs** — market problems, personas, win/loss findings, competitive landscape, business plan constraints.
+2. **Write requirements** — persona + problem + frequency, with context, intent, constraints; apply the SMART test.
+3. **Prioritize** — evidence-based scoring for the next release vs. later.
+4. **Assemble the MRD** — prioritized requirements, persona profiles and use scenarios.
+5. **Hand off and iterate** — support the move to specifications, manage requirements through agile delivery, and check after release that the problem was solved.
 
 ## Common Pitfalls
 
-1. **Writing solutions instead of problems** — The requirement should never prescribe how the problem is solved. If you find yourself describing UI elements, algorithms, or architecture, you've crossed into specification territory.
-
-2. **Bloated, unreadable documents** — An MRD that reads like parliamentary committee minutes fails its audience. Requirements should be short (one to two paragraphs each, never more than a page). Peripheral information like interview notes should be linked, not embedded.
-
-3. **Single static document** — The MRD should be a living document that can be sliced for different audiences: executives see top-level priorities, development groups see categorized requirements relevant to their area, customers see a sanitized view of direction.
-
-4. **Letting sales escalations drive the product** — Without good requirements management, account managers lose confidence that their customer needs are being heard, and escalation politics take over. Visible requirements management creates transparency and trust.
-
-5. **No contact information for real users** — Provide two or three potential users' contact details so designers and developers can get real insight directly, without the product manager being a bottleneck.
-
-6. **Confusing buyer and user personas** — Buyers have one set of requirements (concerned with value, ROI); users have another (concerned with capabilities, usability). For most technology products, buyers and users are different people.
+1. **Writing solutions instead of problems** — UI elements, algorithms or architecture mean you've crossed into specification.
+2. **Vague requirements** — "the user," no frequency, no constraints. People and AI tools will fill gaps with guesses.
+3. **Bloated documents** — Keep each requirement to one or two paragraphs; link interview notes rather than embedding them.
+4. **Single static document** — Make the MRD sliceable: executives see priorities, dev groups see their area, customers see a sanitized direction.
+5. **Letting sales escalations drive the product** — Visible requirements management builds trust and takes the politics out.
+6. **No path to real users** — Give designers and developers two or three user contacts so the PM isn't a bottleneck.
+7. **Confusing buyer and user personas** — Buyers care about value and risk; users care about capability and usability.
 
 ## Formatting Guidance
 
-When producing any requirements-related document:
-- Write requirements in the words of the persona, using business or personal terms, not technical jargon
-- Keep individual requirements short — one to two paragraphs, never more than a page
-- Use the [Persona] + [Problem] + [Frequency] story format as the primary structure
+- Write in the persona's words, not technical jargon
+- Keep individual requirements short; one requirement, one problem
+- Use the [Persona] + [Problem] + [Frequency] structure, plus context, intent, constraints and priority
 - Separate requirements from specifications rigorously
-- Include a prioritization score alongside each requirement
-- Provide persona contact information for development team access
-- Structure the MRD so it can be filtered by audience (executives, dev teams, customers)
+- Include a prioritization score with each requirement
+- Structure the MRD so it can be filtered by audience
+
+## Using AI in this focus area
+
+- Turn interview notes and market-problem research into draft requirements and use scenarios in the standard format.
+- Check drafts for solution creep, missing personas, missing frequency and undefined terms.
+- Generate test scenarios and acceptance signals from requirements for QA.
+
+Check AI drafts against real market evidence; a well-formed requirement for a problem nobody has is still wrong (NIHITO still applies). Keep sensitive customer, deal and company data out of tools not approved for it. The team, not the tool, owns the priorities.
+
+## Reference Files
+
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/gathering-inputs.md` — Phase 1: collecting and checking upstream inputs
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md` — Phase 2: writing problem-based requirements, for people and AI tools
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/prioritization-guide.md` — Phase 3: evidence-based scoring
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/dev-handoff-and-agile.md` — Phase 5: handoff, agile, closing the loop
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-examples.md` — Annotated use scenario examples
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-quality-checklist.md` — Use scenario review checklist
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/mrd-template.md` — Market Requirements Document template
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/use-scenario-template.md` — Use scenario template

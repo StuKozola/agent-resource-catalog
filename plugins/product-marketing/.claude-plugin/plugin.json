@@ -1,9 +1,18 @@
 {
   "name": "product-marketing",
-  "version": "1.0.0",
-  "description": "Comprehensive skills for product marketers — Pragmatic Framework go-to-market execution (positioning, launch, content, channels, sales tools, measurement) combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
+  "version": "2.0.0",
+  "description": "Comprehensive skills for product marketers — the 2027 Pragmatic Framework go-to-market and enablement toolkit (positioning, buyer journey, marketing plan, growth, retention, launch, organizational alignment, awareness, engagement, customer satisfaction, content, assets, channel support, measurement) combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
   "author": "agent-resource-catalog contributors",
   "category": "role",
-  "tags": ["product-marketing", "pragmatic-framework", "seven-powers", "positioning", "launch", "go-to-market", "competitive-strategy"],
+  "tags": [
+    "product-marketing",
+    "pragmatic-framework",
+    "seven-powers",
+    "positioning",
+    "launch",
+    "go-to-market",
+    "enablement",
+    "competitive-strategy"
+  ],
   "plugin_format_version": "1"
 }

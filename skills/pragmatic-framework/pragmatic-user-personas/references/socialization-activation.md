@@ -5,7 +5,7 @@
 2. The Persona Rollout Plan
 3. Embedding Personas in Organizational Culture
 4. Keeping Personas Alive
-5. Connecting Personas to Downstream Activities
+5. Connecting Personas to Other Focus Areas
 6. Measuring Persona Effectiveness
 
 ---
@@ -96,7 +96,7 @@ The goal of socialization is to shift from "we're building feature X" to "we're 
 - **Sprint planning** maps stories to personas
 - **Feature requests** are tagged by persona
 - **Retrospectives** include "did we serve [persona name] well this sprint?"
-- **Stakeholder communications** reference personas by name
+- **Stakeholder updates** reference personas by name
 
 ### Make Personas Part of the Language
 
@@ -142,11 +142,11 @@ Personas are living documents. Schedule regular reviews:
 
 ---
 
-## 5. Connecting Personas to Downstream Activities
+## 5. Connecting Personas to Other Focus Areas
 
-### Personas → Requirements (Pragmatic Framework)
+### Personas → Requirements (Planning, `pragmatic-requirements`)
 
-The Requirements activity says: "Articulate and prioritize personas and their problems so that the appropriate products can be built."
+Requirements describe the market problem the team must solve: who has it, what it is and how often it happens. Personas supply the "who."
 
 For each persona, create a prioritized problem list:
 1. Persona name and type (primary/secondary)
@@ -155,16 +155,30 @@ For each persona, create a prioritized problem list:
 4. Current workaround (how the persona deals with this problem today)
 5. Priority (based on persona's urgency and the persona's strategic priority)
 
-### Personas → Use Scenarios (Pragmatic Framework)
+### Personas → Use Scenarios (part of Requirements)
 
-Use scenarios put market problems in the persona's context as a narrative. Each use scenario should:
+Use scenarios (formerly their own focus area, now part of Requirements) put market problems in the persona's context as a narrative. Each use scenario should:
 - Star a specific persona by name
 - Describe their environment and starting context
 - Walk through the problem as the persona experiences it
 - Show the current pain (workaround, failure, frustration)
 - Optionally show the desired future state
 
-### Personas → Positioning (Pragmatic Framework)
+### Personas → Ideation (Planning, `pragmatic-ideation`)
+
+Ideation turns market problems and user insight into concepts, prototypes and experiments:
+- Which persona is each concept for, and which of their problems does it address?
+- Recruit test participants who match the persona, not whoever is convenient
+- Judge experiment results against the persona's workflow and context
+
+### Personas → Adoption (Enablement, `pragmatic-adoption`)
+
+Adoption depends on whether users start using the product in meaningful ways and keep using it:
+- Define "meaningful use" per persona
+- Plan onboarding and training around each persona's skills, context and workflow
+- When adoption is low for a persona, revisit that persona's needs before blaming the user
+
+### Personas → Positioning (Planning, `pragmatic-positioning`)
 
 Positioning messages are crafted for each persona:
 - What problem does this persona face?
@@ -172,7 +186,7 @@ Positioning messages are crafted for each persona:
 - What is the value in terms this persona cares about?
 - What language does this persona use?
 
-### Personas → Product Roadmap
+### Personas → Product Roadmap (Focus, `pragmatic-product-roadmap`)
 
 Feature prioritization on the roadmap should reference personas:
 - Which persona(s) does this feature serve?

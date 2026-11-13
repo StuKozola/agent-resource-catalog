@@ -1,6 +1,6 @@
-# Pragmatic Pricing: End-to-End Process & Templates
+# Pricing: End-to-End Process & Templates (Pragmatic Framework, 2027)
 
-This reference covers the complete workflow for executing the Pricing activity from the Pragmatic Framework. Work through these phases sequentially, though iteration between phases is expected and healthy.
+This reference covers the complete workflow for the Pricing focus area (Business category) of the Pragmatic Framework — *How will we capture the value we create?* Work through these phases sequentially, though iteration between phases is expected and healthy.
 
 ---
 
@@ -12,8 +12,9 @@ This reference covers the complete workflow for executing the Pricing activity f
 4. [Phase 4: Segmentation & Packaging](#phase-4-segmentation--packaging)
 5. [Phase 5: Pricing Governance](#phase-5-pricing-governance)
 6. [Phase 6: Implementation & Measurement](#phase-6-implementation--measurement)
-7. [Templates & Deliverables](#templates--deliverables)
-8. [Common Pitfalls](#common-pitfalls)
+7. [Internal Products: Funding, Cost Allocation and ROI](#internal-products-funding-cost-allocation-and-roi)
+8. [Templates & Deliverables](#templates--deliverables)
+9. [Common Pitfalls](#common-pitfalls)
 
 ---
 
@@ -29,13 +30,14 @@ Before any pricing decision, gather the inputs that make pricing market-driven r
 - What alternatives did evaluators compare against?
 - What was the typical deal size and discount level?
 
-**From Competitive Analysis:**
+**From Competitive Landscape:**
 - How do competitors price? (model, tiers, price points)
 - Where are they positioned — premium, mid-market, budget?
 - What does their packaging look like?
 - Do they offer free tiers, trials, or freemium?
+- What does doing nothing (or an internal workaround) cost the buyer?
 
-**From Market Problems & Personas:**
+**From Market Problems & Buyer Personas:**
 - What problems does the product solve?
 - How do different buyer personas value those solutions differently?
 - What is the economic impact of the problem on the customer? (This becomes the value ceiling)
@@ -57,6 +59,8 @@ Economic value delivered:                             $________
 Your target capture rate (typically 10-30% of value): ________%
 Implied price point:                                  $________
 ```
+
+Start this work early — alongside the business plan, not a few weeks before launch. Pricing decided under deadline pressure tends to default to cost-plus or a competitor's number.
 
 This gives you a **value ceiling** — the maximum price a rational buyer would pay. Your actual price will be somewhere between your cost floor and this value ceiling, informed by competitive context and willingness-to-pay research.
 
@@ -130,8 +134,8 @@ Answer these questions to narrow down the right pricing model:
 
 1. **How does the customer realize value?**
    - Continuously over time → Subscription
-   - Proportional to usage volume → Usage-based
-   - At point of purchase → Perpetual/one-time
+   - Proportional to usage volume → Usage-based (consider committed-use tiers, caps or prepaid credits so buyers can budget)
+   - At point of purchase → One-time fee / perpetual license
    - Through outcomes achieved → Revenue-share or outcome-based
 
 2. **How complex is your product?**
@@ -164,6 +168,19 @@ Bad value metrics:
 - Punish usage (discouraging adoption)
 - Are opaque or unpredictable (creating bill shock)
 - Don't correlate with customer value
+
+### Usage-Based Model Checklist
+
+Usage-based pricing aligns price with value but brings its own design questions:
+- **Unit** — Is the usage unit something the buyer understands and can forecast (transactions, documents, active records), or an internal technical unit (tokens, compute-seconds) they can't?
+- **Predictability** — Offer a committed-use or prepaid tier, spending caps, alerts, and a usage dashboard. Procurement teams need a budget number.
+- **Floor** — A minimum platform fee protects you from customers who adopt slowly.
+- **Cost exposure** — If your own delivery cost scales with use (common in AI products), check margin at high usage and price the unit above marginal cost.
+- **Revenue forecasting** — Revenue becomes less predictable; Business Outcomes and Measurement need usage trends as a leading indicator.
+
+### Keep It Simple
+
+Before finalizing, run a simplicity check: Can a sales rep explain the model in two sentences? Can a buyer estimate their bill without a calculator from you? Are there more than one or two value metrics? Overly complex models slow deals, invite exceptions, and erode trust.
 
 ---
 
@@ -256,6 +273,15 @@ Pricing governance answers the question: "Who can do what with pricing, and unde
 | Semi-annually | Willingness-to-pay pulse check, packaging effectiveness review |
 | Annually | Full pricing strategy review, price adjustment decision |
 
+### Price Testing
+
+Willingness-to-pay studies measure stated intent. Before a broad rollout, test the price with real buying behavior:
+- **Self-serve products** — A/B test price pages or checkout flows with new visitors only.
+- **Sales-led products** — Pilot the new price in one region, segment, or cohort of new deals for a fixed period.
+- **Existing customers** — Test new packaging at renewal with a small group before changing it for everyone.
+
+Define in advance: the hypothesis, the metric (conversion, win rate, ASP, discount depth, churn), the sample, the duration, and the decision rule. Don't skip this step to save time; a wrong price costs far more to unwind.
+
 ---
 
 ## Phase 6: Implementation & Measurement
@@ -264,7 +290,7 @@ Pricing governance answers the question: "Who can do what with pricing, and unde
 
 **Internal (2-4 weeks before external):**
 - Brief sales team on new pricing, positioning rationale, and talk tracks
-- Update all sales tools, proposals, and CPQ systems
+- Update all sales assets, proposals, and CPQ systems
 - Provide FAQ for common objections
 - Train support team on how to handle customer questions
 
@@ -287,6 +313,39 @@ Track these metrics to evaluate pricing health:
 - **Gross margin** — Ensure pricing supports target profitability
 - **Expansion revenue** — Revenue from upsells and tier upgrades
 - **Churn by price point** — Are certain price points causing excess churn?
+
+Leading indicators (win rate at price, discount requests, trial-to-paid conversion, usage growth) are defined with Measurement (`pragmatic-measurement`); revenue, margin and profit by product and customer are tracked in Business Outcomes (`pragmatic-business-outcomes`).
+
+---
+
+## Internal Products: Funding, Cost Allocation and ROI
+
+Internal products — platforms, shared services, internal tools — rarely have a price, but they still need an answer to "how will we capture the value we create?" The answer shows up as funding, cost allocation and ROI.
+
+### Internal-Product Pricing Worksheet
+
+```
+Product / platform:
+Internal customers (teams, business units):
+Value delivered (per team, per year):
+  - Cost avoided:                 $________
+  - Time saved (hours × rate):    $________
+  - Risk reduced:                 ________
+  - Revenue enabled elsewhere:    $________
+Total cost to run (people, infrastructure, licenses):  $________
+Funding model:   [ ] Central   [ ] Project-based   [ ] Consumption-based
+Allocation:      [ ] None   [ ] Showback   [ ] Chargeback
+Allocation driver (seats, usage, transactions):
+ROI = (value delivered − cost) ÷ cost:  ________%
+Review date:
+```
+
+### Guidance
+- **Showback before chargeback.** Showing teams their consumption builds trust and changes behavior without budget fights. Move to chargeback once the driver is accepted.
+- **Pick a driver teams can influence.** If teams can't change their allocated cost by changing their behavior, the allocation feels like a tax.
+- **Keep it simple.** A formula only finance understands invites disputes and workarounds.
+- **Report ROI in business terms.** Leadership funds outcomes, not uptime. Feed the ROI into Business Outcomes.
+- **Watch for shadow IT.** If allocated cost exceeds perceived value, teams will buy their own tools — that's your churn signal.
 
 ---
 
@@ -390,3 +449,9 @@ Rationale:            ___________________
 9. **Price changes without communication** — Surprising customers with price increases destroys trust. Always communicate early, clearly, and with value context.
 
 10. **Treating pricing as a finance exercise** — Pricing is a market-facing decision that requires product, marketing, sales, and finance collaboration. Don't hand it entirely to any single function.
+
+11. **Delays** — Pricing left until just before launch, or needed price changes stuck in approval for months. Start pricing work with the business plan and give pricing decisions a clear owner and deadline.
+
+12. **Overly complex models** — Many tiers, several value metrics, stacked add-ons and special terms. Complexity slows deals, creates exceptions, and makes bills unpredictable. Simplify until a rep can explain it in two sentences.
+
+13. **Skipping price testing** — Launching or changing a price without testing it on real buyers. Run an in-market test with a defined metric and decision rule first.

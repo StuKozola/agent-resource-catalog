@@ -33,7 +33,7 @@ It should NOT answer: "Here are all the features of Widget 3.0 and how they work
 
 ### 2. Align Tools to the Buying Process
 
-Every sales tool should map to a specific stage of the buyer's journey. If you can't identify which buying stage a tool supports, it probably isn't useful.
+Every sales asset should map to a specific stage of the buyer's journey. If you can't identify which buying stage a tool supports, it probably isn't useful.
 
 **Sales Tool Map Structure:**
 
@@ -118,7 +118,7 @@ For Tier 1 launches, sales training should include:
 1. **Market context** (15 min) — Why this launch matters, what problems the market faces, competitive landscape
 2. **Buyer personas** (15 min) — Who buys, what they care about, how they evaluate
 3. **Positioning and messaging** (15 min) — How to talk about the product in terms of buyer problems
-4. **Buying process and sales tools** (20 min) — Walk through the sales tool map, show how each tool is used at each buying stage
+4. **Buying process and sales assets** (20 min) — Walk through the sales asset map, show how each asset is used at each buying stage
 5. **Competitive positioning** (15 min) — How to win against specific competitors, battle card walkthrough
 6. **Practice** (30 min) — Role-play buyer conversations, practice objection handling
 7. **Q&A** (10 min) — Address concerns and gaps
@@ -129,7 +129,7 @@ Total: ~2 hours of focused, practical training (not a 4-hour product feature mar
 
 Track these indicators post-launch:
 - Time from launch to first qualified opportunity
-- Sales tool usage and feedback
+- Sales asset usage and feedback
 - Win rate for launch product deals
 - Average deal cycle length
 - Most common sales questions (indicates enablement gaps)

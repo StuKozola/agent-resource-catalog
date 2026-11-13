@@ -114,7 +114,7 @@ Questions to explore:
 ### Step 2: Map the Network Effects
 Identify which types of network effects are present and trace the causal chain: how exactly does each additional user increase value for existing users?
 
-For detailed network mapping frameworks and assessment grids, read `references/network-economies-analysis.md`.
+For detailed network mapping frameworks and assessment grids, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/network-economies/references/network-economies-analysis.md`.
 
 ### Step 3: Assess Network Effect Intensity (δ)
 Evaluate how strong the network effects actually are. This is the most common area where teams overestimate — many products have weak or marginal network effects that don't translate into Power.
@@ -131,7 +131,7 @@ Measure the absolute gap in installed base between the leader and the nearest co
 ### Step 5: Calculate or Estimate the Surplus Leader Margin
 Use the SLM formula to quantify the advantage. For most real-world analyses, δ will require qualitative judgment rather than precise calculation.
 
-For worked examples, estimation frameworks, and SLM interpretation guidance, read `references/network-economies-analysis.md`.
+For worked examples, estimation frameworks, and SLM interpretation guidance, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/network-economies/references/network-economies-analysis.md`.
 
 ### Step 6: Assess Boundedness and Vulnerability
 Determine where the network effects end — geographically, by use case, by user segment — and whether competitors can establish footholds within those boundaries.
@@ -140,7 +140,7 @@ Determine where the network effects end — geographically, by use case, by user
 Apply the pitfall checklist below to ensure you're not mistaking a weak or temporary network advantage for durable Power.
 
 ### Step 8: Deliver the Assessment
-Produce a clear, structured analysis. For output templates and scoring frameworks, read `references/network-economies-analysis.md`.
+Produce a clear, structured analysis. For output templates and scoring frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/network-economies/references/network-economies-analysis.md`.
 
 ## Common Pitfalls
 
@@ -187,5 +187,5 @@ Guide the user toward a different Power analysis if:
 ## Reference Files
 
 For detailed analytical tools, calculation frameworks, worked examples, and assessment templates:
-- `references/network-economies-analysis.md` — Complete analytical toolkit: network mapping, SLM estimation, intensity assessment, Power scoring, and deliverable templates
-- `references/network-economies-examples.md` — Real-world case studies across industries showing how Network Economies manifests (and sometimes fails)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/network-economies/references/network-economies-analysis.md` — Complete analytical toolkit: network mapping, SLM estimation, intensity assessment, Power scoring, and deliverable templates
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/network-economies/references/network-economies-examples.md` — Real-world case studies across industries showing how Network Economies manifests (and sometimes fails)

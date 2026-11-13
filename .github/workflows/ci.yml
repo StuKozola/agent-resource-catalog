@@ -54,6 +54,9 @@ jobs:
       - name: Run schema validation
         run: python scripts/validate.py
 
+      - name: Check plugin skill copies match skills/ library
+        run: python scripts/sync-plugin-skills.py --check
+
   # ---------------------------------------------------------------------------
   # Job 2: build-catalog
   # Rebuild catalog.json and .claude-plugin/marketplace.json.

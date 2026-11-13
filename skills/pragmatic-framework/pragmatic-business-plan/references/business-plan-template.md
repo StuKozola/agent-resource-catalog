@@ -1,16 +1,18 @@
 # Pragmatic Framework: Product Business Plan Template
 
-This template provides section-by-section guidance for creating a product business plan aligned with the Pragmatic Framework. Each section includes what to include, why it matters, guiding questions, and examples of strong vs weak content.
+This template provides section-by-section guidance for creating a product business plan aligned with the 2027 Pragmatic Framework (Business category — *Why is this worth funding?*). The plan helps leadership decide which projects to fund, delay or stop. Each section includes what to include, why it matters, guiding questions, and examples of strong vs. weak content.
+
+Two habits matter as much as the content: **present findings early** (share drafts before they are polished) and **keep the plan current** (revisit it when evidence or assumptions change).
 
 ## Table of Contents
 
 1. Executive Summary
-2. Market Opportunity
+2. Strategic Fit & Market Opportunity
 3. Target Market & Segmentation
 4. Distinctive Competence & Competitive Position
 5. Solution Overview
 6. Financial Model & Risk Quantification
-7. Go/No-Go Recommendation
+7. Recommendation (Fund / Delay / Stop) & Expected Outcomes
 8. Appendices
 
 ---
@@ -25,7 +27,7 @@ This template provides section-by-section guidance for creating a product busine
 - Target market segment(s) and estimated market size
 - Why your organization is positioned to win (distinctive competence in brief)
 - Key financial highlights: projected revenue, investment required, expected break-even timeline
-- Clear recommendation: Go, No-Go, or Conditional (with conditions stated)
+- Clear recommendation: Fund, Delay, or Stop (or Fund with conditions stated)
 
 **Guidance:**
 - Write this section LAST, after all other sections are complete
@@ -39,11 +41,16 @@ This template provides section-by-section guidance for creating a product busine
 
 ---
 
-## 2. Market Opportunity
+## 2. Strategic Fit & Market Opportunity
 
-**Purpose:** Demonstrate that a real, validated, urgent market problem exists and is worth solving. This section is the heart of the outside-in approach.
+**Purpose:** Confirm the idea supports company strategy, then demonstrate that a real, validated, urgent market problem exists and is worth solving. This section is the heart of the outside-in approach.
 
 **What to include:**
+
+### Strategic Fit (answer this first)
+- Which company goal or strategic priority does this support?
+- How does it fit the Product Strategy (what the product will be known for, and what it will say no to)?
+- If it doesn't fit, stop here and recommend Stop or Delay.
 
 ### 2a. Market Problems Discovered
 - The top 3-5 problems discovered through market interviews
@@ -117,7 +124,8 @@ This template provides section-by-section guidance for creating a product busine
 - How do these competencies directly enable solving the identified market problems?
 - Are these competencies defensible — can competitors easily replicate them?
 
-### 4b. Asset Assessment
+### 4b. What We Already Have (asset inventory)
+Use the asset inventory in `../../pragmatic-product-strategy/references/asset-registry-template.md` (formerly Asset Assessment) as the source:
 - Relevant technical assets (patents, proprietary technology, infrastructure)
 - Skills and expertise within the team
 - Existing customer relationships or market presence
@@ -180,7 +188,8 @@ This template provides section-by-section guidance for creating a product busine
 
 ### 6a. Revenue Projections
 - Projected revenue for 12, 24, and 36 months (minimum)
-- Revenue model: how will you charge? (subscription, license, usage-based, etc.)
+- Revenue model: how will you charge? (one-time fee, subscription, usage-based, etc. — see `pragmatic-pricing`)
+- For internal products: funding model, cost allocation, and the value delivered (cost reduction, time saved, revenue enabled) in place of revenue
 - Average deal size and projected number of customers by period
 - Assumptions behind each projection — state these explicitly
 
@@ -204,7 +213,7 @@ Present three scenarios to quantify the range of outcomes:
 - **Conservative:** What happens if adoption is slower, competition increases, or key assumptions prove wrong?
 
 ### 6e. Risk Quantification
-This is critical and what distinguishes a Pragmatic Business Plan from wishful thinking.
+This is critical and what distinguishes a product business plan from wishful thinking.
 
 For each major risk, document:
 - **Risk description:** What could go wrong?
@@ -237,22 +246,30 @@ List every significant assumption underlying the financial model. For each:
 
 ---
 
-## 7. Go/No-Go Recommendation
+## 7. Recommendation (Fund / Delay / Stop) & Expected Outcomes
 
-**Purpose:** Make a clear, data-backed recommendation that enables a decision.
+**Purpose:** Make a clear, data-backed recommendation that lets leadership decide whether to fund, delay or stop the project, and state the results the business should expect.
 
 **What to include:**
-- **Clear recommendation:** Go, No-Go, or Conditional
+- **Clear recommendation:** Fund, Delay, or Stop (or Fund with conditions)
 - **Summary of the case:** 3-5 bullet points with the most compelling evidence
-- **If Go:** What resources are needed, what are the immediate next steps, and what are the first milestones?
-- **If Conditional:** What conditions must be met before proceeding? What additional research or validation is needed?
-- **If No-Go:** Why not, and what would have to change to reconsider?
+- **If Fund:** What resources are needed, what are the immediate next steps, and what are the first milestones?
+- **If Fund with conditions:** What conditions must be met before proceeding? What additional research or validation is needed?
+- **If Delay:** What has to happen (evidence, market timing, capacity) before this is reconsidered, and when will you revisit it?
+- **If Stop:** Why not, and what would have to change to reconsider?
 - **Decision gates:** What future checkpoints should be built in to reassess the investment?
+- **Expected outcomes:** The results this plan commits to — revenue, profit, margin, efficiency, cost reduction, ROI, or for early products, validation and adoption milestones — with timing. Business Outcomes (`pragmatic-business-outcomes`) uses these to check whether the product is doing what the plan said it would; Measurement (`pragmatic-measurement`) defines the leading and lagging indicators that track them.
 
 **Guidance:**
 - Be direct. Don't hedge so much that the recommendation is unclear.
 - The recommendation should flow naturally from the evidence presented. If it feels like a leap, something is missing from the analysis.
 - Include kill criteria: under what circumstances should this investment be reconsidered or terminated?
+- Delay is a legitimate answer. Saying "not yet" with clear revisit conditions is better than a weak Fund.
+
+### Keeping the plan current
+- Record a version and date on the plan, and a short change log
+- Revisit at each funding cycle, at decision gates, and whenever a key assumption is proven wrong
+- Feed actual results from Business Outcomes back into the assumptions
 
 ---
 
@@ -291,30 +308,32 @@ When leadership wants the absolute essentials:
 - Unfair Advantage (defensible assets)
 - Customer Segments (target segments with sizing)
 - Risks (top 3 risks with mitigation)
-- Recommendation (Go/No-Go with conditions)
+- Recommendation (Fund / Delay / Stop, with conditions)
 
 ---
 
-## Cross-References to Other Pragmatic Framework Activities
+## Cross-References to Other Focus Areas
 
-The Business Plan draws directly from these framework activities:
+The Business Plan draws directly from these focus areas:
 
-| Framework Activity | What It Contributes to the Business Plan |
+| Focus Area (Category) | What It Contributes to the Business Plan |
 |---|---|
-| Market Problems | Validated problems that form the foundation of the opportunity |
-| Win/Loss Analysis | Buyer behavior patterns and competitive insights |
-| Distinctive Competencies | Why your organization is positioned to win |
-| Competitive Landscape | Understanding of alternatives and competitive strategy |
-| Asset Assessment | Inventory of leverageable assets |
-| Market Definition | Target segment identification and sizing |
-| Distribution Strategy | Channel alignment for reaching the target market |
-| Product Portfolio | How this fits within the broader product portfolio |
-| Product Roadmap | Delivery vision and phasing |
-| Pricing | Revenue model and pricing strategy inputs |
-| Buy, Build or Partner | Solution delivery strategy |
+| Product Strategy (Market) | Strategic direction and what the product will say no to |
+| Market Problems (Market) | Validated problems that form the foundation of the opportunity |
+| Win/Loss Analysis (Market) | Buyer behavior patterns and competitive insights |
+| Distinctive Competencies (Market) | Why your organization is positioned to win |
+| Competitive Landscape (Market) | Understanding of alternatives and competitive strategy |
+| Asset inventory (input to Product Strategy; formerly Asset Assessment) | Inventory of leverageable assets |
+| Market Definition (Focus) | Target segment identification and sizing |
+| Distribution Strategy (Focus) | Channel alignment for reaching the target market |
+| Product Portfolio (Focus) | How this fits within the broader product portfolio |
+| Product Roadmap (Focus) | Delivery vision and phasing |
+| Pricing (Business) | Revenue model and pricing strategy inputs |
+| Buy, Build or Partner (Business) | Solution delivery strategy |
 
 The Business Plan in turn feeds into:
-- **Positioning** — the business case informs how the product is described
-- **Marketing Plan** — investment level determines program scope
-- **Launch** — the business plan sets launch goals and success metrics
-- **Product Profitability** — the financial model becomes the baseline for tracking performance
+- **Positioning** (Planning) — the business case informs how the product is described
+- **Marketing Plan** (Go-to-Market) — investment level determines program scope
+- **Launch** (Go-to-Market) — the business plan sets launch goals and success metrics
+- **Business Outcomes** (Business) — the expected outcomes and financial model become the baseline for checking whether the product is doing what the plan said it would
+- **Measurement** (Business) — the indicators that show early whether the plan is on track
