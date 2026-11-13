@@ -18,7 +18,7 @@ Use this template for every positioning document. One document per buyer persona
 
 **Context:** [1–2 sentences describing this buyer's world — their responsibilities, what success looks like for them, and the environment they operate in. Write this as if you are describing a real person you have interviewed.]
 
-**Role in Purchase Decision:** [Specify: Decision Maker, Influencer, Evaluator, or Champion. For complex B2B sales, also note whether this is a Financial Buyer, Technical Buyer, or User/Functional Buyer.]
+**Role in Purchase Decision:** [Specify: Decision Maker, Influencer, Evaluator, or Champion. For complex B2B sales, also note whether this is a functional, financial or technical buyer (see Buyer Types in SKILL.md and `pragmatic-buyer-personas`).]
 
 (Guidance: This section should feel like a mini-biography, not a demographics sheet. The goal is that anyone reading this document can immediately picture who they are talking to and what that person cares about.)
 
@@ -32,7 +32,7 @@ Use this template for every positioning document. One document per buyer persona
 **Impact of the Problem:**
 [What happens if this problem goes unsolved? Quantify where possible — lost revenue, wasted time, compliance risk, employee turnover, security exposure. 1–3 sentences.]
 
-(Guidance: This is the most important section. If you cannot articulate the problem in the buyer's language, you have not done enough market discovery. Go back and interview customers, recent evaluators, and prospects. Reference your Win/Loss Analysis and Market Problems research from the Pragmatic Framework.)
+(Guidance: This is the most important section. If you cannot articulate the problem in the buyer's language, you have not done enough market discovery. Go back and interview customers, recent evaluators, and prospects. Reference your Win/Loss Analysis and Market Problems research (Market category; `pragmatic-win-loss-analysis`, `pragmatic-market-problems`).)
 
 ---
 
@@ -100,7 +100,7 @@ Proof point types include:
 
 **Your Differentiation:** [1–2 sentences on what you do that the alternative cannot. Be specific and honest.]
 
-(Guidance: In the Pragmatic Framework, this connects to your Competitive Landscape and Distinctive Competence analysis. The strongest positioning doesn't trash competitors — it makes your unique value so clear that the buyer draws their own conclusions.)
+(Guidance: In the Pragmatic Framework, this connects to your Competitive Landscape and Distinctive Competencies focus areas (Market category). The strongest positioning doesn't trash competitors — it makes your unique value so clear that the buyer draws their own conclusions.)
 
 ---
 

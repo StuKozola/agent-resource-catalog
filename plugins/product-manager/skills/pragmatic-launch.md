@@ -1,229 +1,161 @@
 ---
 name: pragmatic-launch
 description: >
-  Guides creation of strategic product launch plans aligned with the Pragmatic Institute Framework.
-  The Launch activity means planning, executing, and measuring the effectiveness of strategic
-  launches — including defining launch goals, assessing organizational readiness, classifying
-  launch tiers, developing launch strategies, enabling sales, and building cross-functional
-  launch plans. Use this skill whenever the user mentions product launch, launch plan, launch
-  strategy, launch readiness, launch tiers, go-to-market launch, launch checklist, launch
-  scorecard, release vs launch, sales enablement for launch, launch goals, launch constraints,
-  or any Pragmatic Framework Programs-category activity related to strategic product launches.
-  Also trigger when the user asks about planning a product launch, assessing organizational
-  readiness for launch, tiering launches by impact, building a 90-second launch strategy,
-  or creating a cross-functional launch plan.
+  Guides strategic product launch planning per the 2027 Pragmatic Framework (Go-to-Market category).
+  Launch answers "Are our teams, systems and customers ready?" — readiness of teams, systems, content,
+  support and measures before the date, plus validating with buyers, clear positioning and building
+  interest ahead of launch. Covers launch goals, readiness assessment, launch tiers, launch strategy,
+  sales enablement, cross-functional and regional coordination, adoption planning and post-launch
+  measurement. Use whenever the user mentions product launch, launch plan, launch strategy, launch
+  readiness, go/no-go, launch tiers, release vs launch, launch checklist, launch scorecard, launch
+  goals, launch constraints, sales enablement for a launch, a 90-second launch strategy, or a
+  cross-functional or multi-region launch plan.
 ---
 
-# Launch — Pragmatic Framework Skill
+# Launch — Pragmatic Framework (2027)
+
+## Where this fits in the 2027 Pragmatic Framework
+
+- **Category:** Go-to-Market — *How will the market find, choose and stay with the product?*
+- **Focus-area question:** *Are our teams, systems and customers ready?*
+- **Position:** Above the bar (market-focused)
+- **Other focus areas in this category:** Marketing Plan, Growth, Retention, Organizational Alignment, Awareness, Engagement, Customer Satisfaction
+- **Pragmatic Institute course:** Launch
 
 ## What This Skill Does
 
-This skill helps you produce a **Launch Plan** as defined by the Pragmatic Institute Framework. The Launch activity lives in the **Programs** category of the framework and is defined as:
+A launch introduces a product or release to the market. Whether it works depends on timing, readiness and how well it meets market needs. The 2027 guide asks you to make sure **teams, systems, content, support and measures** are in place before you go; to **validate the product with buyers, position it clearly and build interest before the date**; and to have marketing, sales, engineering and support **plan together**, with communication across every region and team.
 
-> Plan, execute and measure effectiveness of strategic launches.
-
-The output is a strategic launch plan that goes far beyond a checklist of deliverables. It ensures the entire organization — sales, marketing, support, operations, legal — is aligned and ready to bring a product to market as a meaningful **market event**, not just a release announcement.
+The output is a launch plan that goes beyond a checklist. It makes the launch a meaningful **market event** with the whole organization ready, not just a release announcement.
 
 ## Framework Context
 
-**Category:** Programs (Execution side of the framework)
+**Inputs:** Positioning, Buyer Personas, Buyer Journey (Planning); Competitive Landscape (Market); Market Definition (Focus); Pricing (Business); Marketing Plan, Growth, Retention (Go-to-Market).
 
-**Official Definition:** "Plan, execute and measure effectiveness of strategic launches."
+**Feeds:** Awareness, Engagement, Organizational Alignment, Customer Satisfaction (Go-to-Market); Adoption, Content, Assets, Channel Support (Enablement); Measurement (Business).
 
-**Key Responsibilities (from Framework Roles):**
-- Define specific launch goals and strategies
-- Develop launch plans and supporting documentation
-- Ensure cross-organizational readiness
-- Track and communicate launch status
-- Build and lead cross-functional team
+**Primary owner:** Product marketing manager. **Key collaborators:** Product management, sales, marketing communications, engineering, customer support and success, operations, legal, channel partners and regional teams.
 
-**Key Skills Required:**
-- Ability to inspire others to action with or without implicit authority
-- Delegation ability
-- Communication skills with the ability to pivot communication based on audience
-- Time management and project management
-- Ability to work and empathize across internal departments
-
-**Adjacent Framework Activities:**
-- **Inputs:** Positioning, Buyer Personas, Buyer Experience, Competitive Landscape, Marketing Plan, Pricing, Revenue Growth, Revenue Retention
-- **Outputs to:** Awareness, Nurturing, Sales Alignment, Content, Sales Tools, Channel Training, Measurement, Advocacy
-
-**Primary Owner:** Product Marketing Manager
-**Key Collaborators:** Product Manager, Sales, Marketing Communications, Customer Support, Operations, Legal, Channel Partners
+**Key responsibilities:** define launch goals and strategy; build the plan and supporting documents; ensure cross-organizational readiness; lead the cross-functional team; track and communicate launch status.
 
 ## Critical Concept: Launch ≠ Release
 
-Before starting any launch planning, establish this foundational distinction:
+- A **release** is a viable set of features or improvements. Releases are routine and don't necessarily warrant market noise.
+- A **launch** is a strategic market event designed to raise awareness, strengthen positioning and create momentum that helps the business reach its goals.
 
-- A **release** is a viable set of content and features that deliver new functionality or improvements. Releases are routine and don't necessarily warrant market noise.
-- A **launch** is a strategic market event designed to increase awareness, strengthen positioning, and create momentum in channels that helps the business achieve its goals.
-
-Not every release deserves a launch. The key question: **Does this release create enough business and market impact to warrant a market event?**
-
-If the user is unclear whether they need a launch or a release, help them work through the tier classification in Step 2 before building a full plan.
+Not every release deserves a launch. Ask: **Does this release create enough business and market impact to warrant a market event?** If unclear, work through tiering (Step 2) before building a full plan.
 
 ## Workflow
 
 ### Step 1: Audit Strategic Inputs
 
-Before planning any launch, verify that upstream framework artifacts exist and are current. Read `references/input-audit.md` for the full checklist.
+Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/input-audit.md` for the full checklist.
 
-**Priority 1 — Must Have:**
-- Positioning (by segment and persona)
-- Buyer Personas (archetype definitions)
-- Buyer Experience (buying process map)
-- Pricing (model, schedules, guidelines)
+- **Must have:** Positioning, Buyer Personas, Buyer Journey, Pricing
+- **Should have:** Competitive Landscape, Market Definition, Marketing Plan
+- **Helpful:** Growth and Retention plans, Distinctive Competencies, Organizational Alignment
 
-**Priority 2 — Should Have:**
-- Competitive Landscape (strengths/weaknesses, win strategy)
-- Market Definition (target segments, sizing)
-- Marketing Plan (programs, budgets, goals)
-
-**Priority 3 — Helpful:**
-- Revenue Growth plans
-- Revenue Retention plans
-- Distinctive Competencies
-- Sales Alignment documentation
-
-If critical inputs are missing, flag them and help the user create lightweight working versions before proceeding.
+If critical inputs are missing, flag them and build lightweight working versions first.
 
 ### Step 2: Classify the Launch Tier
 
-Read `references/launch-tiers.md` for full tier classification guidance.
+Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/launch-tiers.md`. Rate **business impact** and **market impact**:
+- **Tier 1 (Major):** High business or market impact — new products, new categories, major capabilities. Full cross-organizational mobilization.
+- **Tier 2 (Moderate):** Significant features, new editions. Targeted market activity.
+- **Tier 3 (Minor):** Maintenance and incremental improvements. Mostly existing-customer communication.
 
-Evaluate two dimensions:
-1. **Business Impact** — How much will this launch affect the organization? (Revenue, strategic direction, market share)
-2. **Market Impact** — How much will the target market care? (Solves new problems, changes competitive position, opens new segments)
+The tier sets the scope of goals, readiness checks, strategy and resources.
 
-**Tier 1 (Major):** High business OR high market impact. New product categories, major acquisitions, game-changing capabilities. Full resource allocation, cross-organizational mobilization, significant market noise.
+### Step 3: Validate with Buyers and Set Goals
 
-**Tier 2 (Moderate):** Medium business AND/OR medium market impact. Significant feature releases, new editions, meaningful improvements. Moderate resource allocation, targeted market noise.
+Before committing to the date, confirm with target buyers that the release solves the problem you think it does and that the positioning lands. Use early-access customers, beta programs or buyer interviews (NIHITO).
 
-**Tier 3 (Minor):** Low business AND low market impact. Maintenance releases, incremental improvements, infrastructure updates. Minimal resources, limited communications primarily to existing customers.
+Then set SMART goals grounded in that evidence (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/goals-readiness-constraints.md`): pipeline, revenue, adoption, awareness, competitive and channel goals. "Get it out the door" is a release objective, not a launch goal.
 
-The tier determines the scope of everything that follows — goals, readiness assessment breadth, strategy complexity, and resource allocation.
+### Step 4: Assess Readiness — Teams, Systems, Content, Support, Measures, Customers
 
-### Step 3: Define Launch Goals
+Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/goals-readiness-constraints.md` for the method and use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-readiness-scorecard.md`. For each area, score **importance** (1–3), **readiness** (0–3) and **gap**:
 
-Read `references/goals-readiness-constraints.md` for detailed guidance.
+| Readiness area | What "ready" means |
+|---|---|
+| **Teams** | Sales, marketing, success, partners and regional teams know the audience, value, and their role |
+| **Systems** | Billing, provisioning, CRM, analytics and the product handle the launch and expected demand |
+| **Content** | Positioning, messaging, launch content and sales assets are ready in every region and language needed |
+| **Support** | Support and success are trained, documented and have escalation paths from day one |
+| **Measures** | Goals have baselines, indicators are instrumented, reporting has an owner |
+| **Customers** | Existing customers know what's changing; new users have an onboarding path |
 
-Launch goals must be SMART (Specific, Measurable, Attainable, Relevant, Time-bound) and grounded in market evidence.
+Unclosed gaps become launch constraints or go/no-go conditions.
 
-Common goal categories:
-- **Pipeline goals** — Number of qualified opportunities within a timeframe
-- **Revenue goals** — Bookings or revenue within a launch window
-- **Adoption goals** — User activations, trials started, feature adoption rates
-- **Awareness goals** — Share of voice, media coverage, analyst mentions
-- **Competitive goals** — Displacement wins, competitive win rate improvement
-- **Channel goals** — Partner activations, channel certifications, deal registrations
+### Step 5: Plan Adoption Before Launch
 
-Avoid: Goals that are simply "get the product out the door." That's a release objective, not a launch goal.
+A launch that creates awareness but not use hasn't succeeded. Before launch, define with `pragmatic-adoption` (Enablement) what meaningful use of this release looks like, the activation milestone, the onboarding path and who owns adoption afterward. Put this in the launch plan's Adoption Plan section and the readiness scorecard.
 
-### Step 4: Assess Organizational Readiness
+### Step 6: Identify Constraints
 
-Read `references/goals-readiness-constraints.md` for the readiness assessment methodology.
+Time, budget, resources, dependencies (engineering, partners, regulatory) and market conditions. Document them so trade-offs are visible.
 
-The launch readiness assessment evaluates every functional area's preparedness to support the sale and service of the product. For each area, score:
-- **Importance** (1-3): How critical is this area to launch success?
-- **Readiness** (0-3): How prepared is this area today?
-- **Gap** (Importance - Readiness): Where must you invest before launch?
+### Step 7: Develop Launch Strategy and Build Interest
 
-**Functional areas to assess:**
-- Sales (buyer knowledge, product knowledge, selling tools, competitive positioning)
-- Marketing (messaging, content, campaigns, events)
-- Customer Support (training, documentation, escalation procedures)
-- Operations (billing, provisioning, fulfillment, SLAs)
-- Legal (contracts, compliance, terms of service)
-- Channel/Partners (enablement, certification, incentives)
-- Engineering (documentation, known issues, support readiness)
+Choose 1–3 strategies that fit goals and segments:
+1. **Customer base expansion** — upsell/cross-sell to existing customers
+2. **Competitive displacement** — target dissatisfied competitor customers
+3. **New segment entry** — new personas or segments
+4. **Channel acceleration** — activate partners to multiply reach
+5. **Thought leadership** — build category awareness before direct selling
+6. **Event-driven** — anchor the launch on a major industry or owned event
+7. **Customer proof** — lead with satisfied customers and case studies (see `pragmatic-customer-satisfaction` and `pragmatic-assets`)
 
-The readiness assessment identifies gaps that become action items in the launch plan. Readiness gaps not addressed become launch constraints.
+For each: target audience, key messages (from positioning), channels, metrics, timeline. Plan **pre-launch interest-building** — previews, early access, analyst briefings, teaser content — so the market is waiting on the date (`pragmatic-awareness`, `pragmatic-engagement`).
 
-### Step 5: Identify Launch Constraints
+### Step 8: Build the Cross-Functional Launch Plan
 
-Constraints are fixed conditions the launch plan must work within:
-- **Time** — Hard deadlines (contractual, competitive, seasonal)
-- **Budget** — Available funds for launch activities
-- **Resources** — People available and their bandwidth
-- **Dependencies** — Engineering deliverables, partner readiness, regulatory approvals
-- **Market conditions** — Competitive announcements, industry events, economic factors
+Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-plan.md`. Marketing, sales, engineering and support plan it together. It includes: 90-second launch strategy, goals, tier, target segments and personas, positioning and messaging, strategies, readiness gap closure, cross-functional timeline, sales enablement, adoption plan, internal and external communications (including **every region and team**), budget, risks and constraints, go/no-go criteria and post-launch review.
 
-Constraints shape which strategies are feasible. Document them explicitly so tradeoff decisions are transparent.
+For multi-region launches, give each region a lead, a localized content plan and its own timing, and run a shared status cadence so regions don't launch on different messages.
 
-### Step 6: Develop Launch Strategy
+### Step 9: Enable Sales and Customer-Facing Teams
 
-With goals, readiness, and constraints understood, select from seven core launch strategies (choose 1-3 that align with your goals and target segments):
+Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/sales-enablement.md`. Enablement for launch is not product training. Teach sales to hold conversations with the right buyers about the right problems, use assets mapped to buying stages, handle objections with market evidence and differentiate against alternatives. Deliverables: sales asset map, battle cards, persona conversation guides, objection handling, problem-focused demo scripts, ROI tools, customer stories. Brief success and support on the same picture (`pragmatic-organizational-alignment`).
 
-1. **Customer Base Expansion** — Upsell/cross-sell to existing customers (shortest path, least friction)
-2. **Competitive Displacement** — Target dissatisfied competitor customers (requires competitive intelligence)
-3. **New Segment Entry** — Reach new buyer personas or market segments (highest effort, highest growth potential)
-4. **Channel Acceleration** — Activate and enable partners to multiply reach
-5. **Thought Leadership** — Build market category awareness before direct selling
-6. **Event-Driven** — Anchor launch around a major industry event or owned event
-7. **Community/Advocacy** — Leverage existing customers as evangelists and proof points
+### Step 10: Execute, Measure and Iterate
 
-For each selected strategy, document: target audience, key messages (from positioning), primary channels, success metrics, and timeline.
+Track leading indicators weekly during the launch window, run fast feedback loops with sales and support, adjust messaging and tactics, and run the post-launch review at L+90 days.
 
-### Step 7: Build the Launch Plan
+## Internal Products
 
-Use the template in `templates/launch-plan.md` to assemble the complete plan.
-
-The launch plan must include:
-- Executive summary with 90-second launch strategy
-- Launch goals and success metrics
-- Tier classification with rationale
-- Target segments and personas
-- Positioning and messaging framework (from upstream artifacts)
-- Launch strategies with tactical details
-- Readiness gap closure plan (from Step 4)
-- Cross-functional activity timeline
-- Sales enablement plan (tools, training, competitive guides)
-- Communications plan (internal, external, channel)
-- Budget and resource allocation
-- Risk mitigation plan
-- Post-launch measurement plan
-
-### Step 8: Enable Sales
-
-This is where many launches fail. Read `references/sales-enablement.md` for detailed guidance.
-
-Sales enablement for launch is NOT product training. It is teaching sales to:
-- Have conversations with the right buyers about the right problems
-- Use tools aligned to specific steps in the buying process
-- Overcome objections with market evidence
-- Differentiate against competitive alternatives
-
-Key sales enablement deliverables:
-- Sales tool map (mapped to buying process stages)
-- Competitive battle cards
-- Buyer conversation guides (per persona)
-- Objection handling playbook
-- Demo scripts (problem-focused, not feature-focused)
-- ROI/business case tools
-- Reference customer stories
-
-### Step 9: Execute, Measure, and Iterate
-
-Post-launch is not post-plan. Measure against goals continuously:
-- Track leading indicators weekly during the launch window
-- Conduct rapid feedback loops with sales (what's working, what isn't)
-- Adjust messaging and tactics based on market response
-- Document lessons learned for future launches
+For internal platforms, the "market" is internal teams. Readiness still means teams (champions, help desk), systems (access, provisioning, data migration), content (guides, training), support and measures (adoption by team). Validate with pilot teams before the broad rollout and stage rollout by department or region.
 
 ## Output Formats
 
-**Primary:** Launch Plan document (use `templates/launch-plan.md`)
-**Supporting:** Launch Readiness Scorecard (use `templates/launch-readiness-scorecard.md`)
+- **Launch Plan** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-plan.md`
+- **Launch Readiness Scorecard** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-readiness-scorecard.md`
 
 ## Common Pitfalls
 
-1. **Treating every release as a launch** — Launches lose impact when everything is a "launch." Use tier classification to be strategic.
-2. **Checklist mentality** — A launch checklist is not a launch strategy. Checklists give the illusion of thorough planning without examining goals, readiness, and constraints.
-3. **Product-centric training** — Teaching sales about product features instead of how to have buyer conversations. Sales needs to know how to sell, not how the product works.
-4. **Ignoring organizational readiness** — Focusing on product readiness while neglecting whether sales, support, operations, and legal are prepared.
-5. **Unrealistic goals** — Setting expectations based on enthusiasm rather than market evidence and organizational capacity.
-6. **Late involvement** — Starting launch planning after the product is "done." Launch planning should begin when the product roadmap is set, not when engineering ships.
-7. **Inside-out messaging** — Leading with features and technology instead of market problems and buyer value.
-8. **Skipping post-launch measurement** — Without measuring against goals, you cannot prove ROI or improve future launches.
-9. **One-size-fits-all approach** — Using the same launch playbook regardless of tier, audience, or strategic context.
-10. **Assuming sales will figure it out** — Without adequate enablement, expect a 3+ month delay while sales gradually discovers what works through trial and error.
+1. **Treating every release as a launch** — Use tiering.
+2. **Checklist mentality** — A checklist isn't a strategy; examine goals, readiness and constraints.
+3. **Skipping buyer validation** — Launching on internal conviction instead of buyer evidence.
+4. **Product-centric training** — Sales needs to know how to sell, not how every feature works.
+5. **Readiness = product readiness** — Ignoring whether teams, systems, content, support and measures are ready.
+6. **No adoption plan** — Awareness without a path to meaningful use.
+7. **Late involvement** — Start launch planning when the roadmap is set, not when engineering ships.
+8. **Regions out of sync** — Different messages or dates by region because communication wasn't planned.
+9. **Inside-out messaging** — Features and technology instead of market problems and buyer value.
+10. **Skipping post-launch measurement** — Without it you can't prove results or improve the next launch.
+
+## Using AI in this focus area
+
+- Draft launch content variants by persona, region and channel from approved positioning, and localize drafts for regional review.
+- Turn readiness-scorecard inputs into a status summary and go/no-go brief.
+- Summarize beta feedback, early sales-call notes and support tickets during the launch window to spot messaging or readiness gaps fast.
+- Rules: check AI output against real market evidence — talk to the market, NIHITO still applies; keep sensitive customer, deal and pre-announcement company data out of tools not approved for it; the team, not the tool, owns the go/no-go. AI can draft launch content, but it can't validate the product with buyers — that takes real buyer conversations.
+
+## Reference Files
+
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/input-audit.md` — Strategic inputs checklist and how to handle gaps
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/launch-tiers.md` — Tier classification and what each tier requires
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/goals-readiness-constraints.md` — Goals, readiness (teams, systems, content, support, measures, customers) and constraints
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/sales-enablement.md` — Launch sales enablement approach and training agenda
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-plan.md` — Full launch plan template, including adoption and regional communications
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-readiness-scorecard.md` — Readiness scorecard and go/no-go

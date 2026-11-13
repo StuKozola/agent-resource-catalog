@@ -1,6 +1,6 @@
 # Market Sizing Guide: TAM / SAM / SOM
 
-This reference provides detailed methodology for sizing market segments as part of the Pragmatic Market Definition activity.
+This reference provides detailed methodology for sizing market segments as part of the Market Definition focus area of the Pragmatic Framework (Step 3 of the five-step process).
 
 ## Overview of the Three Tiers
 

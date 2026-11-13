@@ -64,7 +64,7 @@ This parsing of Power intensity into two separate strata is critical — it appl
 
 This insight is actionable: a company can pursue Scale Economies Power by either (a) changing industry economics to increase fixed cost intensity (as Netflix did by shifting from licensed to original content), or (b) gaining relative scale advantage through superior execution and growth.
 
-For detailed SLM calculations with worked examples, read `references/scale-economies-analysis.md`.
+For detailed SLM calculations with worked examples, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/scale-economies/references/scale-economies-analysis.md`.
 
 ## Five Mechanisms of Scale Economies
 
@@ -150,7 +150,7 @@ Questions to explore:
 ### Step 2: Map the Cost Structure
 Break down the cost structure into fixed and variable components. The ratio matters enormously — if the business is mostly variable costs, Scale Economies Power will be weak regardless of size. Be ruthlessly honest: if a cost increases when volume doubles (even if it doesn't exactly double), it has a variable component.
 
-For detailed cost mapping frameworks and templates, read `references/scale-economies-analysis.md`.
+For detailed cost mapping frameworks and templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/scale-economies/references/scale-economies-analysis.md`.
 
 ### Step 3: Identify Which Mechanisms Apply
 Assess which of the five mechanisms are present and how strong each one is. Most businesses with Scale Economies Power rely on one or two dominant mechanisms, not all five. Businesses with *multiple* reinforcing mechanisms (like Amazon's combination of distribution density, platform fixed costs, and purchasing power) have compound advantages that are especially durable.
@@ -158,7 +158,7 @@ Assess which of the five mechanisms are present and how strong each one is. Most
 ### Step 4: Calculate or Estimate the Surplus Leader Margin
 Use the SLM formula to quantify the advantage. Remember to decompose into the two independent terms — Scale Economy Intensity (industry economics) and Scale Advantage (competitive position) — and assess each separately. Even rough estimates are valuable: SLM > 0.20 suggests meaningful Power; SLM < 0.05 suggests negligible advantage.
 
-For worked examples and calculation templates, read `references/scale-economies-analysis.md`.
+For worked examples and calculation templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/scale-economies/references/scale-economies-analysis.md`.
 
 ### Step 5: Assess the Barrier
 A cost advantage without a barrier is not a Power. The barrier in Scale Economies is the follower's rational calculation — often learned through experience — that share-gain moves are value-destroying. Evaluate:
@@ -171,7 +171,7 @@ A cost advantage without a barrier is not a Power. The barrier in Scale Economie
 Apply the pitfall checklist to ensure you're not mistaking a fragile advantage for a durable Power. See the "Common Pitfalls" section below.
 
 ### Step 7: Deliver the Assessment
-Produce a clear, structured analysis. For output templates and scoring frameworks, read `references/scale-economies-analysis.md`.
+Produce a clear, structured analysis. For output templates and scoring frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/scale-economies/references/scale-economies-analysis.md`.
 
 ## Common Pitfalls
 
@@ -218,5 +218,5 @@ Guide the user toward a different Power analysis if:
 ## Reference Files
 
 For detailed analytical tools, calculation frameworks, worked examples, and assessment templates:
-- `references/scale-economies-analysis.md` — Complete analytical toolkit: SLM calculations, cost structure mapping, Power scoring, and deliverable templates
-- `references/scale-economies-examples.md` — Real-world case studies across industries showing how Scale Economies manifests (and sometimes fails)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/scale-economies/references/scale-economies-analysis.md` — Complete analytical toolkit: SLM calculations, cost structure mapping, Power scoring, and deliverable templates
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/scale-economies/references/scale-economies-examples.md` — Real-world case studies across industries showing how Scale Economies manifests (and sometimes fails)

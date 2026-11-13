@@ -160,6 +160,8 @@ Some skills (e.g. `stakeholder-comms`, `sql-review`) are useful across multiple 
 
 CI runs a drift check (`scripts/check-drift.py`) that flags divergence between copies of the same skill across plugins. When you update a shared skill in one plugin, you must update it in all other plugins that include a copy. The CI check will fail the PR if copies are out of sync.
 
+Plugin copies of library skills (any `plugins/<plugin>/skills/<name>.md` whose `<name>` matches a folder under `skills/<framework>/`) are generated, not hand-edited. Edit the `SKILL.md` in `skills/`, then run `python scripts/sync-plugin-skills.py`. It copies the skill into every plugin that lists it and rewrites relative `references/` and `templates/` links into raw GitHub URLs, because a plugin ships only the single skill file. CI runs `python scripts/sync-plugin-skills.py --check` and fails if any copy is stale.
+
 ---
 
 ## Contributing a Standalone Resource

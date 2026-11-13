@@ -1,5 +1,7 @@
 # Launch Readiness Scorecard
 
+*Are our teams, systems and customers ready?* The 2027 Pragmatic Framework asks you to confirm that **teams, systems, content, support and measures** are in place before launch. The sections below cover each: teams (Sales, Marketing, Channel, Engineering, Legal), systems (Operations and Systems), content (Marketing and Sales assets), support (Customer Support), measures (Measures), plus customer readiness (Customer Readiness and Adoption).
+
 ## Document Control
 
 | Field | Value |
@@ -33,9 +35,10 @@
 | Capability | Importance | Readiness | Gap | Notes / Action Required |
 |-----------|:----------:|:---------:|:---:|------------------------|
 | **Buyer Knowledge** | | | | |
-| Economic buyer understanding | | | | |
-| User buyer understanding | | | | |
+| Financial buyer understanding | | | | |
+| Functional buyer understanding | | | | |
 | Technical buyer understanding | | | | |
+| Sponsors, approvers and influencers | | | | |
 | **Problem Knowledge** | | | | |
 | Market problems addressed | | | | |
 | Buyer criteria and priorities | | | | |
@@ -50,7 +53,7 @@
 | Competitive differentiation | | | | |
 | Win/loss patterns | | | | |
 | Objection handling | | | | |
-| **Selling Tools** | | | | |
+| **Selling Assets** | | | | |
 | Presentations / pitch decks | | | | |
 | Product demos | | | | |
 | ROI / business case tools | | | | |
@@ -70,7 +73,10 @@
 
 | Capability | Importance | Readiness | Gap | Notes / Action Required |
 |-----------|:----------:|:---------:|:---:|------------------------|
+| Product validated with target buyers | | | | |
 | Positioning and messaging | | | | |
+| Pre-launch interest-building programs | | | | |
+| Launch content (all regions and languages needed) | | | | |
 | Website / landing pages | | | | |
 | Email campaigns | | | | |
 | Social media content | | | | |
@@ -113,7 +119,7 @@
 
 ---
 
-## Operations Readiness
+## Operations and Systems Readiness
 
 | Capability | Importance | Readiness | Gap | Notes / Action Required |
 |-----------|:----------:|:---------:|:---:|------------------------|
@@ -124,8 +130,10 @@
 | CRM configuration | | | | |
 | Reporting and dashboards | | | | |
 | SLA / service agreements | | | | |
+| Product analytics / usage tracking live | | | | |
+| Systems load-tested for expected demand | | | | |
 
-**Operations Overall Readiness:** [Ready / At Risk / Not Ready]
+**Operations and Systems Overall Readiness:** [Ready / At Risk / Not Ready]
 
 **Key Actions:**
 1. [Action with owner and deadline]
@@ -171,6 +179,43 @@
 
 ---
 
+## Customer Readiness and Adoption
+
+| Capability | Importance | Readiness | Gap | Notes / Action Required |
+|-----------|:----------:|:---------:|:---:|------------------------|
+| Existing customers told what changes and when | | | | |
+| Meaningful use defined for the release (see `pragmatic-adoption`) | | | | |
+| Onboarding / activation path ready | | | | |
+| In-product guidance and help content | | | | |
+| Customer success briefed on adoption plan | | | | |
+| Migration / upgrade support for existing customers | | | | |
+
+**Customer Overall Readiness:** [Ready / At Risk / Not Ready]
+
+**Key Actions:**
+1. [Action with owner and deadline]
+2. [Action with owner and deadline]
+
+---
+
+## Measures Readiness
+
+| Capability | Importance | Readiness | Gap | Notes / Action Required |
+|-----------|:----------:|:---------:|:---:|------------------------|
+| Launch goals have baselines and targets | | | | |
+| Leading indicators defined (see `pragmatic-measurement`) | | | | |
+| Adoption measures instrumented | | | | |
+| Dashboard and reporting owner assigned | | | | |
+| Post-launch review date set (e.g., L+30 / L+90) | | | | |
+
+**Measures Overall Readiness:** [Ready / At Risk / Not Ready]
+
+**Key Actions:**
+1. [Action with owner and deadline]
+2. [Action with owner and deadline]
+
+---
+
 ## Engineering / Product Readiness
 
 | Capability | Importance | Readiness | Gap | Notes / Action Required |
@@ -199,10 +244,12 @@
 | Sales | [Ready / At Risk / Not Ready] | [Count] | [Date] |
 | Marketing | [Ready / At Risk / Not Ready] | [Count] | [Date] |
 | Customer Support | [Ready / At Risk / Not Ready] | [Count] | [Date] |
-| Operations | [Ready / At Risk / Not Ready] | [Count] | [Date] |
+| Operations and Systems | [Ready / At Risk / Not Ready] | [Count] | [Date] |
 | Legal | [Ready / At Risk / Not Ready] | [Count] | [Date] |
 | Channel / Partners | [Ready / At Risk / Not Ready] | [Count] | [Date] |
 | Engineering / Product | [Ready / At Risk / Not Ready] | [Count] | [Date] |
+| Customer Readiness and Adoption | [Ready / At Risk / Not Ready] | [Count] | [Date] |
+| Measures | [Ready / At Risk / Not Ready] | [Count] | [Date] |
 
 ### Go / No-Go Recommendation
 

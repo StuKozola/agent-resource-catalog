@@ -5,7 +5,7 @@ This guide covers how to transform market problems and persona insights into wel
 ## Table of Contents
 1. The Fundamental Rule: Problem, Not Solution
 2. The Use Scenario Format
-3. Crafting Individual Requirements
+3. Crafting Individual Requirements (incl. writing for people and AI tools)
 4. Requirement Types Beyond Functional
 5. The SMART Test
 6. Common Writing Mistakes
@@ -49,6 +49,8 @@ The tone is always "imagine if you will..." followed by a description of the sit
 - What is the cost or impact of the current situation?
 - How might the persona prefer things to work? (This is directional, not prescriptive — it gives the designer intent without dictating implementation)
 
+For the full narrative form (one persona, one problem, solution-free) see `use-scenario-template.md` in `templates/`, worked examples in `references/use-scenario-examples.md`, and the review checklist in `references/use-scenario-quality-checklist.md`.
+
 ### Guiding Questions for Story Creation
 
 When interviewing the user or constructing the scenario:
@@ -60,7 +62,7 @@ When interviewing the user or constructing the scenario:
 
 ---
 
-## 3. Crafting Individual Requirements
+## 3. Crafting Individual Requirements (incl. writing for people and AI tools)
 
 ### Length and Structure
 
@@ -69,6 +71,23 @@ Each requirement should be:
 - **Written in the persona's language** — business or personal terms, not technical jargon
 - **Self-contained** — a reader should understand the problem without needing to read other requirements
 - **Linked to a persona** — every requirement must specify which persona experiences the problem
+
+### Give the Team Context, Intent, Constraints and Priorities
+
+Each requirement (or the requirement set it belongs to) should carry:
+- **Context** — who has the problem, in what situation, and the market evidence behind it
+- **Intent** — the outcome the persona needs; what "solved" looks like from their side
+- **Constraints** — legitimate limits on the solution (regulation, platform, budget, deadlines, compatibility)
+- **Priority** — how this requirement ranks against others, and why
+
+### Write Specifically Enough for People and AI Tools
+
+Teams increasingly hand requirements to AI coding, design and test tools as well as to people. A requirement that a human colleague could "fill in" from hallway context will be filled in wrongly by a tool. So:
+- Name the persona and the situation; never "the user"
+- State frequency and volume as numbers where you have them ("~40 times a day," "3,000 records")
+- Spell out constraints and acceptance signals ("the problem is solved when...") explicitly
+- Define domain terms in a glossary rather than assuming shared knowledge
+- Keep it solution-free: being specific about the problem is not the same as prescribing the solution
 
 ### Anatomy of a Well-Written Requirement
 

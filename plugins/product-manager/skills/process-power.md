@@ -68,7 +68,7 @@ Questions to explore:
 ### Step 2: Identify the Claimed Process Advantage
 Understand what specific process improvements the company claims or demonstrates. Get specific about what the company does differently and what outcomes it produces.
 
-For detailed process mapping frameworks and templates, read `references/process-power-analysis.md`.
+For detailed process mapping frameworks and templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/process-power/references/process-power-analysis.md`.
 
 ### Step 3: Validate the Benefit
 Assess whether the process advantages produce materially better outcomes — lower costs, higher quality, faster throughput, superior product. The benefit must be *significant* — marginal improvements don't constitute Power.
@@ -81,7 +81,7 @@ This is where most claimed Process Power fails. Apply the hysteresis test rigoro
 - **Time test**: How long did it take the company to develop these processes? Could a well-resourced competitor achieve comparable results in less than 5-7 years?
 - **Transparency test**: If the company opened its doors completely (as Toyota did at NUMMI), could competitors replicate the results? If yes, you don't have opacity.
 
-For the complete hysteresis assessment framework, read `references/process-power-analysis.md`.
+For the complete hysteresis assessment framework, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/process-power/references/process-power-analysis.md`.
 
 ### Step 5: Assess Durability and Risks
 Evaluate threats that could erode Process Power:
@@ -91,7 +91,7 @@ Evaluate threats that could erode Process Power:
 - Organizational growth or M&A that dilutes the process culture
 
 ### Step 6: Deliver the Assessment
-Produce a clear, structured analysis. For output templates and scoring frameworks, read `references/process-power-analysis.md`.
+Produce a clear, structured analysis. For output templates and scoring frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/process-power/references/process-power-analysis.md`.
 
 ## Common Pitfalls
 
@@ -133,5 +133,5 @@ Guide the user toward a different Power analysis if:
 ## Reference Files
 
 For detailed analytical tools, assessment frameworks, worked examples, and deliverable templates:
-- `references/process-power-analysis.md` — Complete analytical toolkit: hysteresis assessment, complexity/opacity scoring, Power scoring, and deliverable templates
-- `references/process-power-examples.md` — Real-world case studies across industries showing how Process Power manifests (and where claimed Process Power fails the test)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/process-power/references/process-power-analysis.md` — Complete analytical toolkit: hysteresis assessment, complexity/opacity scoring, Power scoring, and deliverable templates
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/process-power/references/process-power-examples.md` — Real-world case studies across industries showing how Process Power manifests (and where claimed Process Power fails the test)

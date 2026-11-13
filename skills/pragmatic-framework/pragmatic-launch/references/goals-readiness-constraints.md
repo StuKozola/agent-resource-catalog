@@ -62,7 +62,15 @@ Goals must be **SMART:**
 
 ## Dimension 2: Launch Readiness
 
-Organizational readiness goes beyond the product being "done." Every functional area must be prepared to sell and support the product.
+Readiness goes beyond the product being "done." The 2027 Pragmatic Framework frames Launch around one question — *Are our teams, systems and customers ready?* — and asks you to confirm five things before you go:
+
+- **Teams** — sales, marketing, support, success, partners and regional teams know the audience, the value and their part in the launch
+- **Systems** — billing, provisioning, CRM, analytics and the product itself can handle the launch
+- **Content** — positioning, messaging, launch content and sales assets are ready in every region and language needed
+- **Support** — support and success can handle questions, issues and escalations from day one
+- **Measures** — goals have baselines, indicators are instrumented and someone owns reporting
+
+Add **customers**: existing customers know what's changing, and new customers have an onboarding and adoption path (plan this with `pragmatic-adoption` before launch, not after). The functional assessment below covers all of these.
 
 ### The Launch Readiness Assessment
 
@@ -84,14 +92,14 @@ For each functional area, evaluate critical capabilities using this scoring fram
 ### Assessment Areas by Function
 
 **Sales Team:**
-- Buyer knowledge (economic buyer, user buyer, technical buyer)
+- Buyer knowledge (functional, financial and technical buyers; sponsors and approvers)
 - Problem understanding (problems the product addresses)
 - Buyer criteria knowledge (what matters to buyers in this category)
 - Buying process knowledge (how buyers evaluate and select)
 - Product knowledge (capabilities, limitations, roadmap)
 - Pricing knowledge (model, discounting, competitive pricing)
 - Competitive knowledge (positioning, differentiation, objection handling)
-- Tool readiness (demos, proposals, presentations, ROI calculators)
+- Asset readiness (demos, proposals, presentations, ROI calculators)
 
 **Marketing:**
 - Messaging and positioning assets
@@ -108,8 +116,10 @@ For each functional area, evaluate critical capabilities using this scoring fram
 - SLA adjustments if needed
 - Known issues documented with workarounds
 
-**Operations:**
+**Operations and Systems:**
 - Billing and invoicing systems updated
+- Product analytics and usage tracking live
+- Systems tested for expected demand
 - Provisioning and fulfillment processes ready
 - Contract templates updated
 - Order processing tested
@@ -126,6 +136,15 @@ For each functional area, evaluate critical capabilities using this scoring fram
 - Partner portal updated
 - Co-marketing plans confirmed
 - Partner incentive structure defined
+
+**Customers and Adoption:**
+- Existing customers informed of changes and timing
+- Meaningful use defined and onboarding path ready
+- Customer success briefed on the adoption plan
+
+**Measures:**
+- Baselines and targets set for each launch goal
+- Leading indicators instrumented and reporting owner assigned
 
 **Engineering:**
 - Product documentation complete

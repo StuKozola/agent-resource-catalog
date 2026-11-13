@@ -1,6 +1,6 @@
 # Segment Evaluation and Prioritization Framework
 
-This reference provides a structured scoring rubric for evaluating and prioritizing candidate market segments as part of the Pragmatic Market Definition activity.
+This reference provides a structured scoring rubric for evaluating and prioritizing candidate market segments as part of the Market Definition focus area of the Pragmatic Framework (Step 4: narrow your focus to a specific target market).
 
 ## Purpose
 
@@ -152,7 +152,7 @@ Adjust weights based on the organization's priorities. For example, a startup mi
 
 Based on weighted scores, categorize segments:
 
-- **Pursue (top tier)** — Actively invest in these segments. Build dedicated positioning, marketing programs, and sales enablement.
+- **Pursue (top tier)** — Actively invest in these segments. Build dedicated positioning, marketing plans and sales enablement.
 - **Monitor (middle tier)** — Keep these segments in view. They may become viable as the product or market evolves.
 - **Deprioritize (lower tier)** — Don't allocate resources here now. Revisit during quarterly reviews.
 

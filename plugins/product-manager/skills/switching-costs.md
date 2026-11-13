@@ -85,7 +85,7 @@ Questions to explore:
 - What phase is the business in — origination, takeoff, or stability?
 
 ### Step 2: Map the Three Types of Switching Costs
-Assess which of the three switching cost categories are present and how intense each one is. For detailed frameworks and scoring templates, read `references/switching-costs-analysis.md`.
+Assess which of the three switching cost categories are present and how intense each one is. For detailed frameworks and scoring templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/switching-costs/references/switching-costs-analysis.md`.
 
 ### Step 3: Evaluate the Preconditions
 Confirm that follow-on revenue exists and assess whether the switching cost premium has been priced into the market. If either precondition fails, Switching Costs Power may be weak or absent.
@@ -93,7 +93,7 @@ Confirm that follow-on revenue exists and assess whether the switching cost prem
 ### Step 4: Estimate the Switching Cost Magnitude
 Quantify or estimate the total cost a customer would bear to switch. Even rough estimates help — if the switching cost is clearly large relative to the annual value of the relationship, the Power is likely strong.
 
-For worked examples and estimation frameworks, read `references/switching-costs-analysis.md`.
+For worked examples and estimation frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/switching-costs/references/switching-costs-analysis.md`.
 
 ### Step 5: Assess Durability and Threats
 Switching Costs can be swept away by technology shifts, standard-setting, or aggressive competitor migration programs. Evaluate the threats to current switching cost levels.
@@ -102,7 +102,7 @@ Switching Costs can be swept away by technology shifts, standard-setting, or agg
 Apply the pitfall checklist below to ensure you're not mistaking a fragile advantage for a durable Power.
 
 ### Step 7: Deliver the Assessment
-Produce a clear, structured analysis. For output templates, read `references/switching-costs-analysis.md`.
+Produce a clear, structured analysis. For output templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/switching-costs/references/switching-costs-analysis.md`.
 
 ## Common Pitfalls
 
@@ -143,5 +143,5 @@ Guide the user toward a different Power analysis if:
 ## Reference Files
 
 For detailed analytical tools, estimation frameworks, worked examples, and assessment templates:
-- `references/switching-costs-analysis.md` — Complete analytical toolkit: switching cost estimation, three-type mapping, Power scoring, and deliverable templates
-- `references/switching-costs-examples.md` — Real-world case studies across industries showing how Switching Costs Power manifests (and sometimes fails)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/switching-costs/references/switching-costs-analysis.md` — Complete analytical toolkit: switching cost estimation, three-type mapping, Power scoring, and deliverable templates
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/switching-costs/references/switching-costs-examples.md` — Real-world case studies across industries showing how Switching Costs Power manifests (and sometimes fails)

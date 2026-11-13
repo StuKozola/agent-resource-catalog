@@ -12,7 +12,7 @@
 
 ## 1. Assessing What You Already Know
 
-Before planning new research, audit existing knowledge sources. In the Pragmatic Framework, upstream activities should have generated substantial market intelligence.
+Before planning new research, audit existing knowledge sources. In the Pragmatic Framework, upstream focus areas should have generated substantial market intelligence.
 
 ### Upstream Artifact Checklist
 
@@ -37,7 +37,7 @@ Review each artifact and extract user-relevant insights:
 - How do users interact with competing or alternative solutions?
 - What workarounds exist for users who lack a solution?
 
-**Asset Assessment:**
+**Existing assets and Product Strategy (Market category; asset inventory is now an input to `pragmatic-product-strategy`):**
 - What technical assets or constraints shape the user experience?
 - Are there platform or integration requirements that define the usage environment?
 

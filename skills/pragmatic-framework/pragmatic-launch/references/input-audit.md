@@ -1,6 +1,6 @@
 # Strategic Input Audit for Launch Planning
 
-Before building a launch plan, verify that upstream Pragmatic Framework artifacts exist and are current. Launch is an execution activity — it depends on strategic inputs from Market, Planning, Focus, and Business categories.
+Before building a launch plan, verify that upstream Pragmatic Framework artifacts exist and are current. Launch is a Go-to-Market focus area — it depends on strategic inputs from the Market, Focus, Business and Planning categories.
 
 ## Priority 1 — Must Have Before Launch Planning
 
@@ -24,7 +24,7 @@ These inputs are essential. Without them, the launch plan will be built on assum
 
 **If missing:** Build lightweight persona profiles from sales team interviews and CRM data. Validate with 3-5 actual buyer conversations (NIHITO).
 
-### Buyer Experience
+### Buyer Journey
 - [ ] Buying process is mapped from awareness through purchase
 - [ ] Barriers at each stage are identified
 - [ ] Information needs at each stage are documented
@@ -75,12 +75,12 @@ These inputs significantly strengthen the launch plan. Their absence increases r
 
 These inputs provide useful context. Their absence is manageable.
 
-### Revenue Growth Plans
-- [ ] New customer acquisition strategies are defined
+### Growth Plans
+- [ ] New customer and new user acquisition strategies are defined
 - [ ] Sales capacity and territory plans account for the new product
 - [ ] Pipeline targets exist
 
-### Revenue Retention Plans
+### Retention Plans
 - [ ] Existing customer communication strategy exists
 - [ ] Upgrade/migration path is defined (if applicable)
 - [ ] Customer success team is engaged
@@ -89,7 +89,8 @@ These inputs provide useful context. Their absence is manageable.
 - [ ] Organization's unique abilities are articulated
 - [ ] Launch messaging leverages distinctive competencies
 
-### Sales Alignment
+### Organizational Alignment
+- [ ] Sales, customer success, support and operations share the same picture of audience and value
 - [ ] Selling process is documented
 - [ ] Selling process aligns with buying process
 - [ ] Sales support structure is defined

@@ -124,7 +124,7 @@ Questions to explore:
 ### Step 2: Apply the Five Screening Tests
 Run each test systematically. This is the most important step and where most false positives get filtered out.
 
-For detailed scoring frameworks and worked examples of each test, read `references/cornered-resource-analysis.md`.
+For detailed scoring frameworks and worked examples of each test, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/cornered-resource/references/cornered-resource-analysis.md`.
 
 ### Step 3: Identify the Fiat Barrier
 Determine what type of fiat protects the resource and how durable it is. A patent expiring in two years is a very different Power profile than one with 15 years remaining. Personal loyalty is a different barrier than property rights.
@@ -137,7 +137,7 @@ Questions to assess:
 ### Step 4: Assess the Benefit Magnitude
 Quantify or estimate the differential returns the resource creates. Even rough estimates are valuable.
 
-For benefit estimation frameworks, read `references/cornered-resource-analysis.md`.
+For benefit estimation frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/cornered-resource/references/cornered-resource-analysis.md`.
 
 ### Step 5: Evaluate Durability and Risks
 Assess what could erode or eliminate the Cornered Resource over time.
@@ -153,7 +153,7 @@ Key risk categories:
 Apply the pitfall checklist to ensure you're not mistaking a fragile or non-qualifying advantage for a true Cornered Resource Power. See the "Common Pitfalls" section below.
 
 ### Step 7: Deliver the Assessment
-Produce a clear, structured analysis. For output templates and scoring frameworks, read `references/cornered-resource-analysis.md`.
+Produce a clear, structured analysis. For output templates and scoring frameworks, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/cornered-resource/references/cornered-resource-analysis.md`.
 
 ## Common Pitfalls
 
@@ -197,5 +197,5 @@ Guide the user toward a different Power analysis if:
 ## Reference Files
 
 For detailed analytical tools, scoring frameworks, worked examples, and assessment templates:
-- `references/cornered-resource-analysis.md` — Complete analytical toolkit: five screening tests scoring, fiat barrier assessment, benefit estimation, Power scoring, and deliverable templates
-- `references/cornered-resource-examples.md` — Real-world case studies across industries showing how Cornered Resource manifests (and common false positives)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/cornered-resource/references/cornered-resource-analysis.md` — Complete analytical toolkit: five screening tests scoring, fiat barrier assessment, benefit estimation, Power scoring, and deliverable templates
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/seven-powers-framework/cornered-resource/references/cornered-resource-examples.md` — Real-world case studies across industries showing how Cornered Resource manifests (and common false positives)

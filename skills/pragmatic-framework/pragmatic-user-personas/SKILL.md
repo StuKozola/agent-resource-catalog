@@ -1,48 +1,53 @@
 ---
 name: pragmatic-user-personas
-description: "Guide teams through the User Personas activity from the Pragmatic Marketing Framework. Helps product teams define archetypical users of their products using Pragmatic Institute methodology. Use whenever the user mentions user personas, creating personas, archetypical users, user research for persona development, persona discovery, provisional or refined personas, user goals and behaviors, empathy mapping, persona socialization, persona-driven requirements, or Pragmatic Framework Planning activities. Also trigger for questions about user vs buyer persona differences, interviewing users for personas, prioritizing personas, keeping personas alive across teams, or using personas to drive product decisions. Covers the full workflow: research planning, user interviews, contextual inquiry, empathy mapping, persona synthesis, classification (primary/secondary/negative), and organizational socialization."
+description: "Guide teams through the User Personas focus area of the Pragmatic Framework (Pragmatic Institute): research-based profiles of the people who use the product, their workflows, needs, context and behavior. Use whenever the user mentions user personas, creating personas, archetypical users, user research for persona development, persona discovery, provisional or refined personas, user goals and behaviors, empathy mapping, persona socialization, persona-driven requirements, or 'who uses the product and what do they need to get done?'. Also trigger for user vs. buyer persona differences, interviewing users for personas, prioritizing personas (primary, secondary, negative), keeping personas alive across teams, or using personas to drive requirements, ideation, testing and adoption. Covers research planning through persona synthesis and socialization. For people who make or influence the purchase, use pragmatic-buyer-personas."
 ---
 
-# Pragmatic User Personas Skill
+# User Personas — Pragmatic Framework (2027)
 
-## Context: Where User Personas Fits
+## Where this fits in the 2027 Pragmatic Framework
 
-User Personas is an activity in the **Planning** category of the Pragmatic Framework (formerly Pragmatic Marketing Framework). The Pragmatic Institute defines it as:
+- **Category:** Planning — *What are we building, for whom, and why?*
+- **Focus-area question:** *Who uses the product, and what do they need to get done?*
+- **Position:** Above the bar (market-focused)
+- **Other focus areas in this category:** Positioning, Buyer Journey, Buyer Personas, Requirements, Ideation, Stakeholder Management
 
-> Define the archetypical users of your products or services.
+User personas profile the people who use the product. Users often don't make the purchase decision, but their workflows, needs, context and behavior decide whether the product succeeds. Personas condense user research into something the whole team can design and build against:
 
-User Personas sits alongside Buyer Personas, Requirements, Use Scenarios, and Positioning in the Planning category. It is a bridge between upstream market knowledge (Market Problems, Market Definition, Win/Loss Analysis) and downstream execution (Requirements, Use Scenarios, product design and development). The Design course at Pragmatic Institute covers User Personas as a core competency, emphasizing a human-centered approach to understanding users.
+- **Developers** get clearer direction on who they are building for and why.
+- **Testers** can simulate realistic scenarios instead of generic happy paths.
+- **Product managers** can see how user behavior affects results such as adoption, retention and business outcomes.
+
+User Personas bridges upstream market knowledge (Market Problems, Market Definition, Win/Loss Analysis) and downstream work (Requirements, Ideation, Adoption, product design and development). The Pragmatic Institute Design and Build courses both cover User Personas.
 
 ### User Personas vs. Buyer Personas
 
-The Pragmatic Framework explicitly separates User Personas from Buyer Personas because the person who uses a product is often not the same person who buys it:
+The person who uses a product is often not the person who buys it:
 
-- **User Persona** — The archetypical person who interacts with the product day-to-day. Defined by goals, behaviors, attitudes, environment, skills, and pain points related to product usage.
-- **Buyer Persona** — The archetypical person involved in the purchasing decision. Defined by buying criteria, decision-making role (economic buyer, functional buyer, technical buyer), and the buyer's journey.
+- **User Persona** — The archetypical person who works with the product. Defined by workflows, needs, context, behavior, goals, skills and pain points related to use.
+- **Buyer Persona** — The archetypical person who makes or influences the purchase decision (functional, financial or technical buyer; sponsor; approver; influencer). See `pragmatic-buyer-personas`.
 
-A single person can be both a user and a buyer, but the lenses are different. This skill addresses the User Persona lens exclusively.
+One person can be both, but the lenses differ. This skill covers the user lens only.
 
-### Persona Types (Pragmatic Taxonomy)
+### Persona Types
 
-The Pragmatic Framework recognizes four persona types:
-
-1. **Primary Persona** — The main user of the product or interface. Product decisions prioritize this persona's needs above all others.
+1. **Primary Persona** — The main user of the product or interface. Product decisions prioritize this persona's needs.
 2. **Secondary Persona** — Another user type whose needs are accommodated as long as the primary persona's experience is not compromised.
-3. **Negative Persona** — A user type for whom you explicitly will NOT add features. Including a negative persona prevents scope creep and keeps the product focused.
-4. **Buyer Persona** — The purchaser (handled by the separate Buyer Personas activity).
+3. **Negative Persona** — A user type for whom you explicitly will NOT add features. Prevents scope creep and keeps the product focused.
+4. **Buyer Persona** — The purchaser, handled in the Buyer Personas focus area.
 
 ## Key Principles
 
-1. **Goals, attitudes, and behaviors over demographics** — Pragmatic Institute emphasizes that age and gender matter far less than what users are trying to accomplish, how they feel about it, and how they behave. Demographics may refine a persona, but goals define it.
-2. **Grounded in research, not assumptions** — A valid persona must be discovered through interviewing actual users and company employees exposed to users. Personas should represent observed patterns, not imagined archetypes.
-3. **Outside-in thinking** — Pragmatic Rule #2: the answer is not in the building. Persona discovery requires going out and talking to real users in their real environments.
-4. **Personas must be lifelike** — You know you have a valid persona when you could imagine working alongside them, encountering them while shopping, or recognizing them at a user conference.
-5. **Empathy is the mechanism** — Personas work because people respond to individual stories with more empathy than they do to statistics. A well-crafted persona lets developers, designers, and marketers put themselves in the user's shoes.
-6. **Only include what impacts design** — Persona details should be information that directly affects product design and development decisions. Extraneous details dilute focus.
+1. **Workflows, needs, context and behavior over demographics** — Age and gender matter far less than what users are trying to get done, where and how they work, and how they behave. Demographics may refine a persona; goals and behavior define it.
+2. **Grounded in research, not assumptions** — Discover personas by interviewing and observing real users and the employees who work with them.
+3. **Outside-in thinking** — The answer is not in the building (NIHITO). Go talk to users in their real environments.
+4. **Lifelike** — You have a valid persona when you could imagine working alongside them or recognizing them at a user conference.
+5. **Empathy is the mechanism** — People respond to individual stories more than statistics. A good persona lets developers, testers, designers and marketers step into the user's shoes.
+6. **Only include what affects design** — Details that don't change product decisions dilute focus.
 
 ## Workflow Overview
 
-The User Personas activity follows a four-phase workflow. Route to the appropriate reference guide based on where the user is:
+Route to the right reference guide based on where the user is:
 
 | Phase | What Happens | Reference Guide |
 |-------|-------------|-----------------|
@@ -61,73 +66,70 @@ The User Personas activity follows a four-phase workflow. Route to the appropria
 
 ## Phase 1: Gather Inputs & Plan Research
 
-Before creating personas, gather upstream Pragmatic Framework artifacts:
-
 **Required inputs:**
-- Market Problems documentation (validated problems, urgency, pervasiveness)
-- Market Definition (target segments, segment profiles)
-- Any existing customer data, support logs, or usage analytics
+- Market Problems (Market, `pragmatic-market-problems`): validated problems, urgency, pervasiveness
+- Market Definition (Focus, `pragmatic-market-definition`): target segments, segment profiles
+- Existing customer data, support logs or usage analytics
 
 **Helpful inputs:**
-- Win/Loss Analysis findings (who evaluated, why they chose or didn't)
-- Competitive Landscape (how users interact with alternatives)
-- Asset Assessment (technical constraints that shape user experience)
+- Win/Loss Analysis (Market): who evaluated, why they chose or didn't
+- Competitive Landscape (Market): how users work with alternatives and workarounds
+- Product Strategy (Market) and an inventory of existing assets: technical constraints that shape the user's experience
 
-**If upstream artifacts are incomplete:** Start with provisional personas based on available knowledge and stakeholder interviews, then validate through user research. Read `references/research-planning.md` for detailed guidance on planning the research effort.
+**If upstream artifacts are incomplete:** Start with provisional personas based on available knowledge and stakeholder interviews, then validate through user research. See `references/research-planning.md`.
 
 ## Phase 2: Conduct User Research
 
-User persona discovery requires talking to real users. The research methods include:
+- **One-on-one user interviews** (primary method) — Goals, workflows, frustrations and environment
+- **Contextual inquiry** — Observing users in their real environment, using the product or their workarounds
+- **Empathy mapping** — Says/Thinks/Does/Feels
+- **Usage analytics** — Quantitative checks on behavior patterns seen in interviews
+- **Support and feedback analysis** — Recurring themes in existing data
 
-- **One-on-one user interviews** (primary method) — Deep conversations about goals, workflows, frustrations, and environment
-- **Contextual inquiry** — Observing users in their natural environment while they use the product or workarounds
-- **Empathy mapping** — Structuring observations into Says/Thinks/Does/Feels quadrants
-- **Usage analytics** — Quantitative data to validate behavioral patterns observed in qualitative research
-- **Support and feedback analysis** — Mining existing data for recurring themes
-
-Read `references/user-research-guide.md` for the complete research methodology including interview scripts, observation techniques, and empathy mapping instructions.
+See `references/user-research-guide.md` and `templates/interview-guide.md`.
 
 ## Phase 3: Synthesize & Build Personas
 
-Pattern analysis across research inputs to create persona documents:
+1. **Identify behavioral clusters** — Group users by shared workflows, goals and behaviors, not demographics
+2. **Create provisional personas** — Use `templates/provisional-persona.md`
+3. **Validate and refine** — Test against more data; complete with `templates/refined-persona.md`
+4. **Classify persona types** — Primary, secondary and negative
+5. **Prioritize** — Decide which personas get design priority, based on Market Definition and Market Problems
 
-1. **Identify behavioral clusters** — Group users by shared goals, behaviors, and attitudes (not demographics)
-2. **Create provisional personas** — Draft initial persona hypotheses using the `templates/provisional-persona.md` template
-3. **Validate and refine** — Test provisional personas against additional data; refine into complete personas using `templates/refined-persona.md`
-4. **Classify persona types** — Designate primary, secondary, and negative personas
-5. **Prioritize** — Determine which personas get design priority based on strategic alignment with Market Definition and Market Problems
-
-Read `references/persona-creation.md` for the detailed synthesis methodology.
+See `references/persona-creation.md`.
 
 ## Phase 4: Socialize & Activate
 
-A persona that sits in a document is a dead persona. Pragmatic Institute emphasizes that personas must become part of the organizational vocabulary:
+A persona that sits in a document is a dead persona. Make personas part of the team's vocabulary:
 
-- Share across product management, development, marketing, sales, support, HR, and training
-- Reference personas by name in meetings, requirements, and design reviews
-- Use physical or digital representations (cardboard cutouts, posters, Slack channels named after personas)
-- Keep personas alive by updating them as new research emerges
-- Use personas to drive Requirements and Use Scenarios (downstream Pragmatic activities)
+- Share across product, development, testing, design, marketing, sales, support and training
+- Reference personas by name in meetings, requirements, test plans and design reviews
+- Use visible reminders (posters, channels named after personas)
+- Update personas as new research emerges
 
-Read `references/socialization-activation.md` for strategies to embed personas in organizational culture.
+See `references/socialization-activation.md`.
 
-## Downstream Connections
+## Connections to Other Focus Areas
 
-Completed User Personas feed directly into these Pragmatic Framework activities:
-
-- **Requirements** — Articulate and prioritize personas and their problems so appropriate products get built
-- **Use Scenarios** — Illustrate market problems as stories that put the problem in the persona's context
-- **Positioning** — Create messages focused on each key persona
-- **Buyer Experience** — Understand the buyer's journey for the segments and personas identified
-- **Product Roadmap** — Prioritize features based on persona needs and strategic importance
+- **Requirements** (Planning, `pragmatic-requirements`) — The "who" in every requirement and use scenario.
+- **Ideation** (Planning, `pragmatic-ideation`) — Concepts and experiments start from persona problems and are tested with users who match the persona.
+- **Adoption** (Enablement, `pragmatic-adoption`) — Define meaningful use, onboarding and training per persona; low adoption sends you back to the persona.
+- **Positioning** (Planning, `pragmatic-positioning`) — How value is described for users who influence the decision.
+- **Product Roadmap** (Focus, `pragmatic-product-roadmap`) — Prioritize outcomes by persona importance.
 
 ## Common Anti-Patterns
 
-When helping users, watch for and flag these mistakes:
-
-1. **Demographic-first personas** — Starting with age, gender, income instead of goals and behaviors
-2. **Too many personas** — More than 3-5 personas dilutes focus; consolidate or use negative personas to exclude
-3. **Assumption-based personas** — Creating personas from internal opinions without user research
-4. **Static personas** — Treating personas as one-time deliverables instead of living documents
-5. **Orphaned personas** — Creating personas that never get socialized or referenced in decisions
+1. **Demographic-first personas** — Starting with age, gender, income instead of workflows and behavior
+2. **Too many personas** — More than 3–5 dilutes focus; consolidate or use negative personas
+3. **Assumption-based personas** — Built from internal opinion without user research
+4. **Static personas** — One-time deliverables instead of living documents
+5. **Orphaned personas** — Never socialized or referenced in decisions
 6. **Conflating users and buyers** — Mixing purchasing criteria into user personas
+
+## Using AI in this focus area
+
+- Cluster interview transcripts, support tickets and usage data into candidate behavior patterns.
+- Draft provisional personas and empathy maps from research notes for the team to validate.
+- Generate persona-based test scenarios for testers and acceptance criteria for developers.
+
+AI can summarize what users said; it can't observe them at work, so contextual inquiry still needs people. Check AI output against real user evidence (NIHITO still applies). Keep sensitive customer and company data out of tools not approved for it. The team, not the tool, decides which personas to prioritize.

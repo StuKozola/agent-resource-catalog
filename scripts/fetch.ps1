@@ -13,12 +13,12 @@
     One of: skill, plugin, standalone, help
 
 .PARAMETER Argument
-    For "skill":      <framework>/<skill-name>  (e.g. pragmatic-framework/competitive-landscape)
+    For "skill":      <framework>/<skill-name>  (e.g. pragmatic-framework/pragmatic-competitive-landscape)
     For "plugin":     <plugin-name>             (e.g. product-manager)
     For "standalone": <resource-name>           (e.g. pdf-extractor)
 
 .EXAMPLE
-    .\scripts\fetch.ps1 skill pragmatic-framework/competitive-landscape
+    .\scripts\fetch.ps1 skill pragmatic-framework/pragmatic-competitive-landscape
 
 .EXAMPLE
     .\scripts\fetch.ps1 plugin product-manager
@@ -96,7 +96,7 @@ COMMANDS
   help                              Show this message
 
 EXAMPLES
-  .\scripts\fetch.ps1 skill pragmatic-framework/competitive-landscape
+  .\scripts\fetch.ps1 skill pragmatic-framework/pragmatic-competitive-landscape
   .\scripts\fetch.ps1 plugin product-manager
   .\scripts\fetch.ps1 standalone pdf-extractor
 
@@ -111,7 +111,7 @@ ENV VARS
 #
 # Parameters:
 #   RemotePath   Path relative to repo root
-#                e.g. "skills/pragmatic-framework/competitive-landscape/SKILL.md"
+#                e.g. "skills/pragmatic-framework/pragmatic-competitive-landscape/SKILL.md"
 #   LocalDest    Local file path to write to
 #                (default: basename of RemotePath)
 # ---------------------------------------------------------------------------
@@ -229,7 +229,7 @@ function Invoke-SkillCommand {
     param([string[]] $Args)
 
     if ($Args.Count -eq 0 -or -not $Args[0]) {
-        Exit-WithError "Usage: fetch.ps1 skill <framework>/<skill-name>`n  Example: fetch.ps1 skill pragmatic-framework/competitive-landscape"
+        Exit-WithError "Usage: fetch.ps1 skill <framework>/<skill-name>`n  Example: fetch.ps1 skill pragmatic-framework/pragmatic-competitive-landscape"
     }
 
     # Normalise: strip leading "skills/" if the user included it

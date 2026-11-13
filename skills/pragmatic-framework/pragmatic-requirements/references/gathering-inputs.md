@@ -23,7 +23,7 @@ Market Problems is the most critical upstream input. Requirements without valida
 - Any quantitative data on frequency and business impact
 
 **Key question to ask the user:**
-"Do you have a validated set of market problems with pervasiveness data? If not, the Market Problems activity should come first — requirements without market evidence tend to reflect internal assumptions rather than market reality."
+"Do you have a validated set of market problems with pervasiveness data? If not, the Market Problems focus area (Market category, `pragmatic-market-problems`) should come first — requirements without market evidence tend to reflect internal assumptions rather than market reality."
 
 **If market problems exist but are informal:**
 Help the user structure them into a problem inventory with columns for: Problem Statement, Source Count (how many unique sites reported it), Urgency (1-5), Segment, and Persona.
@@ -40,7 +40,7 @@ Pragmatic requirements are persona-centric. Every requirement must be tied to a 
 - Involved in the purchase decision
 - Concerned with value, ROI, total cost of ownership
 - Requirements from buyers tend to be about integration, compliance, vendor stability, pricing models
-- Types: Economic Buyer (approves budget), Technical Buyer (evaluates fit with tech environment)
+- Types: functional buyer (cares about results for their team), financial buyer (approves budget), technical buyer (evaluates fit with tech environment); plus sponsors and approvers such as procurement and security (see `pragmatic-buyer-personas`)
 
 ### User Personas
 - Actually use the product in daily work
@@ -57,7 +57,7 @@ Pragmatic requirements are persona-centric. Every requirement must be tied to a 
 - Current workarounds for unsolved problems
 
 **If personas don't exist yet:**
-Help the user create lightweight persona sketches sufficient for requirements. At minimum, each persona needs: a name, a role, their top 3 goals, and their top 3 frustrations. Full persona development is a separate Pragmatic activity, but requirements can begin with sketches.
+Help the user create lightweight persona sketches sufficient for requirements. At minimum, each persona needs: a name, a role, their top 3 goals, and their top 3 frustrations. Full persona development is a separate focus area (`pragmatic-user-personas`, `pragmatic-buyer-personas`), but requirements can begin with sketches.
 
 ---
 

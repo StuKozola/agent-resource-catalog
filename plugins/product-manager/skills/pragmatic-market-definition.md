@@ -1,129 +1,132 @@
 ---
 name: pragmatic-market-definition
-description: "Guide teams through the Market Definition activity from the Pragmatic Marketing Framework. This skill helps product managers and marketers map market problems to target segments, size those segments (TAM/SAM/SOM), validate segment viability, and produce a Market Definition document. Use this skill whenever the user mentions market definition, market segmentation for product strategy, defining target markets, sizing market segments, TAM SAM SOM analysis, identifying which segments to pursue, Pragmatic Framework Focus category activities, or any request to determine whether a market segment is large enough to support a product's current and future business. Also trigger when users ask about segmenting their market for a new or existing product, evaluating market opportunities, or building a segmentation worksheet."
+description: "Guide teams through the Market Definition focus area of the 2027 Pragmatic Framework: which segment is most likely to buy, and is it big enough? Helps product managers and marketers set a goal for market definition, engage potential customers, map market problems to segments, size them (TAM/SAM/SOM), validate viability with research, narrow to a target market, and share a Market Definition document with executives. Use whenever the user mentions market definition, market segmentation, defining or choosing a target market, sizing segments, TAM SAM SOM, beachhead segment, which segments to pursue, whether a segment is large enough or can afford the product, or a segmentation worksheet. Also trigger for Focus-category work on where to play, or segmenting the market for a new or existing product."
 ---
 
-# Pragmatic Market Definition Skill
+# Market Definition — Pragmatic Framework (2027)
 
-## Context: Where Market Definition Fits
+## Where this fits in the 2027 Pragmatic Framework
 
-Market Definition is an activity in the **Focus** category of the Pragmatic Framework (formerly Pragmatic Marketing Framework). It sits at the strategic layer between understanding market problems and building a business plan. The Pragmatic Institute defines it as:
+- **Category:** Focus — *Where should we play, and where should we invest?*
+- **Focus-area question:** *Which segment is most likely to buy, and is it big enough?*
+- **Position:** Above the bar (market-focused)
+- **Other focus areas in this category:** Distribution Strategy, Product Portfolio, Product Roadmap
 
-> Map needs with target markets and analyze the market segments to actively pursue. Ensure that the targeted segments are large enough to support the current and future business of the product.
+## What Market Definition Is
 
-Market Definition bridges the upstream **Market** activities (Market Problems, Win/Loss Analysis, Distinctive Competence, Competitive Landscape, Asset Assessment) and the downstream **Business** and **Planning** activities (Business Plan, Positioning, Pricing, Buyer Personas). Without a rigorous Market Definition, every downstream activity is built on guesswork.
+Market definition identifies the segments most likely to buy and use your product. It maps the needs of potential markets, works out which segments are viable, and confirms they're big enough to sustain the business now and later. Even products that sell broadly do better when the team knows its target market.
+
+A good market definition answers three questions: Do people in this segment want the product? Can they afford it? Is the segment large enough to sustain it? It also tells you where to put resources so they have the most effect.
+
+It sits between the **Market** category (Market Problems, Product Strategy, Distinctive Competencies, Win/Loss Analysis, Competitive Landscape) and the **Business**, **Planning** and **Go-to-Market** work that depends on it (Business Plan, Pricing, Positioning, Buyer Personas, Marketing Plan). Without it, every downstream focus area is built on guesswork. It is one of the focus areas emphasized in Pragmatic Institute's Foundations and Market courses.
 
 ## Key Principles
 
-1. **Outside-in thinking** — Pragmatic Rule #2: "The answer to most of your questions is not in the building." Segment based on observed customer problems and buying behavior, not internal assumptions.
-2. **Problems over demographics** — Segments should be defined primarily by the problems customers need solved, not solely by firmographic or demographic attributes. Demographics refine; problems define.
-3. **Segments must be actionable** — A valid segment must be identifiable (you can find them), reachable (you can market to them), substantial (large enough to be profitable), and differentiable (they respond differently than other segments).
-4. **Revisit regularly** — Re-test your industry, market, and segment definitions at least quarterly, and more often for startups or fast-moving markets.
-5. **Pragmatic Rule #10** — "Find market segments that value your distinctive competence." Segment selection should align with what your organization uniquely does well.
+1. **Outside-in thinking** — "The answer to most of your questions is not in the building." Segment on observed problems and buying behavior, not internal assumptions.
+2. **Problems over demographics** — Define segments mainly by the problems they need solved. Demographics refine; problems define.
+3. **Segments must be actionable** — identifiable (you can find them), reachable (you can market to them), substantial (big enough to be profitable), and differentiable (they respond differently from other segments).
+4. **Fit with distinctive competencies** — choose segments that value what your organization does uniquely well.
+5. **Revisit regularly** — re-test segment definitions at least quarterly, more often in fast-moving markets.
 
-## Workflow Overview
+## The Five-Step Process
 
-When a user needs help with Market Definition, walk them through these phases. Adapt depth based on how much information they already have.
+The 2027 Framework lays out five steps. Walk users through them in order, adapting depth to what they already have.
 
-### Phase 1: Gather Inputs
+### Step 1: Establish your goal for market definition
 
-Before segmenting, confirm the user has (or help them articulate) these upstream inputs:
+Be clear about why you're defining the market and what decision it will inform: entering a new market, refocusing an existing product, choosing a beachhead, supporting a funding request, or narrowing a go-to-market plan. The goal sets the depth of research and the deliverable.
 
-- **Market Problems** — What urgent, pervasive problems has the team discovered through customer interviews? Which problems will the market pay to solve?
-- **Distinctive Competence** — What unique abilities does the organization have to deliver value?
-- **Competitive Landscape** — Who are the alternatives? Where are competitor strengths and weaknesses?
-- **Asset Assessment** — What technical assets, skills, patents, or services can be leveraged?
+Confirm the upstream inputs at the same time (or help the user articulate them):
 
-If the user hasn't completed these upstream activities, flag which ones are missing and explain briefly why they matter. Offer to help with those first or proceed with what's available while noting the gaps.
+- **Market Problems** — urgent, pervasive problems the market will pay to solve (`pragmatic-market-problems`)
+- **Product Strategy** — what the product will be known for and what it says no to (`pragmatic-product-strategy`)
+- **Distinctive Competencies** — what the organization can do that others can't easily copy (`pragmatic-distinctive-competencies`)
+- **Competitive Landscape** — alternatives, including doing nothing (`pragmatic-competitive-landscape`)
 
-### Phase 2: Identify and Define Segments
+If inputs are missing, flag them and explain why they matter. Offer to help with them first or proceed while noting the gaps.
 
-Guide the user through segmentation using a layered approach:
+### Step 2: Engage with potential customers to gather insights
 
-**Layer 1 — Industry / Vertical**
-Start broad: which industries or verticals experience the problems your product solves? Examples: healthcare, financial services, manufacturing, education.
+Talk to people in candidate segments, buyers and non-buyers, to learn which problems they share, how urgent they are, how they buy, and what they use today. Then build candidate segments in layers:
 
-**Layer 2 — Market Segment**
-Within each industry, identify segments by the *problem they share*. Combine problem-based criteria with descriptive attributes:
-- Company size / revenue band
-- Geography / region
-- Regulatory environment
-- Technology maturity
-- Buying behavior and sales cycle length
-- Current solution (or lack thereof)
+**Layer 1 — Industry / vertical.** Which industries experience the problems your product solves?
 
-**Layer 3 — Micro-Segment / Niche**
-For early-stage products or focused GTM strategies, narrow further to a beachhead segment — the smallest viable group you can dominate first before expanding.
+**Layer 2 — Market segment.** Within each industry, group by the *problem they share*, refined by attributes such as company size, geography, regulatory environment, technology maturity, buying behavior and sales cycle, and current solution (or lack of one).
+
+**Layer 3 — Micro-segment / niche.** For early products or focused go-to-market, narrow to a beachhead: the smallest viable group you can win first before expanding.
 
 For each candidate segment, the user should be able to answer:
-- What specific problem does this segment face?
-- How urgent and pervasive is this problem within the segment?
-- Will they pay to solve it?
+- What specific problem does this segment face, and how urgent and pervasive is it?
+- Will they pay to solve it, and can they afford it?
 - Can we identify and reach them?
-- Does our distinctive competence align with their needs?
+- Do our distinctive competencies match what they need?
 
-### Phase 3: Size the Segments (TAM / SAM / SOM)
+### Step 3: Validate findings with market research
 
-For each candidate segment, estimate market size at three levels. Read `references/market-sizing-guide.md` for detailed methodology, formulas, and examples.
+Interviews tell you what may be true; research tells you whether it holds at scale. Validate problem pervasiveness and willingness to pay with surveys, usage and sales data, and third-party research. Then size each candidate segment. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/market-sizing-guide.md` for methods, formulas and worked examples.
 
-- **TAM (Total Addressable Market)** — Total revenue opportunity if you captured 100% of the market for this problem.
-- **SAM (Serviceable Addressable Market)** — The portion of TAM you can realistically target given your product scope, geography, distribution, and business model.
-- **SOM (Serviceable Obtainable Market)** — The portion of SAM you can realistically capture in the near term given competition, resources, and current capabilities.
+- **TAM (Total Addressable Market)** — total revenue if you captured 100% of the market for this problem
+- **SAM (Serviceable Addressable Market)** — the part of TAM you can target given product scope, geography, distribution and business model
+- **SOM (Serviceable Obtainable Market)** — the part of SAM you can realistically capture soon, given competition, resources and capabilities
 
-Prefer bottom-up estimation (count target accounts × average deal size) over top-down (industry report % assumptions) when possible. Bottom-up is more credible and forces the user to think about their actual customers.
+Prefer bottom-up estimates (target accounts × average deal size) over top-down percentages of industry reports. Bottom-up is more credible and forces the team to think about real customers.
 
-### Phase 4: Evaluate and Prioritize Segments
+### Step 4: Narrow your focus to a specific target market
 
-Score each candidate segment using these criteria. Read `references/segment-evaluation-criteria.md` for a detailed scoring framework.
+Score candidate segments and choose. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/segment-evaluation-criteria.md` for the full scoring rubric.
 
-| Criterion | Key Question |
+| Criterion | Key question |
 |-----------|-------------|
 | Problem urgency | How painful is the problem for this segment? |
-| Problem pervasiveness | What percentage of the segment experiences this problem? |
-| Willingness to pay | Will they spend money to solve it? |
+| Problem pervasiveness | What share of the segment has it? |
+| Willingness and ability to pay | Will they spend money to solve it, and can they? |
 | Market size (SOM) | Is the segment large enough to sustain the business? |
-| Competitive intensity | How crowded is this segment? Can we differentiate? |
-| Distinctive competence fit | Does our unique strength match what this segment values? |
-| Ease of acquisition | Can we identify, reach, and convert these buyers? |
-| Strategic alignment | Does pursuing this segment support our long-term vision? |
+| Competitive intensity | How crowded is it? Can we differentiate? |
+| Distinctive competency fit | Does our unique strength match what they value? |
+| Ease of acquisition | Can we identify, reach and convert these buyers? |
+| Strategic alignment | Does it fit the product strategy and company goals? |
 
-Rank segments and recommend which to actively pursue versus monitor versus ignore. A strong Market Definition typically results in 2-4 primary segments for a focused GTM strategy.
+Rank segments and recommend which to pursue, monitor or ignore. A strong market definition usually ends with 2–4 primary segments. Saying no to the rest is part of the job.
 
-### Phase 5: Document the Market Definition
+### Step 5: Share your findings with executives and stakeholders
 
-Produce a Market Definition document. The format depends on the user's needs, but at minimum it should include:
+A market definition only helps if the people funding, building and selling the product act on it. Produce a Market Definition document and present it to executives and stakeholders. At minimum it covers:
 
-1. **Executive Summary** — Which segments the team will pursue and why
-2. **Segment Profiles** — For each target segment: description, key problems, size estimates (TAM/SAM/SOM), competitive dynamics, and fit with distinctive competence
-3. **Prioritization Rationale** — How segments were scored and ranked
-4. **Gaps and Risks** — What assumptions still need validation, which upstream inputs are incomplete
-5. **Review Cadence** — When the Market Definition will be revisited (quarterly recommended)
+1. **Executive summary** — which segments the team will pursue and why
+2. **Segment profiles** — description, key problems, size (TAM/SAM/SOM), competitive dynamics, fit with distinctive competencies
+3. **Prioritization rationale** — how segments were scored and ranked
+4. **Gaps and risks** — assumptions still to validate, incomplete inputs
+5. **Review cadence** — when it will be revisited (quarterly recommended)
+
+Hand the result to Distribution Strategy (how the chosen segments prefer to buy), Business Plan, Positioning, Buyer Personas and Marketing Plan.
 
 ## Output Formats
 
-Depending on what the user asks for, produce one of:
-
-- **Full Market Definition Document** — Comprehensive write-up (use docx skill if they want a Word doc, or markdown for a lighter format)
-- **Segmentation Worksheet** — A structured table comparing candidate segments across evaluation criteria
-- **TAM/SAM/SOM Analysis** — Focused market sizing for one or more segments
-- **Segment Profile** — Deep-dive on a single target segment
-- **Executive Briefing** — 1-2 page summary for leadership or stakeholders
-
-## Reference Files
-
-Load these as needed based on what the user requires:
-
-- `references/market-sizing-guide.md` — Detailed TAM/SAM/SOM methodology, calculation approaches, and worked examples
-- `references/segment-evaluation-criteria.md` — Scoring rubric and prioritization framework for evaluating candidate segments
+- **Full Market Definition document** (docx skill for Word, or markdown)
+- **Segmentation worksheet** — candidate segments compared across the criteria
+- **TAM/SAM/SOM analysis** — sizing for one or more segments
+- **Segment profile** — deep dive on one target segment
+- **Executive briefing** — 1–2 page summary for Step 5
 
 ## Common Pitfalls to Flag
 
-- **Segmenting by product feature instead of customer problem** — Segments should be groups of buyers, not product configurations
-- **Making segments too broad** — "All enterprises" is not a segment. Push for specificity.
-- **Ignoring willingness to pay** — A large segment with an urgent problem that won't pay is not viable
-- **Confusing current customers with target market** — Existing customers may not represent the best segments going forward
-- **Skipping upstream work** — Market Definition without Market Problems data is just guessing
-- **One-and-done analysis** — Markets shift; revisit quarterly
+- **Segmenting by product feature instead of customer problem** — segments are groups of buyers, not product configurations
+- **Segments too broad** — "all enterprises" is not a segment
+- **Ignoring willingness and ability to pay** — a large segment that won't or can't pay is not viable
+- **Confusing current customers with the target market** — existing customers may not be the best segments going forward
+- **Skipping Step 2** — sizing from reports without talking to the market is guessing
+- **Not sharing (Step 5)** — a definition that stays with the product team doesn't focus anyone
+- **One-and-done analysis** — markets shift; revisit quarterly
 
-## Keywords
-market definition, market segmentation, target market, TAM SAM SOM, market sizing, segment analysis, pragmatic marketing, pragmatic framework, focus category, addressable market, market opportunity, beachhead strategy, segment prioritization, product market fit, go-to-market segments
+## Using AI in this focus area
+
+- Pull and reconcile public data (industry counts, firmographics, analyst estimates) into draft bottom-up sizing models.
+- Cluster interview and survey responses by shared problem to suggest candidate segments.
+- Draft segment profiles and the executive briefing from the scored worksheet.
+- Rules: check AI-generated numbers and segments against real market evidence; NIHITO still applies, and Step 2 conversations can't be replaced by a model. Keep customer lists, CRM and revenue data out of tools not approved for them. The team, not the tool, chooses the target market.
+- Weak spot: AI will produce confident market-size figures with weak or invented sources. Trace every number to a source you can cite.
+
+## Reference Files
+
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/market-sizing-guide.md` — TAM/SAM/SOM methods, calculations and worked examples (Step 3)
+- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/segment-evaluation-criteria.md` — scoring rubric and prioritization framework (Step 4)
