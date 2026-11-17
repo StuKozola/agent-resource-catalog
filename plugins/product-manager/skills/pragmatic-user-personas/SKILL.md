@@ -51,18 +51,18 @@ Route to the right reference guide based on where the user is:
 
 | Phase | What Happens | Reference Guide |
 |-------|-------------|-----------------|
-| **Phase 1: Gather Inputs & Plan Research** | Collect upstream artifacts, identify knowledge gaps, plan user research | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/research-planning.md` |
-| **Phase 2: Conduct User Research** | Interview users, observe environments, map empathy | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/user-research-guide.md` |
-| **Phase 3: Synthesize & Build Personas** | Analyze patterns, create provisional then refined personas | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/persona-creation.md` |
-| **Phase 4: Socialize & Activate** | Communicate personas across the org, embed in workflows | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/socialization-activation.md` |
+| **Phase 1: Gather Inputs & Plan Research** | Collect upstream artifacts, identify knowledge gaps, plan user research | `references/research-planning.md` |
+| **Phase 2: Conduct User Research** | Interview users, observe environments, map empathy | `references/user-research-guide.md` |
+| **Phase 3: Synthesize & Build Personas** | Analyze patterns, create provisional then refined personas | `references/persona-creation.md` |
+| **Phase 4: Socialize & Activate** | Communicate personas across the org, embed in workflows | `references/socialization-activation.md` |
 
 ### Templates Available
 
 | Template | Use For | Location |
 |----------|---------|----------|
-| Provisional User Persona | Early-stage persona with hypotheses to validate | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/templates/provisional-persona.md` |
-| Refined User Persona | Research-validated, complete persona document | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/templates/refined-persona.md` |
-| User Research Interview Guide | Structured interview script for persona discovery | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/templates/interview-guide.md` |
+| Provisional User Persona | Early-stage persona with hypotheses to validate | `templates/provisional-persona.md` |
+| Refined User Persona | Research-validated, complete persona document | `templates/refined-persona.md` |
+| User Research Interview Guide | Structured interview script for persona discovery | `templates/interview-guide.md` |
 
 ## Phase 1: Gather Inputs & Plan Research
 
@@ -76,7 +76,7 @@ Route to the right reference guide based on where the user is:
 - Competitive Landscape (Market): how users work with alternatives and workarounds
 - Product Strategy (Market) and an inventory of existing assets: technical constraints that shape the user's experience
 
-**If upstream artifacts are incomplete:** Start with provisional personas based on available knowledge and stakeholder interviews, then validate through user research. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/research-planning.md`.
+**If upstream artifacts are incomplete:** Start with provisional personas based on available knowledge and stakeholder interviews, then validate through user research. See `references/research-planning.md`.
 
 ## Phase 2: Conduct User Research
 
@@ -86,17 +86,17 @@ Route to the right reference guide based on where the user is:
 - **Usage analytics** — Quantitative checks on behavior patterns seen in interviews
 - **Support and feedback analysis** — Recurring themes in existing data
 
-See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/user-research-guide.md` and `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/templates/interview-guide.md`.
+See `references/user-research-guide.md` and `templates/interview-guide.md`.
 
 ## Phase 3: Synthesize & Build Personas
 
 1. **Identify behavioral clusters** — Group users by shared workflows, goals and behaviors, not demographics
-2. **Create provisional personas** — Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/templates/provisional-persona.md`
-3. **Validate and refine** — Test against more data; complete with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/templates/refined-persona.md`
+2. **Create provisional personas** — Use `templates/provisional-persona.md`
+3. **Validate and refine** — Test against more data; complete with `templates/refined-persona.md`
 4. **Classify persona types** — Primary, secondary and negative
 5. **Prioritize** — Decide which personas get design priority, based on Market Definition and Market Problems
 
-See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/persona-creation.md`.
+See `references/persona-creation.md`.
 
 ## Phase 4: Socialize & Activate
 
@@ -107,7 +107,7 @@ A persona that sits in a document is a dead persona. Make personas part of the t
 - Use visible reminders (posters, channels named after personas)
 - Update personas as new research emerges
 
-See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-user-personas/references/socialization-activation.md`.
+See `references/socialization-activation.md`.
 
 ## Connections to Other Focus Areas
 

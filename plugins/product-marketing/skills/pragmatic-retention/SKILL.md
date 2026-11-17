@@ -65,7 +65,7 @@ Ask about:
 4. **Churn analysis** — top churn drivers, when in the lifecycle churn concentrates, and what churned customers said in interviews.
 5. **Existing programs** — customer success, renewals, QBRs, health scores, loyalty programs.
 
-If data is missing, help define what to measure. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-retention/references/metrics-guide.md`.
+If data is missing, help define what to measure. See `references/metrics-guide.md`.
 
 ### Phase 2: Retention Strategy
 
@@ -104,7 +104,7 @@ Build strategies across the customer lifecycle.
 1. **Program inventory** — all retention programs
 2. **Resources** — people, technology, content, services
 3. **Budget** — by program, quarter and segment
-4. **ROI** — what a 1-point retention or NRR gain is worth (see "Retention Economics" in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-retention/references/metrics-guide.md`)
+4. **ROI** — what a 1-point retention or NRR gain is worth (see "Retention Economics" in `references/metrics-guide.md`)
 5. **Technology** — CRM, customer success platform, product analytics, lifecycle automation
 
 ### Phase 4: Measurement
@@ -121,7 +121,7 @@ For internal platforms, retention is continued use: teams that keep using the pl
 
 ## Output Formats
 
-- **Retention Plan** — all four phases; use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-retention/references/retention-plan-template.md`
+- **Retention Plan** — all four phases; use `references/retention-plan-template.md`
 - **Retention Strategy Brief** — 1–2 pages of priorities, owners and timelines
 - **NRR/GRR Dashboard Specification** — definitions, data sources, calculation logic
 - **Disengagement Signals and Health Score Model** — inputs, weights, thresholds, triggers
@@ -155,5 +155,5 @@ For internal platforms, retention is continued use: teams that keep using the pl
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-retention/references/metrics-guide.md` — Definitions, formulas, benchmarks and interpretation for retention metrics, including NRR and retention economics.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-retention/references/retention-plan-template.md` — Recommended structure for a full Retention plan.
+- `references/metrics-guide.md` — Definitions, formulas, benchmarks and interpretation for retention metrics, including NRR and retention economics.
+- `references/retention-plan-template.md` — Recommended structure for a full Retention plan.

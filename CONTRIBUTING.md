@@ -14,7 +14,7 @@ Both types are validated by `scripts/validate.py` on every PR and indexed into `
 ## Contributing a Plugin
 
 1. Create a directory under `plugins/` using a kebab-case name that reflects the role or domain (e.g. `plugins/financial-analyst`).
-2. Add `.claude-plugin/plugin.json` inside that directory. See [Plugin Manifest](#plugin-manifest-pluginjson) below for the required fields and an example.
+2. Add `.claude-plugin/plugin.json` inside that directory. See [Plugin Manifest](#plugin-manifest-pluginjson) below for the required fields and an example. Add a square icon at `.claude-plugin/icon.png` (PNG, 512–2048 px per side, under 2 MB).
 3. Add at least one skill under `skills/`, as `skills/<skill-name>/SKILL.md`. See [Skill Files](#skill-files) for the required frontmatter format.
 4. Optionally add slash-command files under `commands/`. See [Command Files](#command-files).
 5. Optionally add `connectors.json` to declare the MCP connectors the plugin works with. See [Connector Wiring](#connector-wiring-connectorsjson).
@@ -159,7 +159,7 @@ Some skills (e.g. `stakeholder-comms`, `sql-review`) are useful across multiple 
 
 CI runs a drift check (`scripts/check-drift.py`) that flags divergence between copies of the same skill across plugins. When you update a shared skill in one plugin, you must update it in all other plugins that include a copy. The CI check will fail the PR if copies are out of sync.
 
-Plugin copies of library skills (any `plugins/<plugin>/skills/<name>/SKILL.md` whose `<name>` matches a folder under `skills/<framework>/`) are generated, not hand-edited. Edit the `SKILL.md` in `skills/`, then run `python scripts/sync-plugin-skills.py`. It copies the skill into every plugin that lists it and rewrites relative `references/` and `templates/` links into raw GitHub URLs, because a plugin ships only the single skill file. CI runs `python scripts/sync-plugin-skills.py --check` and fails if any copy is stale.
+Plugin copies of library skills (any `plugins/<plugin>/skills/<name>/` whose `<name>` matches a folder under `skills/<framework>/`) are generated, not hand-edited. Edit the skill in `skills/`, then run `python scripts/sync-plugin-skills.py`. It copies the whole skill folder (`SKILL.md`, `references/`, `templates/`) into every plugin that lists it, so plugins work offline. Links to another skill become relative paths when the plugin ships that skill too, and raw GitHub URLs when it doesn't. Write links to another skill's files as real relative paths (`../../other-skill/references/x.md` from a reference file, `../other-skill/references/x.md` from `SKILL.md`) so the script can resolve them. CI runs `python scripts/sync-plugin-skills.py --check` and fails if any copy is stale.
 
 ---
 

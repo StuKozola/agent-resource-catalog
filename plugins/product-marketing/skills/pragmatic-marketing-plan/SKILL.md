@@ -59,7 +59,7 @@ A Pragmatic marketing plan is market-driven, not activity-driven. The question i
 
 ### Step 1: Audit Available Inputs
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/input-audit.md` for the checklist and how to work with incomplete inputs.
+Read `references/input-audit.md` for the checklist and how to work with incomplete inputs.
 
 Ask the user:
 - Do you have positioning by segment/persona?
@@ -73,7 +73,7 @@ If critical inputs are missing (especially positioning and buyer personas), help
 
 ### Step 2: Market Analysis and Goals
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/strategic-foundation.md`.
+Read `references/strategic-foundation.md`.
 
 Work with the user to articulate:
 1. **Market analysis** — Trends, competitive moves, buyer-behavior shifts, each tied to evidence.
@@ -84,7 +84,7 @@ Work with the user to articulate:
 
 ### Step 3: Map Strategies and Programs to the Buyer Journey
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/program-mapping.md` for the method. For each target persona, plan programs by stage:
+Read `references/program-mapping.md` for the method. For each target persona, plan programs by stage:
 
 1. **Awareness** — How buyers recognize the problem and learn that solutions (and you) exist: thought leadership, content, PR, analyst relations, events, SEO/SEM, social.
 2. **Education and evaluation** — How buyers learn enough to evaluate and try: webinars, whitepapers, case studies, comparison guides, demos, trials, engagement sequences.
@@ -95,11 +95,11 @@ Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/sk
 
 For each program, define: name and description; target persona(s) and segment(s); journey stage; positioning message it reinforces; channels and tactics; timeline and milestones; budget; success measures (leading and lagging); owner and dependencies.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/metrics-measurement.md` for choosing metrics. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/go-to-market-program-planning.md` to plan programs focus area by focus area (Growth, Retention, Launch, Organizational Alignment, Awareness, Engagement, Customer Satisfaction) with a shared success-measures section.
+Read `references/metrics-measurement.md` for choosing metrics. Use `templates/go-to-market-program-planning.md` to plan programs focus area by focus area (Growth, Retention, Launch, Organizational Alignment, Awareness, Engagement, Customer Satisfaction) with a shared success-measures section.
 
 ### Step 5: Assemble the Marketing Plan Document
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/marketing-plan-document.md` for the full plan. Its first eight sections follow the guide's elements in order. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/program-brief.md` for individual program briefs.
+Use `templates/marketing-plan-document.md` for the full plan. Its first eight sections follow the guide's elements in order. Use `templates/program-brief.md` for individual program briefs.
 
 ### Step 6: Review, Align and Revisit
 
@@ -117,9 +117,9 @@ For internal platforms and tools, "the market" is the internal audience. Goals b
 
 ## Output Formats
 
-1. **Full Marketing Plan Document** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/marketing-plan-document.md`
-2. **Program Brief** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/program-brief.md`
-3. **Go-to-Market Program Planning worksheet** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/go-to-market-program-planning.md`
+1. **Full Marketing Plan Document** — `templates/marketing-plan-document.md`
+2. **Program Brief** — `templates/program-brief.md`
+3. **Go-to-Market Program Planning worksheet** — `templates/go-to-market-program-planning.md`
 4. **Executive Summary** — Condensed version for leadership
 5. **Marketing Calendar** — Timeline of programs and milestones
 6. **Budget Allocation Matrix** — Investment by segment, persona, journey stage or program type
@@ -144,10 +144,10 @@ For internal platforms and tools, "the market" is the internal audience. Goals b
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/input-audit.md` — Checklist of strategic inputs and how to handle gaps
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/strategic-foundation.md` — Market analysis, goals and differentiation
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/program-mapping.md` — Mapping programs to the buyer journey and choosing channels
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/references/metrics-measurement.md` — Choosing success measures and review cadence
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/marketing-plan-document.md` — Full plan template (guide's eight elements first)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/program-brief.md` — Individual program brief
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-marketing-plan/templates/go-to-market-program-planning.md` — Program planning across the Go-to-Market focus areas (moved in from the retired Programs skill)
+- `references/input-audit.md` — Checklist of strategic inputs and how to handle gaps
+- `references/strategic-foundation.md` — Market analysis, goals and differentiation
+- `references/program-mapping.md` — Mapping programs to the buyer journey and choosing channels
+- `references/metrics-measurement.md` — Choosing success measures and review cadence
+- `templates/marketing-plan-document.md` — Full plan template (guide's eight elements first)
+- `templates/program-brief.md` — Individual program brief
+- `templates/go-to-market-program-planning.md` — Program planning across the Go-to-Market focus areas (moved in from the retired Programs skill)

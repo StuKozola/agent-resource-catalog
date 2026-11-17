@@ -61,7 +61,7 @@ For internal products (platforms, tools, shared services), the plan answers the 
 
 ## Document Structure
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-business-plan/references/business-plan-template.md` for the full template with section-by-section guidance. Below is a summary.
+Read `references/business-plan-template.md` for the full template with section-by-section guidance. Below is a summary.
 
 A product business plan should be **concise and action-oriented** — typically 4–8 pages or a focused presentation deck, or a one-page canvas for early screening. Keep it manageable, comparable and current.
 
@@ -70,7 +70,7 @@ A product business plan should be **concise and action-oriented** — typically 
 1. **Executive Summary** — One-page overview with the recommendation (fund / delay / stop, or conditional), the opportunity in brief, and key financial highlights.
 2. **Strategic Fit & Market Opportunity** — How the idea supports company strategy; which market problems you found, how pervasive and urgent they are. Draws on Market Problems and Win/Loss Analysis (Market).
 3. **Target Market & Segmentation** — Which segments you will pursue and whether they are large enough. Draws on Market Definition (Focus).
-4. **Distinctive Competence & Competitive Position** — Why your organization is well suited to solve this problem, what you already have, and what else buyers could use (including doing nothing). Draws on Distinctive Competencies, Competitive Landscape and Product Strategy (Market), including the asset inventory in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md`.
+4. **Distinctive Competence & Competitive Position** — Why your organization is well suited to solve this problem, what you already have, and what else buyers could use (including doing nothing). Draws on Distinctive Competencies, Competitive Landscape and Product Strategy (Market), including the asset inventory in `../pragmatic-product-strategy/references/asset-registry-template.md`.
 5. **Solution Overview** — High-level description of the proposed solution tied to market problems (not a feature list). References the Product Roadmap (Focus) and Buy, Build or Partner (Business).
 6. **Financial Model & Risk Quantification** — Revenue (or value) projections, cost estimates, key assumptions, break-even, and an honest quantification of risks.
 7. **Recommendation & Expected Outcomes** — Fund, delay or stop, with conditions, next steps, decision gates, and the results the business should expect (the baseline for Business Outcomes).
@@ -108,7 +108,7 @@ A business plan synthesizes outputs from other focus areas. Ask what the user al
 If the user doesn't have these, help them think through each area with guided questions rather than skipping them.
 
 ### Step 4: Build the Document
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-business-plan/references/business-plan-template.md`, then create the business plan. Use the docx skill if the user wants a Word document, or create a markdown document for simpler needs.
+Read `references/business-plan-template.md`, then create the business plan. Use the docx skill if the user wants a Word document, or create a markdown document for simpler needs.
 
 ### Step 5: Present Early, Keep Current
 Encourage sharing a draft with leadership before it's "finished" — early feedback surfaces objections and missing evidence while they're cheap to fix. Set a review cadence (e.g., each funding cycle, or when a key assumption changes) and record what changed.
@@ -148,4 +148,4 @@ AI can help draft sections from your research notes, build first-pass financial 
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-business-plan/references/business-plan-template.md` — Full section-by-section template with guiding questions, strong vs. weak examples, format options, and cross-references to other focus areas.
+- `references/business-plan-template.md` — Full section-by-section template with guiding questions, strong vs. weak examples, format options, and cross-references to other focus areas.

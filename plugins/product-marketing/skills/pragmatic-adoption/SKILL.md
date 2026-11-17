@@ -72,7 +72,7 @@ This is the most important step and the one most teams skip. Work with the user 
 - **Habit / expected frequency** — how often a healthy user should perform the core action given the real-world rhythm of the problem (daily, weekly, monthly, per project). Don't impose daily-use targets on a monthly problem.
 - **Breadth and depth** — how many of the intended users at an account are active (breadth) and how much of the relevant capability they use (depth).
 
-Ask: "If a customer did only one thing in the product each week and got value, what would it be?" and "What would you see in the data that tells you an account is in trouble?" Validate the activation definition against retained versus churned accounts if data exists. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/references/adoption-measurement-guide.md` for metric definitions and how to pick activation thresholds.
+Ask: "If a customer did only one thing in the product each week and got value, what would it be?" and "What would you see in the data that tells you an account is in trouble?" Validate the activation definition against retained versus churned accounts if data exists. Read `references/adoption-measurement-guide.md` for metric definitions and how to pick activation thresholds.
 
 ### Step 3: Identify who needs onboarding and training
 
@@ -86,7 +86,7 @@ For each, decide the onboarding mode (self-serve in-product, guided, live traini
 
 ### Step 4: Build the adoption plan
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/templates/adoption-plan-template.md`. Cover:
+Use `templates/adoption-plan-template.md`. Cover:
 - Meaningful-use definitions and targets by persona and segment
 - Onboarding journey: first session, first week, first 30/60/90 days, with time-to-value targets
 - Training and content needs (hand off to `pragmatic-content` and `pragmatic-assets`)
@@ -97,7 +97,7 @@ Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/ski
 
 ### Step 5: Track continued use
 
-Define adoption metrics with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/templates/adoption-metrics-template.md`. At minimum:
+Define adoption metrics with `templates/adoption-metrics-template.md`. At minimum:
 - Activation rate and time to activation
 - Cohort retention curves for the core action (does the curve flatten or keep falling?)
 - Breadth (active users / licensed or intended users), depth (features or workflows used), frequency
@@ -130,8 +130,8 @@ A team-collaboration product sees 85% of new accounts log in during the first we
 
 ## Output formats
 
-- **Adoption plan** — full plan for a launch or rollout (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/templates/adoption-plan-template.md`).
-- **Adoption metrics definition** — meaningful-use definitions, metric formulas, targets, data sources (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/templates/adoption-metrics-template.md`).
+- **Adoption plan** — full plan for a launch or rollout (`templates/adoption-plan-template.md`).
+- **Adoption metrics definition** — meaningful-use definitions, metric formulas, targets, data sources (`templates/adoption-metrics-template.md`).
 - **Onboarding journey map** — stages, actions, time-to-value targets and owners per persona.
 - **Adoption diagnostic** — funnel and cohort findings, root causes, routed recommendations.
 - **Unanticipated-use log** — observed uses, classification (value or problem), where each was routed.
@@ -156,6 +156,6 @@ A team-collaboration product sees 85% of new accounts log in during the first we
 
 ## Reference files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/references/adoption-measurement-guide.md` — meaningful-use definitions, metric formulas, activation-threshold method, cohort analysis, diagnosing low adoption, internal-product adoption. Read before defining metrics or diagnosing a problem.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/templates/adoption-plan-template.md` — adoption plan template. Read when producing a plan.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-adoption/templates/adoption-metrics-template.md` — adoption metrics definition template. Read when defining metrics.
+- `references/adoption-measurement-guide.md` — meaningful-use definitions, metric formulas, activation-threshold method, cohort analysis, diagnosing low adoption, internal-product adoption. Read before defining metrics or diagnosing a problem.
+- `templates/adoption-plan-template.md` — adoption plan template. Read when producing a plan.
+- `templates/adoption-metrics-template.md` — adoption metrics definition template. Read when defining metrics.

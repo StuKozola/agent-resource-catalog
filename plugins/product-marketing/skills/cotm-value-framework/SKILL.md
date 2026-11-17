@@ -32,7 +32,7 @@ The framework flows in buyer order:
 
 Plus two summary elements: the **three essential questions** answered in a paragraph each, and a short **value statement** (developed further into the mantra in `cotm-field-tools`).
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-value-framework/references/framework-guide.md` for writing rules, quality tests and examples for each element. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-value-framework/templates/value-framework-template.md` for the document.
+Read `references/framework-guide.md` for writing rules, quality tests and examples for each element. Use `templates/value-framework-template.md` for the document.
 
 ## Workflow
 
@@ -113,7 +113,7 @@ AI will invent plausible outcomes, numbers and proof; every metric and proof poi
 
 ## Reference and template files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-value-framework/references/framework-guide.md` — Writing rules, quality tests and worked examples for each element.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-value-framework/templates/value-framework-template.md` — The Value Framework document, organized by persona.
+- `references/framework-guide.md` — Writing rules, quality tests and worked examples for each element.
+- `templates/value-framework-template.md` — The Value Framework document, organized by persona.
 
 *Command of the Message® is associated with Force Management. This is an independent guide, not Force Management's proprietary template.*

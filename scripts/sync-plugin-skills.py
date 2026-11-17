@@ -1,15 +1,18 @@
 """sync-plugin-skills.py — Refresh plugin skill copies from the skills/ library.
 
-Plugins ship each skill as a single SKILL.md (plugins/<plugin>/skills/<skill>/SKILL.md,
-the layout Claude Code loads), without the library skill's references/ and
-templates/ folders. This script:
+Each plugin skill is a folder, plugins/<plugin>/skills/<skill>/, laid out the
+way Claude Code loads it: a SKILL.md plus any supporting files (references/,
+templates/ ...). For every plugin skill folder whose <skill> matches a library
+skill skills/<framework>/<skill>/, this script:
 
-  1. Finds every plugins/*/skills/<name>/SKILL.md whose <name> matches a skill
-     folder skills/<framework>/<name>/SKILL.md.
-  2. Overwrites the plugin copy with that SKILL.md.
-  3. Rewrites relative links to supporting files (references/x.md,
-     templates/x.md, ../<other-skill>/references/x.md, <other-skill>/templates/x.md)
-     into raw GitHub URLs so the agent can still fetch them from inside a plugin.
+  1. Copies the library skill folder (SKILL.md and every supporting file) into
+     the plugin, and deletes plugin files the library no longer has.
+  2. Rewrites relative links to references/ and templates/ files in the copied
+     Markdown so they still resolve inside the plugin:
+       - a link to the skill's own files, or to a skill the plugin also
+         ships, becomes a relative path within the plugin;
+       - a link to a library skill the plugin does not ship becomes a raw
+         GitHub URL, so the agent can still fetch it.
 
 Plugin membership is whatever skill folders exist under plugins/<plugin>/skills/.
 To add a skill to a plugin, create an empty placeholder
@@ -24,44 +27,76 @@ Usage (from the repo root):
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+LIBRARY = REPO_ROOT / "skills"
 RAW_BASE = "https://raw.githubusercontent.com/StuKozola/agent-resource-catalog"
 
-# `references/x.md`, `../skill/templates/x.md`, (skill/references/x.md) etc.
+# A link inside backticks or parentheses to a references/ or templates/ file:
+#   `references/x.md`  (../other-skill/templates/x.md)  `../../s/references/x.md`
+#   (other-skill/references/x.md)
 LINK_RE = re.compile(
     r"(?P<open>[`(])"
-    r"(?:\./|\.\./)?"
-    r"(?:(?P<skill>[a-z0-9][a-z0-9-]*)/)?"
-    r"(?P<path>(?:references|templates)/[A-Za-z0-9._-]+\.md)"
-    r"(?P<close>[`)])"
+    r"(?P<link>(?:\./|(?:\.\./)+)?(?:[a-z0-9][a-z0-9-]*/)?"
+    r"(?:references|templates)/[A-Za-z0-9._-]+\.md)"
+    r"(?P<close>[`)#])"
 )
+IGNORED = {".DS_Store"}
 
 
 def skill_index() -> dict[str, Path]:
-    """Map skill folder name -> SKILL.md path across all frameworks."""
-    index: dict[str, Path] = {}
-    for skill_md in (REPO_ROOT / "skills").glob("*/*/SKILL.md"):
-        index[skill_md.parent.name] = skill_md
-    return index
+    """Map skill folder name -> library skill directory across all frameworks."""
+    return {p.parent.name: p.parent for p in LIBRARY.glob("*/*/SKILL.md")}
 
 
-def render(skill_md: Path, index: dict[str, Path], ref: str) -> str:
-    text = skill_md.read_text(encoding="utf-8")
-    framework = skill_md.parent.parent.name
+def resolve(link: str, src_file: Path, index: dict[str, Path]) -> Path | None:
+    """Find the library file a relative link in *src_file* points to."""
+    candidate = (src_file.parent / link).resolve()
+    if candidate.is_file() and LIBRARY in candidate.parents:
+        return candidate
+    # `other-skill/references/x.md`, naming a skill rather than a path.
+    head, _, rest = re.sub(r"^(?:\./|(?:\.\./)+)", "", link).partition("/")
+    if head in index and (index[head] / rest).is_file():
+        return index[head] / rest
+    return None
+
+
+def render(src_file: Path, dst_file: Path, plugin_skills: Path,
+           index: dict[str, Path], ref: str) -> str:
+    """Return *src_file*'s text with links rewritten for its plugin copy at *dst_file*."""
+    text = src_file.read_text(encoding="utf-8")
 
     def repl(m: re.Match) -> str:
-        target = m.group("skill") or skill_md.parent.name
-        if target not in index:
+        target = resolve(m.group("link"), src_file, index)
+        if target is None:
             return m.group(0)
-        fw = index[target].parent.parent.name if m.group("skill") else framework
-        url = f"{RAW_BASE}/{ref}/skills/{fw}/{target}/{m.group('path')}"
-        return f"{m.group('open')}{url}{m.group('close')}"
+        rel = target.relative_to(LIBRARY)          # <framework>/<skill>/<path...>
+        skill = rel.parts[1]
+        if (plugin_skills / skill).is_dir():
+            in_plugin = plugin_skills / skill / Path(*rel.parts[2:])
+            new = Path(os.path.relpath(in_plugin, dst_file.parent)).as_posix()
+        else:
+            new = f"{RAW_BASE}/{ref}/skills/{rel.as_posix()}"
+        return f"{m.group('open')}{new}{m.group('close')}"
 
     return LINK_RE.sub(repl, text)
+
+
+def wanted_files(plugin_skill: Path, source: Path, index: dict[str, Path],
+                 ref: str) -> dict[Path, bytes]:
+    """Plugin path -> expected bytes for every file in the library skill."""
+    out: dict[Path, bytes] = {}
+    for src in sorted(p for p in source.rglob("*") if p.is_file() and p.name not in IGNORED):
+        dst = plugin_skill / src.relative_to(source)
+        if src.suffix == ".md":
+            out[dst] = render(src, dst, plugin_skill.parent, index, ref).encode("utf-8")
+        else:
+            out[dst] = src.read_bytes()
+    return out
 
 
 def main() -> int:
@@ -71,26 +106,40 @@ def main() -> int:
     args = parser.parse_args()
 
     index = skill_index()
-    stale, unknown = [], []
-    for copy in sorted((REPO_ROOT / "plugins").glob("*/skills/*/SKILL.md")):
-        source = index.get(copy.parent.name)
+    changed: list[str] = []
+    unknown: list[Path] = []
+    for skill_md in sorted((REPO_ROOT / "plugins").glob("*/skills/*/SKILL.md")):
+        plugin_skill = skill_md.parent
+        source = index.get(plugin_skill.name)
         if source is None:
-            unknown.append(copy)
+            unknown.append(plugin_skill)
             continue
-        wanted = render(source, index, args.ref)
-        current = copy.read_text(encoding="utf-8") if copy.exists() else ""
-        if current != wanted:
-            stale.append(copy)
+
+        wanted = wanted_files(plugin_skill, source, index, args.ref)
+        present = {p for p in plugin_skill.rglob("*") if p.is_file() and p.name not in IGNORED}
+
+        for dst, data in wanted.items():
+            if not dst.exists() or dst.read_bytes() != data:
+                changed.append(str(dst.relative_to(REPO_ROOT)))
+                if not args.check:
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    dst.write_bytes(data)
+        for extra in sorted(present - set(wanted)):
+            changed.append(f"{extra.relative_to(REPO_ROOT)} (not in library)")
             if not args.check:
-                copy.write_text(wanted, encoding="utf-8", newline="\n")
+                extra.unlink()
+        if not args.check:
+            for d in sorted((p for p in plugin_skill.rglob("*") if p.is_dir()), reverse=True):
+                if not any(d.iterdir()):
+                    d.rmdir()
 
     for p in unknown:
         print(f"[SKIP] {p.relative_to(REPO_ROOT)} — no matching skill in skills/ (plugin-only skill)")
     verb = "stale" if args.check else "updated"
-    for p in stale:
-        print(f"[{verb.upper()}] {p.relative_to(REPO_ROOT)}")
-    print(f"{len(stale)} {verb}, {len(unknown)} skipped")
-    return 1 if (args.check and stale) else 0
+    for p in changed:
+        print(f"[{verb.upper()}] {p}")
+    print(f"{len(changed)} {verb} file(s), {len(unknown)} skipped")
+    return 1 if (args.check and changed) else 0
 
 
 if __name__ == "__main__":

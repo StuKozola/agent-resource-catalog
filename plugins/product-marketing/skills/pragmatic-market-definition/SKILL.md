@@ -63,7 +63,7 @@ For each candidate segment, the user should be able to answer:
 
 ### Step 3: Validate findings with market research
 
-Interviews tell you what may be true; research tells you whether it holds at scale. Validate problem pervasiveness and willingness to pay with surveys, usage and sales data, and third-party research. Then size each candidate segment. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/market-sizing-guide.md` for methods, formulas and worked examples.
+Interviews tell you what may be true; research tells you whether it holds at scale. Validate problem pervasiveness and willingness to pay with surveys, usage and sales data, and third-party research. Then size each candidate segment. Read `references/market-sizing-guide.md` for methods, formulas and worked examples.
 
 - **TAM (Total Addressable Market)** — total revenue if you captured 100% of the market for this problem
 - **SAM (Serviceable Addressable Market)** — the part of TAM you can target given product scope, geography, distribution and business model
@@ -73,7 +73,7 @@ Prefer bottom-up estimates (target accounts × average deal size) over top-down 
 
 ### Step 4: Narrow your focus to a specific target market
 
-Score candidate segments and choose. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/segment-evaluation-criteria.md` for the full scoring rubric.
+Score candidate segments and choose. Read `references/segment-evaluation-criteria.md` for the full scoring rubric.
 
 | Criterion | Key question |
 |-----------|-------------|
@@ -128,5 +128,5 @@ Hand the result to Distribution Strategy (how the chosen segments prefer to buy)
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/market-sizing-guide.md` — TAM/SAM/SOM methods, calculations and worked examples (Step 3)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-definition/references/segment-evaluation-criteria.md` — scoring rubric and prioritization framework (Step 4)
+- `references/market-sizing-guide.md` — TAM/SAM/SOM methods, calculations and worked examples (Step 3)
+- `references/segment-evaluation-criteria.md` — scoring rubric and prioritization framework (Step 4)

@@ -30,7 +30,7 @@ Internalize these before writing anything:
 
 ## Positioning Document Structure
 
-Each positioning document targets one buyer persona and contains these sections in order. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-positioning/references/document-template.md` for the full annotated template before generating any document.
+Each positioning document targets one buyer persona and contains these sections in order. Read `references/document-template.md` for the full annotated template before generating any document.
 
 1. **Buyer Persona** — Who this document is written for (role, goals, context).
 2. **Problem Statement** — The overriding market problem this buyer faces, written in the buyer's language.
@@ -78,7 +78,7 @@ Before writing anything, collect or confirm these inputs. If the user hasn't pro
 
 ### Step 2: Draft the Positioning Document(s)
 
-Generate one document per buyer persona using the structure above and the template in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-positioning/references/document-template.md`.
+Generate one document per buyer persona using the structure above and the template in `references/document-template.md`.
 
 - **Use the buyer's language**, not internal jargon. If a buyer says "keeping our systems safe," don't write "unified threat management."
 - **Lead with problems, not features.** Every sentence should connect back to a pain the buyer feels.
@@ -132,5 +132,5 @@ Check AI output against real market evidence; it will happily produce plausible,
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-positioning/references/document-template.md` — Full annotated template for a positioning document. Read this before generating any positioning document.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-positioning/references/examples.md` — Two complete example positioning documents (one B2B SaaS, one physical product) showing the template in action.
+- `references/document-template.md` — Full annotated template for a positioning document. Read this before generating any positioning document.
+- `references/examples.md` — Two complete example positioning documents (one B2B SaaS, one physical product) showing the template in action.

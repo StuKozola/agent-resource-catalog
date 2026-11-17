@@ -53,7 +53,7 @@ doesn't belong.
 about confidence: near-term items are higher confidence, later items are directional.
 
 **Audience-tailored.** Different stakeholders need different views of the same roadmap. See
-`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/audience-tailoring.md`.
+`references/audience-tailoring.md`.
 
 ## Roadmap Types
 
@@ -132,7 +132,7 @@ Use market evidence, not politics. Evaluate each theme on:
 - **Feasibility** — can you deliver it given resources and dependencies?
 
 Then sequence: which outcome unlocks the next? Which must come first for the business plan to
-hold? Document the reasoning; it will be challenged. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/prioritization-methods.md`.
+hold? Document the reasoning; it will be challenged. See `references/prioritization-methods.md`.
 
 ### Phase 5: Choose Type and Format
 
@@ -144,7 +144,7 @@ Pick the roadmap type(s) and timeline format from the tables above. Whatever you
 - What you're not doing this period, and why
 - Last-updated date
 
-Templates: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/roadmap-template.md`.
+Templates: `references/roadmap-template.md`.
 
 ### Phase 6: Tailor and Communicate
 
@@ -154,7 +154,7 @@ Templates: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/m
 - **Marketing:** themes mapped to launch windows, positioning implications, content and campaign hooks.
 - **External/customer:** high-level themes and problems being solved; no dates or feature specifics.
 
-See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/audience-tailoring.md`. For keeping stakeholders aligned on priorities and
+See `references/audience-tailoring.md`. For keeping stakeholders aligned on priorities and
 trade-offs over time, see `pragmatic-stakeholder-management`.
 
 ### Phase 7: Review and Update
@@ -179,7 +179,7 @@ Explain *why* priorities shifted, not just *that* they shifted.
 
 ## Output Formats
 
-- **Markdown** — drafts and internal reviews; use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/roadmap-template.md`
+- **Markdown** — drafts and internal reviews; use `references/roadmap-template.md`
 - **Presentation** — executive and stakeholder reviews; use the pptx skill
 - **Spreadsheet** — prioritization matrices and tracking; use the xlsx skill
 
@@ -209,6 +209,6 @@ Explain *why* priorities shifted, not just *that* they shifted.
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/roadmap-template.md` — theme (Now/Next/Later), quarterly, outcome-based and product marketing templates
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/prioritization-methods.md` — scoring, RICE, value vs effort, MoSCoW, opportunity scoring
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-roadmap/references/audience-tailoring.md` — executive, engineering, sales, marketing and external views
+- `references/roadmap-template.md` — theme (Now/Next/Later), quarterly, outcome-based and product marketing templates
+- `references/prioritization-methods.md` — scoring, RICE, value vs effort, MoSCoW, opportunity scoring
+- `references/audience-tailoring.md` — executive, engineering, sales, marketing and external views

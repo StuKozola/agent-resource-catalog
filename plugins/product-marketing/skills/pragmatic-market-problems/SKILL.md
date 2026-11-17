@@ -78,7 +78,7 @@ Inbound evidence is a lead, not a conclusion. A pattern from exceptions or escal
 ### Phase 1: Plan the Research
 Set a specific research objective. Avoid "understand the market"; frame a focused hypothesis or question. Check the loop inputs above for leads first.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/research-planning.md` for:
+Read `templates/research-planning.md` for:
 - Setting research objectives
 - Choosing interview targets (customers, recent evaluators, non-buyers)
 - Getting buy-in from sales, development and leadership
@@ -87,25 +87,25 @@ Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/sk
 ### Phase 2: Conduct NIHITO Interviews
 Qualitative, open-ended, focused on listening rather than pitching.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/references/nihito-interviews.md` for interview structure, recruiting, dos and don'ts, documenting findings and a question library. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/interview-guide.md` to build the session guide.
+Read `references/nihito-interviews.md` for interview structure, recruiting, dos and don'ts, documenting findings and a question library. Use `templates/interview-guide.md` to build the session guide.
 
 ### Phase 3: Synthesize and Analyze
 Individual interviews are data points; patterns across interviews are insights.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/references/synthesis-analysis.md` for finding themes, categorizing by domain, persona and severity, separating symptoms from root causes, and building a problem inventory.
+Read `references/synthesis-analysis.md` for finding themes, categorizing by domain, persona and severity, separating symptoms from root causes, and building a problem inventory.
 
 ### Phase 4: Validate and Prioritize
 Discovery tells you what problems exist. Validation confirms which are worth solving at scale, and prioritization decides which come first.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/references/problem-validation.md` for the three filters (urgency, pervasiveness, willingness to pay), quantitative methods, and the Satisfaction vs. Importance matrix.
+Read `references/problem-validation.md` for the three filters (urgency, pervasiveness, willingness to pay), quantitative methods, and the Satisfaction vs. Importance matrix.
 
 ### Phase 5: Share
 Package findings so the organization can act on them. Share widely: product, marketing, sales, customer success and leadership.
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/market-problem-statement.md` — one problem, with desired outcome and evidence
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/market-problems-report.md` — full research cycle report
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/interview-guide.md` — NIHITO interview session guide
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/research-planning.md` — research plan and target mix
+- `templates/market-problem-statement.md` — one problem, with desired outcome and evidence
+- `templates/market-problems-report.md` — full research cycle report
+- `templates/interview-guide.md` — NIHITO interview session guide
+- `templates/research-planning.md` — research plan and target mix
 
 ## Key Concepts Quick Reference
 
@@ -152,10 +152,10 @@ Market Problems is fed by Win/Loss Analysis (Market) and by the Operations focus
 
 Find where the user is in the workflow:
 
-1. **Planning** → objectives, targets, plan. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/research-planning.md`.
-2. **Interview guides** → Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/references/nihito-interviews.md` and `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/templates/interview-guide.md`.
-3. **Analyzing interview data** → Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/references/synthesis-analysis.md`.
-4. **Validating and prioritizing** → Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-market-problems/references/problem-validation.md`.
+1. **Planning** → objectives, targets, plan. Load `templates/research-planning.md`.
+2. **Interview guides** → Load `references/nihito-interviews.md` and `templates/interview-guide.md`.
+3. **Analyzing interview data** → Load `references/synthesis-analysis.md`.
+4. **Validating and prioritizing** → Load `references/problem-validation.md`.
 5. **Deliverables** → Load the relevant template.
 6. **Using post-launch evidence** → Use the loop table above to turn CVR, exception, escalation or win/loss findings into research leads.
 7. **General education** → Use this file.

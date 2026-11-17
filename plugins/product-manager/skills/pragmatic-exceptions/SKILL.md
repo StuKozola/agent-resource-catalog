@@ -79,7 +79,7 @@ Decide, by exception type and size, who approves. Principles:
 
 ### Step 3: Set the decision criteria
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/templates/exception-request-template.md`. Core questions for every request:
+Use `templates/exception-request-template.md`. Core questions for every request:
 1. **Strategy fit** — Does this move toward or away from the product strategy? Is the requester in the target segment?
 2. **Problem** — What problem is the customer actually trying to solve? (Ask why until you reach the problem, not the requested solution.)
 3. **Frequency** — Have we seen this before? How many others likely have it?
@@ -90,11 +90,11 @@ Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/ski
 
 Possible decisions: **approve as one-off** (with expiry or review date), **approve as pilot** (explicitly testing a possible capability), **decline with alternative**, **decline**, or **route to product** (it's a capability gap, not an exception).
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/references/exceptions-guide.md` for scoring, thresholds and how to say no well.
+Read `references/exceptions-guide.md` for scoring, thresholds and how to say no well.
 
 ### Step 4: Log every exception
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/templates/exception-log-template.md`. Log approved *and* declined requests; declined ones are market evidence too. Capture the underlying problem in the customer's words, not just the requested solution, and tag it so patterns can be found.
+Use `templates/exception-log-template.md`. Log approved *and* declined requests; declined ones are market evidence too. Capture the underlying problem in the customer's words, not just the requested solution, and tag it so patterns can be found.
 
 ### Step 5: Review patterns on a cadence
 
@@ -121,8 +121,8 @@ A sales rep asks engineering to add a custom CSV export for a large prospect, du
 ## Output formats
 
 - **Exception policy** — types, approval matrix, thresholds, turnaround times, criteria.
-- **Exception request and decision record** — one per request (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/templates/exception-request-template.md`).
-- **Exception log** — running register with tags (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/templates/exception-log-template.md`).
+- **Exception request and decision record** — one per request (`templates/exception-request-template.md`).
+- **Exception log** — running register with tags (`templates/exception-log-template.md`).
 - **Pattern review** — periodic summary of patterns, costs and routed decisions (in the log template).
 - **Requirements hand-off** — problem statement, frequency, affected personas and accounts for `pragmatic-requirements`.
 
@@ -145,6 +145,6 @@ A sales rep asks engineering to add a custom CSV export for a large prospect, du
 
 ## Reference files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/references/exceptions-guide.md` — exception types, approval matrix, scoring, pattern thresholds, saying no well, handling custom work, internal-product notes. Read before designing a policy or reviewing patterns.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/templates/exception-request-template.md` — request and decision criteria template. Read when evaluating a request or writing a policy.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-exceptions/templates/exception-log-template.md` — exception log and pattern review template. Read when setting up tracking or running a review.
+- `references/exceptions-guide.md` — exception types, approval matrix, scoring, pattern thresholds, saying no well, handling custom work, internal-product notes. Read before designing a policy or reviewing patterns.
+- `templates/exception-request-template.md` — request and decision criteria template. Read when evaluating a request or writing a policy.
+- `templates/exception-log-template.md` — exception log and pattern review template. Read when setting up tracking or running a review.

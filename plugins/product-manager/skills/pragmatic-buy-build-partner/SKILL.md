@@ -31,7 +31,7 @@ The decision draws on several roles — engineering, finance, legal, executives 
 
 ## Start With "What Do We Already Have?"
 
-Before comparing paths, take stock of existing assets — technology, IP, skills, data, products, services and relationships. Something you already own may close part of the gap, change the build estimate, or make a partner more attractive. Use the asset inventory maintained with Product Strategy (`pragmatic-product-strategy`, Market): `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md` (formerly the Asset Assessment registry). Pull the relevant rows and their leverage scores into Phase 2.
+Before comparing paths, take stock of existing assets — technology, IP, skills, data, products, services and relationships. Something you already own may close part of the gap, change the build estimate, or make a partner more attractive. Use the asset inventory maintained with Product Strategy (`pragmatic-product-strategy`, Market): `../pragmatic-product-strategy/references/asset-registry-template.md` (formerly the Asset Assessment registry). Pull the relevant rows and their leverage scores into Phase 2.
 
 ## The Three Paths
 
@@ -75,7 +75,7 @@ Form a strategic alliance, integration, white-label agreement, or co-development
 
 ## How to Run a BBP Analysis
 
-Follow this structured process. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buy-build-partner/references/process.md` for the detailed step-by-step walkthrough, and `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buy-build-partner/references/scoring.md` for the evaluation matrix template.
+Follow this structured process. Read `references/process.md` for the detailed step-by-step walkthrough, and `references/scoring.md` for the evaluation matrix template.
 
 ### Phase 1: Define the Problem and Gap
 Product leaders lead this phase, using market analysis.
@@ -117,16 +117,16 @@ Score each option 1–5 per criterion, multiply by weight, and compare totals. R
 When a user asks for help with a BBP decision, produce **one or more** of these deliverables based on what they need. If unclear, ask which format would be most useful.
 
 ### 1. BBP Analysis Document (default)
-A structured memo for stakeholder review. Use the template in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buy-build-partner/references/process.md`.
+A structured memo for stakeholder review. Use the template in `references/process.md`.
 
 ### 2. Scoring Matrix
-A weighted evaluation spreadsheet. Use the template in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buy-build-partner/references/scoring.md`. Create as an `.xlsx` file when the user wants something they can edit and share.
+A weighted evaluation spreadsheet. Use the template in `references/scoring.md`. Create as an `.xlsx` file when the user wants something they can edit and share.
 
 ### 3. Executive Summary / Recommendation Slide
 A concise 1-page recommendation suitable for a slide deck or exec review. Include: the gap, the three options evaluated, the scoring summary, the recommendation, and next steps.
 
 ### 4. Partnership Evaluation
-If the user is specifically evaluating potential partners, use the partnership criteria in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buy-build-partner/references/scoring.md` to assess partner candidates.
+If the user is specifically evaluating potential partners, use the partnership criteria in `references/scoring.md` to assess partner candidates.
 
 ## Important Principles
 
@@ -160,6 +160,6 @@ AI can help scan the vendor and partner landscape, summarize product documentati
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buy-build-partner/references/process.md` — Detailed step-by-step walkthrough, BBP analysis document template, common pitfalls, and stakeholder RACI.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buy-build-partner/references/scoring.md` — Weighted scoring matrix, 1–5 rubrics, quick-decision heuristics, partnership and acquisition evaluation templates.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md` — Asset inventory (input: "what do we already have?"), maintained with Product Strategy.
+- `references/process.md` — Detailed step-by-step walkthrough, BBP analysis document template, common pitfalls, and stakeholder RACI.
+- `references/scoring.md` — Weighted scoring matrix, 1–5 rubrics, quick-decision heuristics, partnership and acquisition evaluation templates.
+- `../pragmatic-product-strategy/references/asset-registry-template.md` — Asset inventory (input: "what do we already have?"), maintained with Product Strategy.

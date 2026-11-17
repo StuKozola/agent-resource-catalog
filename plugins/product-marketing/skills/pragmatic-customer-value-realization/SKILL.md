@@ -76,11 +76,11 @@ Value is defined *with* each customer, not assumed. For each account (or segment
 - **Milestones** — first value, interim checkpoints, full value.
 - **Customer-side owner** — who on their side owns the result and will confirm it.
 
-Capture this in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/templates/customer-success-plan-template.md`. Start the conversation during the sale or at kickoff; agreeing success criteria after the fact invites revisionism on both sides.
+Capture this in `templates/customer-success-plan-template.md`. Start the conversation during the sale or at kickoff; agreeing success criteria after the fact invites revisionism on both sides.
 
 ### Step 3: Build segment-level value hypotheses
 
-For repeatable products, define 3–5 standard outcomes per segment or persona with typical metrics and benchmarks, drawn from `pragmatic-market-problems` and early customer evidence. Teams then tailor rather than invent per account. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/references/value-realization-guide.md` for outcome categories and metric examples.
+For repeatable products, define 3–5 standard outcomes per segment or persona with typical metrics and benchmarks, drawn from `pragmatic-market-problems` and early customer evidence. Teams then tailor rather than invent per account. Read `references/value-realization-guide.md` for outcome categories and metric examples.
 
 ### Step 4: Gather evidence of results
 
@@ -90,7 +90,7 @@ At each milestone, collect evidence:
 - **Qualitative evidence** — interviews with the customer owner and users about what changed.
 - **Third-party or audited results** — for high-stakes claims.
 
-Rate evidence strength (customer-confirmed and quantified > product-measured > estimated > anecdotal). Record each in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/templates/value-evidence-record-template.md`. Ask directly about outcomes that weren't achieved, and why.
+Rate evidence strength (customer-confirmed and quantified > product-measured > estimated > anecdotal). Record each in `templates/value-evidence-record-template.md`. Ask directly about outcomes that weren't achieved, and why.
 
 ### Step 5: Run value reviews
 
@@ -121,8 +121,8 @@ A finance-automation product's mid-market customers buy it to close the books fa
 
 ## Output formats
 
-- **Customer success plan** — outcomes, baseline, metrics, milestones, owners (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/templates/customer-success-plan-template.md`).
-- **Value evidence record / value review** — per-account evidence and review notes (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/templates/value-evidence-record-template.md`).
+- **Customer success plan** — outcomes, baseline, metrics, milestones, owners (`templates/customer-success-plan-template.md`).
+- **Value evidence record / value review** — per-account evidence and review notes (`templates/value-evidence-record-template.md`).
 - **Segment value hypotheses** — standard outcomes and metrics per segment.
 - **Value realization report** — cross-account summary for product, sales, CS and leadership, with routed findings.
 - **Market-problem hand-off** — unmet and emerging outcomes with evidence.
@@ -146,6 +146,6 @@ A finance-automation product's mid-market customers buy it to close the books fa
 
 ## Reference files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/references/value-realization-guide.md` — outcome categories and metrics, baselining methods, evidence strength, value review agenda, diagnosing unrealized value, sharing and the loop to Market Problems, internal-product notes. Read before Steps 2–7.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/templates/customer-success-plan-template.md` — customer success plan template. Read when defining success with a customer.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-value-realization/templates/value-evidence-record-template.md` — value evidence record and value review template. Read when gathering evidence or running a review.
+- `references/value-realization-guide.md` — outcome categories and metrics, baselining methods, evidence strength, value review agenda, diagnosing unrealized value, sharing and the loop to Market Problems, internal-product notes. Read before Steps 2–7.
+- `templates/customer-success-plan-template.md` — customer success plan template. Read when defining success with a customer.
+- `templates/value-evidence-record-template.md` — value evidence record and value review template. Read when gathering evidence or running a review.

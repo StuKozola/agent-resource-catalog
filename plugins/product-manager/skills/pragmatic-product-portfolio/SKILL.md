@@ -87,7 +87,7 @@ Document what exists. For each offer:
 - What are its revenue, margin and trajectory?
 - How does it connect to other offers (cross-sell, dependencies, overlap)?
 
-If the user lacks this, help build a lightweight inventory. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-portfolio/references/portfolio-inventory.md`.
+If the user lacks this, help build a lightweight inventory. See `references/portfolio-inventory.md`.
 
 ### Step 2: Take the Horizon View
 
@@ -101,7 +101,7 @@ Classify every offer into one of three horizons:
 
 The split is a starting point, not a rule. Look for imbalance: nothing in new bets means no future
 pipeline; too much there means today's revenue is at risk. Set criteria for moving offers between
-horizons and for stopping bets that don't show promise. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-portfolio/references/portfolio-analysis.md`.
+horizons and for stopping bets that don't show promise. See `references/portfolio-analysis.md`.
 
 ### Step 3: Decide Where to Invest
 
@@ -110,7 +110,7 @@ With the map and horizon view in hand:
 - **Grouping logic** — by segment, problem domain, persona, platform, or a mix?
 - **Boundaries** — what's in, what's out
 - **Strategic role of each offer** — use BCG, GE-McKinsey, Three Horizons and lifecycle analysis
-  (see `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-portfolio/references/portfolio-analysis.md`)
+  (see `references/portfolio-analysis.md`)
 - **Gap analysis** — which market problems go unsolved? Which buying stages are unsupported?
   Gaps feed Buy, Build or Partner.
 - **Rationalization** — which offers to sunset, merge or spin off
@@ -133,7 +133,7 @@ This is "manage the portfolio like a product." Help the user create:
 4. **Portfolio market requirements** — needs that span products and that no single team owns
 5. **Portfolio marketing plan** — awareness, engagement and growth at the portfolio level
 
-Templates and guidance: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-portfolio/references/portfolio-artifacts.md`.
+Templates and guidance: `references/portfolio-artifacts.md`.
 
 ### Step 5: Establish Portfolio Governance
 
@@ -192,6 +192,6 @@ becomes the reference point individual teams align to.
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-portfolio/references/portfolio-inventory.md` — building the portfolio map (Step 1)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-portfolio/references/portfolio-analysis.md` — BCG, GE-McKinsey, Three Horizons and lifecycle analysis (Steps 2–3)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-portfolio/references/portfolio-artifacts.md` — business plan, positioning, buyer journey, requirements and marketing plan templates (Step 4)
+- `references/portfolio-inventory.md` — building the portfolio map (Step 1)
+- `references/portfolio-analysis.md` — BCG, GE-McKinsey, Three Horizons and lifecycle analysis (Steps 2–3)
+- `references/portfolio-artifacts.md` — business plan, positioning, buyer journey, requirements and marketing plan templates (Step 4)

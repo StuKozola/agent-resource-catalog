@@ -43,7 +43,7 @@ Keep the workshop group small enough to make decisions (roughly 8–15 people).
 
 ### 3. Draft the rollout charter
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-executive-alignment/templates/rollout-charter.md`. It covers the business case, goals and target metrics, scope (teams, regions, products, segments), roles, timeline, decision rights for the Value Framework, and risks. Decision rights matter: name who owns the framework after the workshop (often product marketing with sales leadership) and how changes are approved.
+Use `templates/rollout-charter.md`. It covers the business case, goals and target metrics, scope (teams, regions, products, segments), roles, timeline, decision rights for the Value Framework, and risks. Decision rights matter: name who owns the framework after the workshop (often product marketing with sales leadership) and how changes are approved.
 
 ### 4. Plan change management
 
@@ -58,7 +58,7 @@ Plan communications: a sponsor announcement, manager briefing before rep trainin
 
 ### 5. Prepare the alignment workshop
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-executive-alignment/templates/alignment-workshop-agenda.md`. Before the workshop:
+Use `templates/alignment-workshop-agenda.md`. Before the workshop:
 
 - Gather pre-work: buyer personas, market problems, competitive analysis, win/loss findings, and three to five recent customer success stories with numbers.
 - Ask each leader to bring their answer to the three essential questions (what problems we solve, how we solve them differently, where we've done it before). Differences between their answers are the agenda.
@@ -102,5 +102,5 @@ Leaders, not the tool, make the commitments. Keep confidential strategy and deal
 
 ## Template files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-executive-alignment/templates/rollout-charter.md` — Charter covering business case, goals, scope, roles, decision rights, timeline and risks.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-executive-alignment/templates/alignment-workshop-agenda.md` — Pre-work checklist and a one-day agenda for the executive alignment workshop.
+- `templates/rollout-charter.md` — Charter covering business case, goals, scope, roles, decision rights, timeline and risks.
+- `templates/alignment-workshop-agenda.md` — Pre-work checklist and a one-day agenda for the executive alignment workshop.

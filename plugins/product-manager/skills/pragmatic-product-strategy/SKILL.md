@@ -43,7 +43,7 @@ If the roadmap changes and the strategy doesn't, that's normal. If the strategy 
 |---|---|---|
 | Validated market problems, with desired outcomes | Market Problems (Market) — `pragmatic-market-problems` | The problems the strategy can choose among |
 | Distinctive competencies | Distinctive Competencies (Market) — `pragmatic-distinctive-competencies` | Where you have a right to win |
-| Asset inventory ("what do we already have?") | This skill — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-categories.md`, `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md` | Technology, IP, skills, data, relationships you can build on |
+| Asset inventory ("what do we already have?") | This skill — `references/asset-categories.md`, `references/asset-registry-template.md` | Technology, IP, skills, data, relationships you can build on |
 | Win/loss findings | Win/Loss Analysis (Market) — `pragmatic-win-loss-analysis` | Why evaluators chose you or didn't |
 | Alternatives, including doing nothing | Competitive Landscape (Market) — `pragmatic-competitive-landscape` | Where others are entrenched; where the gaps are |
 | Target segments | Market Definition (Focus) — `pragmatic-market-definition` | Who the product is for (can be refined in parallel) |
@@ -61,8 +61,8 @@ Which product (or product line) is this strategy for, and over what horizon (typ
 
 Run a proportionate asset inventory: technology, IP, skills and expertise, products and components, services, marketing and content, data, and relationships. The aim is to find what the strategy can build on and what gaps it would have to close.
 
-- Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-categories.md` for discovery questions by category and the short inventory method.
-- Record results in the registry structure in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md`. For one product strategy, the lightweight version is usually enough.
+- Use `references/asset-categories.md` for discovery questions by category and the short inventory method.
+- Record results in the registry structure in `references/asset-registry-template.md`. For one product strategy, the lightweight version is usually enough.
 - Flag assets that map to a validated market problem; those are strategy candidates. Pass candidate competencies to `pragmatic-distinctive-competencies` for PRIME validation.
 
 ### Step 3: Choose the problems and the market
@@ -87,7 +87,7 @@ Write down what would make you revisit the strategy before the scheduled review:
 
 ### Step 8: Write it down and share it
 
-Fill in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/templates/product-strategy.md`, one page. Share it with product, engineering, marketing, sales, customer success and leadership. Ask each group what they would now do differently; if the answer is "nothing," the strategy isn't specific enough.
+Fill in `templates/product-strategy.md`, one page. Share it with product, engineering, marketing, sales, customer success and leadership. Ask each group what they would now do differently; if the answer is "nothing," the strategy isn't specific enough.
 
 ## Using the strategy downstream
 
@@ -126,8 +126,8 @@ For an internal product, the same structure applies. "Market" is the internal te
 
 ## Output Formats
 
-- **One-page product strategy** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/templates/product-strategy.md`
-- **Asset registry** (spreadsheet) — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md`; use the xlsx skill
+- **One-page product strategy** — `templates/product-strategy.md`
+- **Asset registry** (spreadsheet) — `references/asset-registry-template.md`; use the xlsx skill
 - **Strategy review memo** — what changed, which triggers fired, what the strategy now says
 - **Strategy-to-roadmap check** — roadmap themes mapped to strategic choices, with orphans flagged
 
@@ -141,6 +141,6 @@ For an internal product, the same structure applies. "Market" is the internal te
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/templates/product-strategy.md` — one-page product strategy template
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-categories.md` — asset categories, discovery questions and inventory method (Step 2)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md` — asset registry structure, including strategy-relevance columns (Step 2)
+- `templates/product-strategy.md` — one-page product strategy template
+- `references/asset-categories.md` — asset categories, discovery questions and inventory method (Step 2)
+- `references/asset-registry-template.md` — asset registry structure, including strategy-relevance columns (Step 2)
