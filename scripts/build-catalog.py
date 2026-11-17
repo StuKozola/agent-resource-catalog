@@ -2,7 +2,8 @@
 
 Walks the plugins/ and standalone/ directories, reads every manifest, and
 writes a single catalog.json at the repo root.  Also rewrites
-.claude-plugin/marketplace.json with a lightweight plugin summary.
+.claude-plugin/marketplace.json, the Claude Code marketplace manifest
+(one entry per plugin with its ``source`` path).
 
 Usage (run from the repo root):
     python scripts/build-catalog.py
@@ -88,11 +89,24 @@ def _detect_repo_slug() -> str:
 # Plugin discovery helpers
 # ---------------------------------------------------------------------------
 
+def _list_skill_names(directory: Path) -> list[str]:
+    """Return sorted skill names under a plugin's skills/ directory.
+
+    Claude Code loads plugin skills from ``skills/<name>/SKILL.md``, so a
+    skill is any immediate subdirectory that contains a SKILL.md.
+    """
+    if not directory.is_dir():
+        return []
+    return sorted(
+        p.name for p in directory.iterdir() if p.is_dir() and (p / "SKILL.md").is_file()
+    )
+
+
 def _list_md_stems(directory: Path) -> list[str]:
     """Return sorted list of stem names for .md files directly in *directory*.
 
-    Only looks one level deep (no glob recursion) — skills/commands are
-    expected to be flat lists of .md files in the named subdirectory.
+    Only looks one level deep (no glob recursion) — commands are
+    expected to be a flat list of .md files in the named subdirectory.
     """
     if not directory.is_dir():
         return []
@@ -101,13 +115,17 @@ def _list_md_stems(directory: Path) -> list[str]:
 
 def _connectors_from_mcp(plugin_dir: Path) -> list[str]:
     """
-    Parse .mcp.json → mcpServers and return the sorted list of top-level keys.
+    Parse connectors.json → mcpServers and return the sorted list of top-level keys.
 
-    Returns an empty list if .mcp.json does not exist or is not valid JSON.
+    connectors.json lists the MCP connectors a plugin works with by registry
+    ID.  It is deliberately not named .mcp.json: Claude Code reads .mcp.json
+    as runnable server config and rejects entries without a command or URL.
+
+    Returns an empty list if connectors.json does not exist or is not valid JSON.
     The build script is lenient here — validate.py is responsible for
-    surfacing malformed .mcp.json as an error.
+    surfacing malformed connectors.json as an error.
     """
-    mcp_path = plugin_dir / ".mcp.json"
+    mcp_path = plugin_dir / "connectors.json"
     if not mcp_path.exists():
         return []
     try:
@@ -149,10 +167,11 @@ def _build_plugin_entry(plugin_dir: Path, repo: str, ref: str) -> dict | None:
         "path": rel_path,
         "version": data.get("version", "0.0.0"),
         "description": data.get("description", ""),
-        "skills": _list_md_stems(plugin_dir / "skills"),
+        "skills": _list_skill_names(plugin_dir / "skills"),
         "commands": _list_md_stems(plugin_dir / "commands"),
         "connectors": _connectors_from_mcp(plugin_dir),
         "raw_url_prefix": raw_url_prefix,
+        "_manifest": data,
     }
 
 
@@ -192,13 +211,15 @@ def _build_standalone_entry(manifest_path: Path, repo: str, ref: str) -> dict | 
 # Marketplace.json writer
 # ---------------------------------------------------------------------------
 
-def _write_marketplace(plugins: list[dict], generated_at: str) -> None:
+def _write_marketplace(plugins: list[dict]) -> None:
     """
-    Overwrite .claude-plugin/marketplace.json with a lightweight plugin index.
+    Overwrite .claude-plugin/marketplace.json, the Claude Code marketplace manifest.
 
-    Preserves all existing top-level fields that are NOT 'plugins' or
-    'generated_at', so metadata like 'name', 'version', 'description' in
-    the existing file is kept intact.
+    Each plugin entry carries the fields Claude Code needs to install it
+    (``name`` and ``source``) plus version, description, author and keywords
+    from the plugin's plugin.json.  Top-level fields (``name``, ``owner``,
+    ``metadata`` ...) and extra per-plugin fields already in the file, such
+    as ``category``, are preserved.
     """
     existing: dict = {}
     if MARKETPLACE_JSON.exists():
@@ -207,22 +228,31 @@ def _write_marketplace(plugins: list[dict], generated_at: str) -> None:
         except (json.JSONDecodeError, OSError):
             existing = {}
 
-    # Build the lightweight plugin list (name, version, description only).
-    marketplace_plugins = sorted(
-        [
+    previous = {
+        p.get("name"): p for p in existing.get("plugins", []) if isinstance(p, dict)
+    }
+
+    marketplace_plugins = []
+    for p in sorted(plugins, key=lambda x: x["name"]):
+        manifest = p["_manifest"]
+        entry = dict(previous.get(p["name"], {}))
+        entry.update(
             {
                 "name": p["name"],
+                "source": f"./{p['path']}",
                 "version": p["version"],
                 "description": p["description"],
             }
-            for p in plugins
-        ],
-        key=lambda x: x["name"],
-    )
+        )
+        for key in ("author", "keywords", "homepage"):
+            if key in manifest:
+                entry[key] = manifest[key]
+        marketplace_plugins.append(entry)
 
-    # Merge: keep existing fields, update plugins + generated_at.
     existing["plugins"] = marketplace_plugins
-    existing["generated_at"] = generated_at
+    # Claude Code ignores unknown top-level fields; the timestamp lives in
+    # catalog.json only, so this file changes only when plugins change.
+    existing.pop("generated_at", None)
 
     MARKETPLACE_JSON.write_text(
         json.dumps(existing, indent=2, ensure_ascii=False) + "\n",
@@ -323,7 +353,7 @@ def main() -> None:
         "version": "1",
         "generated_at": generated_at,
         "repo_url": f"https://github.com/{repo}",
-        "plugins": plugins,
+        "plugins": [{k: v for k, v in p.items() if not k.startswith("_")} for p in plugins],
         "standalone": standalone,
     }
 
@@ -343,7 +373,7 @@ def main() -> None:
     # Update .claude-plugin/marketplace.json
     # -----------------------------------------------------------------------
     try:
-        _write_marketplace(plugins, generated_at)
+        _write_marketplace(plugins)
     except OSError as exc:
         print(f"[ERROR] Cannot write {MARKETPLACE_JSON}: {exc}", file=sys.stderr)
         sys.exit(1)

@@ -2,9 +2,10 @@
   "name": "product-manager",
   "version": "2.0.0",
   "description": "Comprehensive skills for product managers — the 2027 Pragmatic Framework from market problems and product strategy through requirements, roadmaps, business outcomes and post-launch operations (adoption, scaling, exceptions, escalations, customer value realization), combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
-  "author": "agent-resource-catalog contributors",
-  "category": "role",
-  "tags": [
+  "author": {
+    "name": "agent-resource-catalog contributors"
+  },
+  "keywords": [
     "product-management",
     "pragmatic-framework",
     "seven-powers",
@@ -14,6 +15,5 @@
     "product-operations",
     "competitive-strategy",
     "moats"
-  ],
-  "plugin_format_version": "1"
+  ]
 }

@@ -1,18 +1,19 @@
 """sync-plugin-skills.py — Refresh plugin skill copies from the skills/ library.
 
-Plugins ship each skill as one flat file (plugins/<plugin>/skills/<skill>.md),
-so they can't carry a skill's references/ and templates/ folders. This script:
+Plugins ship each skill as a single SKILL.md (plugins/<plugin>/skills/<skill>/SKILL.md,
+the layout Claude Code loads), without the library skill's references/ and
+templates/ folders. This script:
 
-  1. Finds every plugins/*/skills/<name>.md whose <name> matches a skill folder
-     skills/<framework>/<name>/SKILL.md.
+  1. Finds every plugins/*/skills/<name>/SKILL.md whose <name> matches a skill
+     folder skills/<framework>/<name>/SKILL.md.
   2. Overwrites the plugin copy with that SKILL.md.
   3. Rewrites relative links to supporting files (references/x.md,
      templates/x.md, ../<other-skill>/references/x.md, <other-skill>/templates/x.md)
      into raw GitHub URLs so the agent can still fetch them from inside a plugin.
 
-Plugin membership is whatever .md files exist under plugins/<plugin>/skills/.
-To add a skill to a plugin, create an empty placeholder file with the skill
-name and run this script.
+Plugin membership is whatever skill folders exist under plugins/<plugin>/skills/.
+To add a skill to a plugin, create an empty placeholder
+plugins/<plugin>/skills/<skill>/SKILL.md and run this script.
 
 Usage (from the repo root):
     python scripts/sync-plugin-skills.py            # write changes
@@ -71,8 +72,8 @@ def main() -> int:
 
     index = skill_index()
     stale, unknown = [], []
-    for copy in sorted((REPO_ROOT / "plugins").glob("*/skills/*.md")):
-        source = index.get(copy.stem)
+    for copy in sorted((REPO_ROOT / "plugins").glob("*/skills/*/SKILL.md")):
+        source = index.get(copy.parent.name)
         if source is None:
             unknown.append(copy)
             continue
