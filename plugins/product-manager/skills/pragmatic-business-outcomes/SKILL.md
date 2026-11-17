@@ -73,7 +73,7 @@ Agree the stage and its outcomes with leadership up front, ideally in the busine
 
 ### Step 2: Select Outcomes and KPIs
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-business-outcomes/references/kpi-guide.md` for definitions organized by product type and stage. Cover the outcome types that fit the stage:
+Read `references/kpi-guide.md` for definitions organized by product type and stage. Cover the outcome types that fit the stage:
 
 - **Revenue** — total revenue and growth rate; revenue by segment, channel or geography; ARPU; MRR/ARR; net revenue retention
 - **Profit and margin** — gross, contribution, operating and net margin; product net profit
@@ -203,5 +203,5 @@ AI can help reconcile and summarize financial data, draft variance explanations 
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-business-outcomes/references/kpi-guide.md` — Outcome and KPI definitions by product type and stage, including customer profitability and internal products, plus a selection decision tree
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-business-outcomes/references/business-outcomes-checklist.md` — Step-by-step checklist for a business outcomes review
+- `references/kpi-guide.md` — Outcome and KPI definitions by product type and stage, including customer profitability and internal products, plus a selection decision tree
+- `references/business-outcomes-checklist.md` — Step-by-step checklist for a business outcomes review

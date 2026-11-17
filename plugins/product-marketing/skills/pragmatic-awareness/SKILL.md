@@ -63,32 +63,32 @@ Useful skills: written and verbal communication, storytelling, presenting, credi
 Follow these six steps to build an awareness program plan. Load reference files as indicated.
 
 ### Step 1: Audit Strategic Inputs
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/input-audit.md`.
+> Load `references/input-audit.md`.
 
 Check that positioning, buyer personas, market definition, buyer journey and competitive landscape exist and are current. Identify gaps and decide whether to proceed with stated assumptions or pause for upstream work.
 
 ### Step 2: Define Awareness Objectives and Audience
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/objectives-audience.md`.
+> Load `references/objectives-audience.md`.
 
 Decide which kind of awareness you need — of the problem, of your company, of your solution — and how you'll judge it (unaided recall, aided recognition, share of voice, category association, thought leadership authority). Set measurable objectives tied to business outcomes. Map target audiences by segment and persona, with the channels and watering holes where they learn.
 
 ### Step 3: Develop the Awareness Strategy
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/awareness-strategy.md`.
+> Load `references/awareness-strategy.md`.
 
 Choose the awareness model (problem-led, brand-led or thought-leadership-led), derive content pillars from positioning, select program types (content, PR and analyst relations, advertising, events, social, community) and set the messaging hierarchy for awareness-stage communication.
 
 ### Step 4: Design the Program Portfolio
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/program-portfolio.md`.
+> Load `references/program-portfolio.md`.
 
 Turn the strategy into concrete programs, each with objectives, target personas, channels, content needs, timing and budget. Balance always-on programs (SEO, content hub, social presence) with campaigns (launches, events, seasonal pushes), across owned, earned and paid channels, and map each to buyer journey stages.
 
 ### Step 5: Establish Measurement
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/measurement.md`.
+> Load `references/measurement.md`.
 
 Measure at three levels: activity (what you did), engagement (how the market responded) and outcome (business impact). Include leading indicators (reach, share of voice) and lagging ones (unaided recall, pipeline contribution). Set up the loop from results back to program changes.
 
 ### Step 6: Assemble and Review
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/awareness-program-plan.md` and `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/program-brief.md`.
+> Load `templates/awareness-program-plan.md` and `templates/program-brief.md`.
 
 Compile the plan, check it against the pitfalls below, confirm alignment with the Marketing Plan and Positioning, and get stakeholder buy-in. Write a program brief for each major initiative.
 
@@ -97,12 +97,12 @@ Compile the plan, check it against the pitfalls below, confirm alignment with th
 Events — conferences, trade shows, webinars, seminars, executive roundtables, user conferences — are one of the main ways awareness work reaches people, and they also serve Engagement (evaluators at a booth, prospects at a roadshow, customers at a user conference). The product team's job is to bring market expertise to events that marketing or event teams usually plan and run, so every touchpoint communicates market problems and positioning rather than a feature pitch.
 
 **Event workflow:**
-1. **Assess context and objectives** — event type, your role (sponsor, exhibitor, speaker, host), expected personas, and the objective (awareness, pipeline, thought leadership, customer engagement, launch support). Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-types.md`.
-2. **Align content with positioning and personas** — pick the problems and messages that fit this audience, prepare competitive talking points, and define the one thing attendees should remember. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-content-alignment.md`.
-3. **Develop support materials** — event briefing, speaker prep, demo scripts tied to market problems, booth conversation guides, abstracts, leave-behinds. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-deliverables-guide.md`, `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/event-briefing.md` and `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/speaker-prep.md`.
+1. **Assess context and objectives** — event type, your role (sponsor, exhibitor, speaker, host), expected personas, and the objective (awareness, pipeline, thought leadership, customer engagement, launch support). Load `references/event-types.md`.
+2. **Align content with positioning and personas** — pick the problems and messages that fit this audience, prepare competitive talking points, and define the one thing attendees should remember. Load `references/event-content-alignment.md`.
+3. **Develop support materials** — event briefing, speaker prep, demo scripts tied to market problems, booth conversation guides, abstracts, leave-behinds. Load `references/event-deliverables-guide.md`, `templates/event-briefing.md` and `templates/speaker-prep.md`.
 4. **Prepare participants** — brief booth staff and speakers, rehearse demos against problems, agree lead qualification against personas, and set rules on what not to disclose (roadmap, pricing).
 5. **Support execution and listen** — act as the subject matter expert, and capture market and competitive intelligence from conversations (NIHITO: Nothing Important Happens In The Office).
-6. **Debrief and measure** — run a structured debrief, feed intelligence back to the product team, review lead quality and event ROI. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-measurement.md`.
+6. **Debrief and measure** — run a structured debrief, feed intelligence back to the product team, review lead quality and event ROI. Load `references/event-measurement.md`.
 
 Hand qualified event leads to Engagement programs (`pragmatic-engagement`); route customer stories and reference candidates to Customer Satisfaction (`pragmatic-customer-satisfaction`) and case-study work to Assets (`pragmatic-assets`).
 
@@ -143,16 +143,16 @@ For internal platforms and tools, awareness means making sure the teams who have
 
 | File | Use |
 |---|---|
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/input-audit.md` | Step 1 input checklist |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/objectives-audience.md` | Step 2 objectives and audience mapping |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/awareness-strategy.md` | Step 3 strategy models and content pillars |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/program-portfolio.md` | Step 4 program types and budget |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/measurement.md` | Step 5 metrics and attribution |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-types.md` | Event formats, roles, selection criteria |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-content-alignment.md` | Persona-message mapping and competitive prep for events |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-deliverables-guide.md` | Event deliverables: structure and mistakes |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/references/event-measurement.md` | Event ROI, lead qualification, debrief |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/awareness-program-plan.md` | Full plan template |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/program-brief.md` | Single-program brief |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/event-briefing.md` | Event briefing document |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-awareness/templates/speaker-prep.md` | Speaker preparation kit |
+| `references/input-audit.md` | Step 1 input checklist |
+| `references/objectives-audience.md` | Step 2 objectives and audience mapping |
+| `references/awareness-strategy.md` | Step 3 strategy models and content pillars |
+| `references/program-portfolio.md` | Step 4 program types and budget |
+| `references/measurement.md` | Step 5 metrics and attribution |
+| `references/event-types.md` | Event formats, roles, selection criteria |
+| `references/event-content-alignment.md` | Persona-message mapping and competitive prep for events |
+| `references/event-deliverables-guide.md` | Event deliverables: structure and mistakes |
+| `references/event-measurement.md` | Event ROI, lead qualification, debrief |
+| `templates/awareness-program-plan.md` | Full plan template |
+| `templates/program-brief.md` | Single-program brief |
+| `templates/event-briefing.md` | Event briefing document |
+| `templates/speaker-prep.md` | Speaker preparation kit |

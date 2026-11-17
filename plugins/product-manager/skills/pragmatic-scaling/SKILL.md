@@ -73,7 +73,7 @@ For each step capture who does it, how long it takes per customer, and how much 
 
 ### Step 3: Inventory manual and fragile work
 
-Use the manual-work inventory in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-scaling/templates/scaling-readiness-assessment-template.md`. Look for:
+Use the manual-work inventory in `templates/scaling-readiness-assessment-template.md`. Look for:
 - Work done by hand per customer, per user or per transaction (volume-linked effort)
 - Work that relies on one or two people (key-person risk)
 - Spreadsheets, scripts or tribal knowledge holding a process together
@@ -89,7 +89,7 @@ Other useful questions for frontline teams:
 
 ### Step 4: Find the breakpoints
 
-For each process, product component and team, estimate at what demand level it breaks: capacity runs out, quality drops, cost per customer becomes unacceptable, or response times exceed commitments. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-scaling/references/scaling-guide.md` for capacity math, leading indicators and common breakpoints.
+For each process, product component and team, estimate at what demand level it breaks: capacity runs out, quality drops, cost per customer becomes unacceptable, or response times exceed commitments. Read `references/scaling-guide.md` for capacity math, leading indicators and common breakpoints.
 
 Rate each breakpoint by when it will be hit (from the forecast) and the customer impact if it is.
 
@@ -125,7 +125,7 @@ The result goes to the roadmap review with the cost of doing nothing: delayed go
 
 ## Output formats
 
-- **Scaling readiness assessment** — manual-work inventory, breakpoints at 2x/5x/10x, decisions (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-scaling/templates/scaling-readiness-assessment-template.md`).
+- **Scaling readiness assessment** — manual-work inventory, breakpoints at 2x/5x/10x, decisions (`templates/scaling-readiness-assessment-template.md`).
 - **Capacity plan** — demand forecast, capacity per team/component, lead times, trigger thresholds.
 - **Productization proposal** — recurring work to remove through product changes, with effort saved and requirements hand-off.
 - **Cost-to-serve analysis** — effort and cost per customer by segment, and how it changes with scale.
@@ -149,5 +149,5 @@ The result goes to the roadmap review with the cost of doing nothing: delayed go
 
 ## Reference files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-scaling/references/scaling-guide.md` — scaling dimensions, capacity math, leading indicators, common breakpoints by function, standardize/automate/productize criteria, internal-platform notes. Read before Steps 4–6.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-scaling/templates/scaling-readiness-assessment-template.md` — the assessment template. Read when producing an assessment.
+- `references/scaling-guide.md` — scaling dimensions, capacity math, leading indicators, common breakpoints by function, standardize/automate/productize criteria, internal-platform notes. Read before Steps 4–6.
+- `templates/scaling-readiness-assessment-template.md` — the assessment template. Read when producing an assessment.

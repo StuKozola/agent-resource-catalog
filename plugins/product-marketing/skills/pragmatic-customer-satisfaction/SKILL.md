@@ -61,7 +61,7 @@ Ask about:
 
 ### Step 2: Define What Satisfaction Means Here
 
-Decide the dimensions you'll judge (product experience, service experience, trust, relationship health), the personas you'll hear from at both person and account level, and the boundaries with value realization, adoption and retention. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/references/satisfaction-measurement-guide.md`.
+Decide the dimensions you'll judge (product experience, service experience, trust, relationship health), the personas you'll hear from at both person and account level, and the boundaries with value realization, adoption and retention. Load `references/satisfaction-measurement-guide.md`.
 
 ### Step 3: Design the Measurement Program
 
@@ -71,7 +71,7 @@ Choose measures and cadence:
 - **Relationship health score** per account, refreshed monthly and validated against renewals and churn
 - **Qualitative** interviews and coded verbatims every quarter, across satisfied, neutral and unhappy customers
 
-Set baselines and targets, sampling rules and survey-fatigue limits. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/templates/satisfaction-program-plan.md`.
+Set baselines and targets, sampling rules and survey-fatigue limits. Use `templates/satisfaction-program-plan.md`.
 
 ### Step 4: Detect and Triage Issues
 
@@ -86,7 +86,7 @@ Measure loop closure itself: % detractors contacted on time, % themes with an ow
 
 ### Step 6: Build the Advocate and Reference Program (signals of satisfaction)
 
-Once you know who is satisfied, invite them to speak for you. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/references/advocacy-program-guide.md`.
+Once you know who is satisfied, invite them to speak for you. Load `references/advocacy-program-guide.md`.
 
 - **Identify** — high CSAT/NPS and green health scores, recent successful go-lives or renewals, expansions, active community members, positive CSM feedback.
 - **Recruit** — personal, specific, reciprocal asks that start small (a quote or review) and build up the advocacy ladder (testimonial → case study → reference calls → speaking → advisory board).
@@ -94,7 +94,7 @@ Once you know who is satisfied, invite them to speak for you. Load `https://raw.
 - **Hand off** — case studies are written in Assets (`pragmatic-assets`); event speakers in Awareness (`pragmatic-awareness`); value evidence in Customer Value Realization.
 - **Watch the signal** — a declined request or a cooling advocate is satisfaction data; route it to Step 4.
 
-Track with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/templates/advocacy-scorecard-template.md`, reported alongside — never instead of — core satisfaction measures.
+Track with `templates/advocacy-scorecard-template.md`, reported alongside — never instead of — core satisfaction measures.
 
 ## Internal products
 
@@ -102,10 +102,10 @@ For internal platforms, the customers are the teams that use the platform. Measu
 
 ## Output Formats
 
-1. **Customer Satisfaction Program Plan** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/templates/satisfaction-program-plan.md`
+1. **Customer Satisfaction Program Plan** — `templates/satisfaction-program-plan.md`
 2. **Satisfaction review** — trends, themes, issues and actions for a quarterly meeting
 3. **Relationship health score definition** — inputs, weights, thresholds, actions
-4. **Advocate and reference program plan and scorecard** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/templates/advocacy-scorecard-template.md`
+4. **Advocate and reference program plan and scorecard** — `templates/advocacy-scorecard-template.md`
 
 ## Common Pitfalls
 
@@ -129,7 +129,7 @@ For internal platforms, the customers are the teams that use the platform. Measu
 
 | File | Use |
 |---|---|
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/references/satisfaction-measurement-guide.md` | Measures (CSAT, NPS, CES, health, trust, qualitative), survey design, issue triage, closing the loop |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/references/advocacy-program-guide.md` | Advocate identification, recruitment, advocacy ladder, reference operations, relationship management |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/templates/satisfaction-program-plan.md` | Satisfaction program plan |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-customer-satisfaction/templates/advocacy-scorecard-template.md` | Advocate and reference program scorecard |
+| `references/satisfaction-measurement-guide.md` | Measures (CSAT, NPS, CES, health, trust, qualitative), survey design, issue triage, closing the loop |
+| `references/advocacy-program-guide.md` | Advocate identification, recruitment, advocacy ladder, reference operations, relationship management |
+| `templates/satisfaction-program-plan.md` | Satisfaction program plan |
+| `templates/advocacy-scorecard-template.md` | Advocate and reference program scorecard |

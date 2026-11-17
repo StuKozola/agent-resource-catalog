@@ -44,7 +44,7 @@ Product management rarely runs the incident response; support, customer success 
 - Join customer and executive communication when the issue is about product direction or a capability gap.
 - Own the *learning* loop: turn findings into requirements, roadmap items and operational changes, and close the loop with customers.
 
-Use the RACI in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/references/escalation-management-guide.md` to make this explicit for your organization.
+Use the RACI in `references/escalation-management-guide.md` to make this explicit for your organization.
 
 **Internal products and platforms.** The "customers" are internal teams; escalations often arrive through leaders rather than tickets. Define severity by business impact (revenue processes blocked, regulatory deadlines), and publish the path so teams don't escalate through personal networks.
 
@@ -80,7 +80,7 @@ Look for gaps: unclear ownership, severity inflation ("everything is P1"), execu
 
 ### Step 2: Define severity levels
 
-Define 3–5 levels using customer and business impact: scope (how many customers, which segments), severity of harm (data, money, safety, compliance), availability of a workaround, and strategic risk. Attach to each level the response time, update cadence, who's engaged and who's notified. Use the matrix in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/templates/severity-matrix-and-runbook-template.md`. Allow severity to be raised or lowered as facts emerge.
+Define 3–5 levels using customer and business impact: scope (how many customers, which segments), severity of harm (data, money, safety, compliance), availability of a workaround, and strategic risk. Attach to each level the response time, update cadence, who's engaged and who's notified. Use the matrix in `templates/severity-matrix-and-runbook-template.md`. Allow severity to be raised or lowered as facts emerge.
 
 ### Step 3: Assign owners and roles
 
@@ -97,11 +97,11 @@ Define, per severity:
 - **Leaders** — who briefs whom, when, and in what format (short written summary beats a meeting).
 - **Internal teams** — sales and CS need talk tracks before customers call them.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/references/escalation-management-guide.md` for update templates and communication principles.
+Read `references/escalation-management-guide.md` for update templates and communication principles.
 
 ### Step 6: Review and learn after each escalation
 
-Run a blameless post-escalation review using `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/templates/post-escalation-review-template.md`. Focus on what happened, why the system allowed it, what went well, and what to change. Every action item gets an owner, a due date and a destination:
+Run a blameless post-escalation review using `templates/post-escalation-review-template.md`. Focus on what happened, why the system allowed it, what went well, and what to change. Every action item gets an owner, a due date and a destination:
 - Product changes → `pragmatic-requirements` and `pragmatic-product-roadmap`
 - Operational changes (monitoring, runbooks, capacity, staffing, process) → operations owners and `pragmatic-scaling`
 - Communication and enablement changes → `pragmatic-assets`, `pragmatic-organizational-alignment`
@@ -124,10 +124,10 @@ A scheduled data sync fails silently for eight days at three customers, includin
 
 ## Output formats
 
-- **Severity matrix** and **escalation runbook** (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/templates/severity-matrix-and-runbook-template.md`).
+- **Severity matrix** and **escalation runbook** (`templates/severity-matrix-and-runbook-template.md`).
 - **RACI for escalations** across support, CS, engineering, product, sales and leadership.
 - **Communication templates** — customer updates, executive summary, internal talk track.
-- **Post-escalation review** (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/templates/post-escalation-review-template.md`).
+- **Post-escalation review** (`templates/post-escalation-review-template.md`).
 - **Quarterly escalation trend report** — themes, action-item status, routed product and operations changes.
 
 ## Common pitfalls
@@ -150,6 +150,6 @@ A scheduled data sync fails silently for eight days at three customers, includin
 
 ## Reference files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/references/escalation-management-guide.md` — severity design, roles and RACI, product's role, communication principles and update templates, blameless review method, trend analysis, internal-product notes. Read before Steps 2–6.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/templates/severity-matrix-and-runbook-template.md` — severity matrix and escalation runbook template. Read when defining severity or response paths.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-escalations/templates/post-escalation-review-template.md` — post-escalation review template. Read when running a review.
+- `references/escalation-management-guide.md` — severity design, roles and RACI, product's role, communication principles and update templates, blameless review method, trend analysis, internal-product notes. Read before Steps 2–6.
+- `templates/severity-matrix-and-runbook-template.md` — severity matrix and escalation runbook template. Read when defining severity or response paths.
+- `templates/post-escalation-review-template.md` — post-escalation review template. Read when running a review.

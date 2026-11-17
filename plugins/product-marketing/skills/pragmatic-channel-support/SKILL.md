@@ -52,7 +52,7 @@ Product marketing owns the message and the curriculum foundation. Partner/channe
 
 ## Inputs
 
-Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/upstream-inputs.md` for the full readiness check (green / yellow / red). Critical: **Positioning**, **Buyer Personas**, **Competitive Landscape**. High: **Assets**, **Distribution Strategy**, and for delivery and usage channels **User Personas** and **Adoption** (`pragmatic-adoption`). Recommended: Market Problems, Win/Loss Analysis, Buyer Journey, Organizational Alignment, Marketing Plan.
+Load `references/upstream-inputs.md` for the full readiness check (green / yellow / red). Critical: **Positioning**, **Buyer Personas**, **Competitive Landscape**. High: **Assets**, **Distribution Strategy**, and for delivery and usage channels **User Personas** and **Adoption** (`pragmatic-adoption`). Recommended: Market Problems, Win/Loss Analysis, Buyer Journey, Organizational Alignment, Marketing Plan.
 
 ## Workflow
 
@@ -62,8 +62,8 @@ List partners and adjacent teams by kind (sales, delivery, usage), type (reselle
 
 ### Step 2: Assess Current Training and Information Gaps
 
-- **Training audit** — inventory programs from the last 12 months and run the feature-vs-selling test on sales-channel modules: do they teach problems, personas, the buying process and competition, or features and specs? Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/channel-training-guide.md` → "Audit and Gap Analysis".
-- **Information needs** — what market intelligence, solution information and opportunity support each channel kind needs. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/information-needs.md`.
+- **Training audit** — inventory programs from the last 12 months and run the feature-vs-selling test on sales-channel modules: do they teach problems, personas, the buying process and competition, or features and specs? Load `references/channel-training-guide.md` → "Audit and Gap Analysis".
+- **Information needs** — what market intelligence, solution information and opportunity support each channel kind needs. Load `references/information-needs.md`.
 - **Field evidence** — partner surveys, ride-alongs, win/loss by channel, implementation and support outcomes.
 
 ### Step 3: Define Objectives and Audience Segments
@@ -73,17 +73,17 @@ Define what "ready" means per channel kind, for example:
 - **Delivery:** implement to the agreed success criteria and get customers to first value on schedule.
 - **Usage:** resolve common issues, explain the product consistently, escalate correctly.
 
-Segment audiences (new vs. existing partners, technical vs. quota-carrying, partner managers) and set outcome measures, not just completion. Tie the calendar to launches. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/channel-training-guide.md` → "Objectives and Segmentation".
+Segment audiences (new vs. existing partners, technical vs. quota-carrying, partner managers) and set outcome measures, not just completion. Tie the calendar to launches. Load `references/channel-training-guide.md` → "Objectives and Segmentation".
 
 ### Step 4: Design the Curriculum and Support Model
 
-**Curriculum** — a shared foundation (market problems, buyers, buyer journey, positioning, competitive landscape, assets) plus tracks per channel kind: advanced selling for sales channels; implementation and onboarding for delivery channels; user workflows, support and escalation for usage channels. Use role-play, labs and real win/loss and customer stories. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/channel-training-guide.md` → "Curriculum Design" and "Channel Type Considerations"; use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/channel-training-plan.md`.
+**Curriculum** — a shared foundation (market problems, buyers, buyer journey, positioning, competitive landscape, assets) plus tracks per channel kind: advanced selling for sales channels; implementation and onboarding for delivery channels; user workflows, support and escalation for usage channels. Use role-play, labs and real win/loss and customer stories. Load `references/channel-training-guide.md` → "Curriculum Design" and "Channel Type Considerations"; use `templates/channel-training-plan.md`.
 
-**Ongoing support model** — how information reaches partners after training: self-service portal, cadenced communications (newsletters, update calls), on-demand help (partner desk, channel managers) and co-selling or co-delivery support. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/delivery-mechanisms.md`. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/partner-communication-brief.md` for individual updates.
+**Ongoing support model** — how information reaches partners after training: self-service portal, cadenced communications (newsletters, update calls), on-demand help (partner desk, channel managers) and co-selling or co-delivery support. Load `references/delivery-mechanisms.md`. Use `templates/partner-communication-brief.md` for individual updates.
 
 ### Step 5: Launch, Deliver, Reinforce and Make It Repeatable
 
-Pilot with trusted partners, then roll out. Align every launch with updated training and partner briefs. Set a reinforcement cadence (monthly tips, quarterly updates, annual refresh at partner kickoff). Incentivize through certification and tier benefits; use train-the-trainer for distributors. Turn recurring requests into reusable packages (release kits, competitive alerts, market summaries, deal-support workflows). Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/channel-training-guide.md` → "Delivery and Reinforcement".
+Pilot with trusted partners, then roll out. Align every launch with updated training and partner briefs. Set a reinforcement cadence (monthly tips, quarterly updates, annual refresh at partner kickoff). Incentivize through certification and tier benefits; use train-the-trainer for distributors. Turn recurring requests into reusable packages (release kits, competitive alerts, market summaries, deal-support workflows). Load `references/channel-training-guide.md` → "Delivery and Reinforcement".
 
 ### Step 6: Measure, Close the Loop and Optimize
 
@@ -92,7 +92,7 @@ Pilot with trusted partners, then roll out. Align every launch with updated trai
 - **Outcomes** — sales: partner-sourced pipeline, win rate, deal size, time to first deal; delivery: time to go-live, early adoption; usage: resolution time, customer satisfaction for partner-supported customers
 - **Feedback loop** — route partner intelligence to Competitive Landscape, Win/Loss Analysis, Market Problems, Positioning, Assets, Requirements, Adoption, Customer Satisfaction and Escalations
 
-Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/metrics-optimization.md`. Assemble everything in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/channel-support-plan.md`.
+Load `references/metrics-optimization.md`. Assemble everything in `templates/channel-support-plan.md`.
 
 ## Internal products
 
@@ -102,9 +102,9 @@ For internal platforms, the "channels" are the teams that roll the platform out,
 
 | Deliverable | Template | When to use |
 |---|---|---|
-| Channel Support Plan | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/channel-support-plan.md` | Full strategy: ecosystem, information needs, delivery, cadence, metrics, feedback |
-| Channel Training Plan | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/channel-training-plan.md` | Curriculum, tracks, certification, rollout, measurement |
-| Partner Communication Brief | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/partner-communication-brief.md` | A single update to partners |
+| Channel Support Plan | `templates/channel-support-plan.md` | Full strategy: ecosystem, information needs, delivery, cadence, metrics, feedback |
+| Channel Training Plan | `templates/channel-training-plan.md` | Curriculum, tracks, certification, rollout, measurement |
+| Partner Communication Brief | `templates/partner-communication-brief.md` | A single update to partners |
 
 ## Common Pitfalls
 
@@ -136,11 +136,11 @@ For internal platforms, the "channels" are the teams that roll the platform out,
 
 | File | Use |
 |---|---|
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/upstream-inputs.md` | Input readiness check and green/yellow/red decision |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/channel-training-guide.md` | Training audit, objectives, curriculum, delivery, measurement, channel kinds, content library |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/information-needs.md` | Market, solution and opportunity information partners need |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/delivery-mechanisms.md` | Self-service, cadenced, on-demand and co-selling support layers |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/references/metrics-optimization.md` | Metrics tiers, diagnostics and feedback loops |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/channel-support-plan.md` | Channel Support Plan |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/channel-training-plan.md` | Channel Training Plan |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-channel-support/templates/partner-communication-brief.md` | Partner Communication Brief |
+| `references/upstream-inputs.md` | Input readiness check and green/yellow/red decision |
+| `references/channel-training-guide.md` | Training audit, objectives, curriculum, delivery, measurement, channel kinds, content library |
+| `references/information-needs.md` | Market, solution and opportunity information partners need |
+| `references/delivery-mechanisms.md` | Self-service, cadenced, on-demand and co-selling support layers |
+| `references/metrics-optimization.md` | Metrics tiers, diagnostics and feedback loops |
+| `templates/channel-support-plan.md` | Channel Support Plan |
+| `templates/channel-training-plan.md` | Channel Training Plan |
+| `templates/partner-communication-brief.md` | Partner Communication Brief |

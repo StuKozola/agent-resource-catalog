@@ -59,16 +59,16 @@ A one-page conversation guide per persona: the top two or three before scenarios
 
 ### 5. Objection responses
 
-For common objections (price, timing, status quo, "we can build it", competitor X), write responses that go back to the framework: restate the consequence of not acting, the outcome and metric, and proof. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-field-tools/templates/objection-response.md`.
+For common objections (price, timing, status quo, "we can build it", competitor X), write responses that go back to the framework: restate the consequence of not acting, the outcome and metric, and proof. Use `templates/objection-response.md`.
 
 ### 6. Call plans
 
-A short pre-call plan: what we know about the before state, hypotheses about outcomes and metrics, discovery questions to ask, trap-setting questions to use, the proof point to have ready, and the desired next step. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-field-tools/templates/call-plan.md`.
+A short pre-call plan: what we know about the before state, hypotheses about outcomes and metrics, discovery questions to ask, trap-setting questions to use, the proof point to have ready, and the desired next step. Use `templates/call-plan.md`.
 
 ## Workflow
 
 1. Confirm the persona(s) and the Value Framework source.
-2. Draft discovery and trap-setting questions per persona with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-field-tools/templates/discovery-question-bank.md`.
+2. Draft discovery and trap-setting questions per persona with `templates/discovery-question-bank.md`.
 3. Draft the mantra and persona variants; test them for speakability.
 4. Build talk tracks and objection responses.
 5. Validate with two or three top reps: would they use these words? Revise.
@@ -98,6 +98,6 @@ Validate everything with real reps and buyers; AI-generated questions often soun
 
 ## Template files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-field-tools/templates/discovery-question-bank.md` — Discovery and trap-setting questions organized by framework element and persona.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-field-tools/templates/call-plan.md` — One-page pre-call plan.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-field-tools/templates/objection-response.md` — Value-based objection response worksheet.
+- `templates/discovery-question-bank.md` — Discovery and trap-setting questions organized by framework element and persona.
+- `templates/call-plan.md` — One-page pre-call plan.
+- `templates/objection-response.md` — Value-based objection response worksheet.

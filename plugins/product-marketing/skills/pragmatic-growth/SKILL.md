@@ -120,7 +120,7 @@ Required Leads         = Required MQLs ÷ Lead-to-MQL Rate
 
 ### Step 6: Forecast and Measure
 
-Forecast with CAC, churn and recurring revenue (see `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-growth/references/acquisition-metrics-guide.md`, "Forecasting Growth"). Track:
+Forecast with CAC, churn and recurring revenue (see `references/acquisition-metrics-guide.md`, "Forecasting Growth"). Track:
 - **Outcomes:** new revenue, new logos, new users, CAC, CAC payback, CLV:CAC
 - **Funnel:** pipeline generated and coverage, stage conversion, trial-to-paid, sales cycle, win rate
 - **Channels:** CPL, conversion, revenue contribution, ROI
@@ -128,7 +128,7 @@ Forecast with CAC, churn and recurring revenue (see `https://raw.githubuserconte
 
 ### Step 7: Assemble and Review
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-growth/references/growth-plan-template.md`. Then check: Does it match the Business Plan? Are targets realistic for the segment size and competition? Does the budget support the pipeline math? Are churn and expansion assumptions consistent with Retention? Is there a quarterly review?
+Use `references/growth-plan-template.md`. Then check: Does it match the Business Plan? Are targets realistic for the segment size and competition? Does the budget support the pipeline math? Are churn and expansion assumptions consistent with Retention? Is there a quarterly review?
 
 ## Internal Products
 
@@ -163,5 +163,5 @@ For internal platforms and tools, growth is **broader adoption across the organi
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-growth/references/growth-plan-template.md` — Full Growth Plan template, including growth levers. **Load when the user wants a complete plan.**
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-growth/references/acquisition-metrics-guide.md` — Acquisition metrics, formulas, benchmarks and growth forecasting. **Load when defining or calculating KPIs or building a forecast.**
+- `references/growth-plan-template.md` — Full Growth Plan template, including growth levers. **Load when the user wants a complete plan.**
+- `references/acquisition-metrics-guide.md` — Acquisition metrics, formulas, benchmarks and growth forecasting. **Load when defining or calculating KPIs or building a forecast.**

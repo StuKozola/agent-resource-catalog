@@ -17,7 +17,7 @@ Training changes what reps know; process integration changes what they do every 
 
 **Output:** a CotM–MEDDPICC mapping, CRM field and stage design, an opportunity plan template and a deal review format.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-sales-process-integration/references/meddpicc-mapping.md` for the element-by-element mapping and CRM field suggestions.
+Read `references/meddpicc-mapping.md` for the element-by-element mapping and CRM field suggestions.
 
 ## Workflow
 
@@ -68,11 +68,11 @@ Adapt to the user's actual stages.
 
 ### 5. Build the opportunity plan
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-sales-process-integration/templates/opportunity-plan.md` for strategic deals. It records the buyer's value story, qualification status, gaps, and actions. Some companies brand this as a "command plan"; GitLab, for example, publicly describes doing so.
+Use `templates/opportunity-plan.md` for strategic deals. It records the buyer's value story, qualification status, gaps, and actions. Some companies brand this as a "command plan"; GitLab, for example, publicly describes doing so.
 
 ### 6. Redesign deal reviews and forecast calls
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-sales-process-integration/templates/deal-review-format.md`. Managers ask value questions first ("What is the buyer's before state? What will it cost them to do nothing? What outcome have they committed to, and how will they measure it?") before discussing close dates. Deals with no confirmed PBO or metric shouldn't be committed in the forecast.
+Use `templates/deal-review-format.md`. Managers ask value questions first ("What is the buyer's before state? What will it cost them to do nothing? What outcome have they committed to, and how will they measure it?") before discussing close dates. Deals with no confirmed PBO or metric shouldn't be committed in the forecast.
 
 ### 7. Align handoffs
 
@@ -107,6 +107,6 @@ Reps must confirm AI-filled fields; unverified AI summaries in the CRM pollute t
 
 ## Reference and template files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-sales-process-integration/references/meddpicc-mapping.md` — Element-by-element mapping with CRM field suggestions and review questions.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-sales-process-integration/templates/opportunity-plan.md` — Strategic opportunity plan.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-sales-process-integration/templates/deal-review-format.md` — Value-first deal review and forecast call format.
+- `references/meddpicc-mapping.md` — Element-by-element mapping with CRM field suggestions and review questions.
+- `templates/opportunity-plan.md` — Strategic opportunity plan.
+- `templates/deal-review-format.md` — Value-first deal review and forecast call format.

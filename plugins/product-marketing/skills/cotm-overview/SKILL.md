@@ -15,7 +15,7 @@ description: >
 
 Command of the Message (CotM) is a value-based sales messaging methodology developed by Force Management. It gives every customer-facing person one shared, buyer-centric story about the problems the company solves, how it solves them differently, and where it has done so before. Reps then adapt that story in the moment to what each buyer actually says.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-overview/references/methodology-primer.md` for the core concepts, vocabulary and comparisons with other methodologies.
+Read `references/methodology-primer.md` for the core concepts, vocabulary and comparisons with other methodologies.
 
 ## The core ideas
 
@@ -50,7 +50,7 @@ Ask what they are trying to do, what they sell and to whom, and how far along th
 - **A single step** ("help me write discovery questions") → route to that step's skill.
 - **A full rollout plan** ("we're adopting CotM next quarter") → build a sequenced plan (step 3 below).
 - **A readiness check** ("are we ready for this?") → run the readiness check (step 2 below).
-- **A concept question** ("what is a positive business outcome?") → answer directly from `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-overview/references/methodology-primer.md`.
+- **A concept question** ("what is a positive business outcome?") → answer directly from `references/methodology-primer.md`.
 
 ### 2. Run a readiness check
 
@@ -104,6 +104,6 @@ Check AI output against real buyer evidence; it will produce plausible outcomes 
 
 ## Reference files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-overview/references/methodology-primer.md` — Core concepts, vocabulary, the three essential questions, and how CotM compares with and complements other methodologies.
+- `references/methodology-primer.md` — Core concepts, vocabulary, the three essential questions, and how CotM compares with and complements other methodologies.
 
 *Command of the Message® is associated with Force Management. This skill is an independent guide based on public descriptions of the methodology and is not affiliated with or endorsed by Force Management.*

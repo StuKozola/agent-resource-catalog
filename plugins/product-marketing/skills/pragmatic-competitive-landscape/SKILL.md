@@ -72,7 +72,7 @@ Categorize competitors into tiers:
 
 ### Step 3: Build Competitor Profiles
 
-For each primary competitor, build a structured profile. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-competitive-landscape/references/competitor-profile-template.md` for the full template. At a minimum, each profile covers:
+For each primary competitor, build a structured profile. Read `references/competitor-profile-template.md` for the full template. At a minimum, each profile covers:
 
 - Company overview (size, funding, trajectory)
 - Target market and positioning
@@ -86,7 +86,7 @@ The most important principle: **assess strengths and weaknesses relative to the 
 
 ### Step 4: Create the Competitive Matrix
 
-The competitive matrix is the core analytical artifact. It maps competitors against the dimensions that matter to buyers. Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-competitive-landscape/references/matrix-guidance.md` for detailed formatting.
+The competitive matrix is the core analytical artifact. It maps competitors against the dimensions that matter to buyers. Read `references/matrix-guidance.md` for detailed formatting.
 
 Key rules for a good matrix:
 - Columns = competitors (including your product). Rows = evaluation dimensions.
@@ -117,7 +117,7 @@ Based on the user's goal (from Step 1), produce the appropriate output:
 | Goal | Deliverable | Format |
 |------|------------|--------|
 | Strategic planning | Full competitive landscape report | Document (docx/md) with profiles, matrix, and strategy |
-| Sales and support enablement | Battlecard content | One page per competitor — read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-competitive-landscape/references/battlecard-template.md`; hand off to whoever owns Assets |
+| Sales and support enablement | Battlecard content | One page per competitor — read `references/battlecard-template.md`; hand off to whoever owns Assets |
 | Product roadmap input | Competitive gap analysis | Matrix highlighting gaps with prioritized recommendations |
 | Board/investor communication | Competitive positioning summary | 2-3 page executive overview with market map |
 | New market entry | Landscape overview | Broad scan with tier categorization and entry strategy |
@@ -168,6 +168,6 @@ Always note the recency and source quality of information you find. A G2 review 
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-competitive-landscape/references/competitor-profile-template.md` — Detailed template for individual competitor profiles
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-competitive-landscape/references/matrix-guidance.md` — How to structure and score a competitive matrix
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-competitive-landscape/references/battlecard-template.md` — Template for sales-ready competitive battlecards (the finished battlecard is an Assets deliverable; see `pragmatic-assets`)
+- `references/competitor-profile-template.md` — Detailed template for individual competitor profiles
+- `references/matrix-guidance.md` — How to structure and score a competitive matrix
+- `references/battlecard-template.md` — Template for sales-ready competitive battlecards (the finished battlecard is an Assets deliverable; see `pragmatic-assets`)

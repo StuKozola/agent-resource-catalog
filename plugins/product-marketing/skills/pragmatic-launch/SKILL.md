@@ -49,7 +49,7 @@ Not every release deserves a launch. Ask: **Does this release create enough busi
 
 ### Step 1: Audit Strategic Inputs
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/input-audit.md` for the full checklist.
+Read `references/input-audit.md` for the full checklist.
 
 - **Must have:** Positioning, Buyer Personas, Buyer Journey, Pricing
 - **Should have:** Competitive Landscape, Market Definition, Marketing Plan
@@ -59,7 +59,7 @@ If critical inputs are missing, flag them and build lightweight working versions
 
 ### Step 2: Classify the Launch Tier
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/launch-tiers.md`. Rate **business impact** and **market impact**:
+Read `references/launch-tiers.md`. Rate **business impact** and **market impact**:
 - **Tier 1 (Major):** High business or market impact — new products, new categories, major capabilities. Full cross-organizational mobilization.
 - **Tier 2 (Moderate):** Significant features, new editions. Targeted market activity.
 - **Tier 3 (Minor):** Maintenance and incremental improvements. Mostly existing-customer communication.
@@ -70,11 +70,11 @@ The tier sets the scope of goals, readiness checks, strategy and resources.
 
 Before committing to the date, confirm with target buyers that the release solves the problem you think it does and that the positioning lands. Use early-access customers, beta programs or buyer interviews (NIHITO).
 
-Then set SMART goals grounded in that evidence (`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/goals-readiness-constraints.md`): pipeline, revenue, adoption, awareness, competitive and channel goals. "Get it out the door" is a release objective, not a launch goal.
+Then set SMART goals grounded in that evidence (`references/goals-readiness-constraints.md`): pipeline, revenue, adoption, awareness, competitive and channel goals. "Get it out the door" is a release objective, not a launch goal.
 
 ### Step 4: Assess Readiness — Teams, Systems, Content, Support, Measures, Customers
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/goals-readiness-constraints.md` for the method and use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-readiness-scorecard.md`. For each area, score **importance** (1–3), **readiness** (0–3) and **gap**:
+Read `references/goals-readiness-constraints.md` for the method and use `templates/launch-readiness-scorecard.md`. For each area, score **importance** (1–3), **readiness** (0–3) and **gap**:
 
 | Readiness area | What "ready" means |
 |---|---|
@@ -110,13 +110,13 @@ For each: target audience, key messages (from positioning), channels, metrics, t
 
 ### Step 8: Build the Cross-Functional Launch Plan
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-plan.md`. Marketing, sales, engineering and support plan it together. It includes: 90-second launch strategy, goals, tier, target segments and personas, positioning and messaging, strategies, readiness gap closure, cross-functional timeline, sales enablement, adoption plan, internal and external communications (including **every region and team**), budget, risks and constraints, go/no-go criteria and post-launch review.
+Use `templates/launch-plan.md`. Marketing, sales, engineering and support plan it together. It includes: 90-second launch strategy, goals, tier, target segments and personas, positioning and messaging, strategies, readiness gap closure, cross-functional timeline, sales enablement, adoption plan, internal and external communications (including **every region and team**), budget, risks and constraints, go/no-go criteria and post-launch review.
 
 For multi-region launches, give each region a lead, a localized content plan and its own timing, and run a shared status cadence so regions don't launch on different messages.
 
 ### Step 9: Enable Sales and Customer-Facing Teams
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/sales-enablement.md`. Enablement for launch is not product training. Teach sales to hold conversations with the right buyers about the right problems, use assets mapped to buying stages, handle objections with market evidence and differentiate against alternatives. Deliverables: sales asset map, battle cards, persona conversation guides, objection handling, problem-focused demo scripts, ROI tools, customer stories. Brief success and support on the same picture (`pragmatic-organizational-alignment`).
+Read `references/sales-enablement.md`. Enablement for launch is not product training. Teach sales to hold conversations with the right buyers about the right problems, use assets mapped to buying stages, handle objections with market evidence and differentiate against alternatives. Deliverables: sales asset map, battle cards, persona conversation guides, objection handling, problem-focused demo scripts, ROI tools, customer stories. Brief success and support on the same picture (`pragmatic-organizational-alignment`).
 
 ### Step 10: Execute, Measure and Iterate
 
@@ -128,8 +128,8 @@ For internal platforms, the "market" is internal teams. Readiness still means te
 
 ## Output Formats
 
-- **Launch Plan** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-plan.md`
-- **Launch Readiness Scorecard** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-readiness-scorecard.md`
+- **Launch Plan** — `templates/launch-plan.md`
+- **Launch Readiness Scorecard** — `templates/launch-readiness-scorecard.md`
 
 ## Common Pitfalls
 
@@ -153,9 +153,9 @@ For internal platforms, the "market" is internal teams. Readiness still means te
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/input-audit.md` — Strategic inputs checklist and how to handle gaps
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/launch-tiers.md` — Tier classification and what each tier requires
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/goals-readiness-constraints.md` — Goals, readiness (teams, systems, content, support, measures, customers) and constraints
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/references/sales-enablement.md` — Launch sales enablement approach and training agenda
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-plan.md` — Full launch plan template, including adoption and regional communications
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-launch/templates/launch-readiness-scorecard.md` — Readiness scorecard and go/no-go
+- `references/input-audit.md` — Strategic inputs checklist and how to handle gaps
+- `references/launch-tiers.md` — Tier classification and what each tier requires
+- `references/goals-readiness-constraints.md` — Goals, readiness (teams, systems, content, support, measures, customers) and constraints
+- `references/sales-enablement.md` — Launch sales enablement approach and training agenda
+- `templates/launch-plan.md` — Full launch plan template, including adoption and regional communications
+- `templates/launch-readiness-scorecard.md` — Readiness scorecard and go/no-go

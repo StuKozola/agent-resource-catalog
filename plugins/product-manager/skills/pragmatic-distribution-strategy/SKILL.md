@@ -84,7 +84,7 @@ The market's behavior sets the strategy. Include non-customers: they show you th
 - Are there geographic or regulatory constraints on channel access?
 - How do they expect delivery, onboarding and ongoing support to work?
 
-For research techniques, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-distribution-strategy/references/research-methods.md`.
+For research techniques, read `references/research-methods.md`.
 
 ### Step 3: Assess What Your Organization Can Support
 
@@ -92,7 +92,7 @@ Compare the market's preferences with what you can execute: sales capacity, part
 
 ### Step 4: Evaluate Channel Options
 
-Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-distribution-strategy/references/channel-types.md` for direct, indirect and hybrid models and their trade-offs.
+Load `references/channel-types.md` for direct, indirect and hybrid models and their trade-offs.
 
 - **Direct** — company sells straight to the customer (website, sales team, company stores)
 - **Indirect** — third parties sell on your behalf (resellers, distributors, wholesalers, VARs, marketplaces)
@@ -190,5 +190,5 @@ Use the docx, pptx or xlsx skill based on the user's preferred format.
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-distribution-strategy/references/research-methods.md` — research techniques for buying, delivery and support preferences
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-distribution-strategy/references/channel-types.md` — direct, indirect and hybrid models and an evaluation scorecard
+- `references/research-methods.md` — research techniques for buying, delivery and support preferences
+- `references/channel-types.md` — direct, indirect and hybrid models and an evaluation scorecard

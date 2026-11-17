@@ -65,7 +65,7 @@ Distinctive Competencies has direct connections to other focus areas:
 
 - **Win/Loss Analysis → Distinctive Competencies** (Market): Win/loss interviews are one of the best tools for discovering your distinctive competencies as seen by the market. When prospects explain why they chose you (or didn't), they reveal which of your capabilities actually register as differentiators. Conduct 20-30 win interviews to surface patterns.
 - **Market Problems → Distinctive Competencies** (Market): Validated problems are what competencies get matched against. Use the results to choose the problems you're best placed to solve.
-- **Asset inventory → Distinctive Competencies**: Your assets (technology, data, skills, services, IP, relationships, brand) are the raw material competencies grow from. The inventory answers "what do we already have?"; this focus area decides which of those assets create value others can't copy. The inventory method and registry template live in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-categories.md` and `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md` (Asset Assessment is no longer a separate focus area).
+- **Asset inventory → Distinctive Competencies**: Your assets (technology, data, skills, services, IP, relationships, brand) are the raw material competencies grow from. The inventory answers "what do we already have?"; this focus area decides which of those assets create value others can't copy. The inventory method and registry template live in `../pragmatic-product-strategy/references/asset-categories.md` and `../pragmatic-product-strategy/references/asset-registry-template.md` (Asset Assessment is no longer a separate focus area).
 - **Distinctive Competencies → Product Strategy** (Market): Strategy is grounded in market problems plus distinctive competencies. Validated competencies tell the strategy what the product can credibly be known for. See `pragmatic-product-strategy`.
 - **Distinctive Competencies → Competitive Landscape** (Market): Understanding your unique strengths helps you assess competitors more accurately — you can identify where you have genuine advantage versus where competitors match or exceed you.
 - **Distinctive Competencies → Ideation** (Planning): Point concept work and experiments at problems where you have a right to win, then test them with users. See `pragmatic-ideation`.
@@ -81,7 +81,7 @@ Before the assessment, collect:
 - Recent win/loss analysis findings (what buyers say differentiates you)
 - What buyers **and non-buyers** say sets you apart. Non-buyers tell you which claimed strengths didn't register or didn't matter.
 - Customer testimonials and case studies (themes about why customers chose you)
-- Asset inventory: what do we already have? If none exists, build a quick one with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-product-strategy/references/asset-registry-template.md`
+- Asset inventory: what do we already have? If none exists, build a quick one with `../pragmatic-product-strategy/references/asset-registry-template.md`
 - Validated market problems (see `pragmatic-market-problems`)
 - Competitive landscape overview (to test uniqueness claims)
 - Internal stakeholder perspectives (product, engineering, sales, support, leadership)
@@ -125,7 +125,7 @@ Share the findings across the organization. Distinctive competencies should dire
 When the user asks you to help with Distinctive Competencies, determine what deliverable they need. Common outputs include:
 
 ### 1. PRIME Assessment Document
-A structured document walking through each PRIME dimension with findings, candidate competencies, and validation results. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-distinctive-competencies/references/prime-assessment-guide.md` for detailed guidance.
+A structured document walking through each PRIME dimension with findings, candidate competencies, and validation results. See `references/prime-assessment-guide.md` for detailed guidance.
 
 ### 2. Distinctive Competencies Summary
 A concise one-pager or slide-ready summary listing validated distinctive competencies with supporting evidence and strategic implications.
@@ -166,4 +166,4 @@ When a user asks for help with distinctive competencies:
 4. **Guide the process**: Walk them through the PRIME method and validation steps, adapting to their context
 5. **Connect forward**: Hand the validated competencies to Product Strategy, then Positioning, Ideation and the other downstream focus areas
 
-For detailed reference material on the PRIME assessment process and document templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-distinctive-competencies/references/prime-assessment-guide.md`.
+For detailed reference material on the PRIME assessment process and document templates, read `references/prime-assessment-guide.md`.

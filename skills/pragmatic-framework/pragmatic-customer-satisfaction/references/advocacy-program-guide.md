@@ -1,6 +1,6 @@
 # Customer Advocacy and Reference Program Guide
 
-> **Where this fits:** This guide supports the Customer Satisfaction focus area (`pragmatic-customer-satisfaction`, Go-to-Market). In the 2027 Pragmatic Framework, willingness to recommend, references and reviews are *signals* of satisfaction, not its definition. Run an advocacy and reference program on top of regular satisfaction measurement, not instead of it. Case-study writing now lives in Assets (`pragmatic-assets`, Enablement): see its `references/case-study-framework.md` and `templates/case-study-template.md`. Evidence that customers achieved their outcomes belongs to Customer Value Realization (`pragmatic-customer-value-realization`, Operations).
+> **Where this fits:** This guide supports the Customer Satisfaction focus area (`pragmatic-customer-satisfaction`, Go-to-Market). In the 2027 Pragmatic Framework, willingness to recommend, references and reviews are *signals* of satisfaction, not its definition. Run an advocacy and reference program on top of regular satisfaction measurement, not instead of it. Case-study writing now lives in Assets (`pragmatic-assets`, Enablement): see `../../pragmatic-assets/references/case-study-framework.md` and `../../pragmatic-assets/templates/case-study-template.md`. Evidence that customers achieved their outcomes belongs to Customer Value Realization (`pragmatic-customer-value-realization`, Operations).
 
 ## Table of Contents
 
