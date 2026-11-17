@@ -36,23 +36,23 @@ This is not brainstorming in a vacuum, and it is not "innovation" as a departmen
 - **Competitive Landscape** (Market) — recommended. Alternatives, including doing nothing.
 - **Win/Loss Analysis** (Market) — helpful. Unmet needs from recent deals.
 
-If the required inputs are missing, gather them first. Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/references/readiness-checklist.md`.
+If the required inputs are missing, gather them first. Use `references/readiness-checklist.md`.
 
 ## How to Use This Skill
 
 ### Step 1: Check readiness
 
-Ask: Which validated market problem are we working on? Who are the users, and can we put concepts in front of them this month? Who decides keep, change or drop? Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/references/readiness-checklist.md`.
+Ask: Which validated market problem are we working on? Who are the users, and can we put concepts in front of them this month? Who decides keep, change or drop? Use `references/readiness-checklist.md`.
 
 ### Step 2: Choose the deliverable
 
 | Need | Template |
 |---|---|
-| Run a session that turns problems into testable concepts | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/workshop-plan.md` |
-| Capture one concept, its assumptions and its tests | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/ideation-brief.md` |
-| Plan a single test: hypothesis, riskiest assumption, method, users, success threshold, decision | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/experiment-plan.md` |
-| Compare concepts to decide what to test or fund | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/opportunity-scorecard.md` |
-| Manage many concepts and experiments together | `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/idea-portfolio.md` |
+| Run a session that turns problems into testable concepts | `templates/workshop-plan.md` |
+| Capture one concept, its assumptions and its tests | `templates/ideation-brief.md` |
+| Plan a single test: hypothesis, riskiest assumption, method, users, success threshold, decision | `templates/experiment-plan.md` |
+| Compare concepts to decide what to test or fund | `templates/opportunity-scorecard.md` |
+| Manage many concepts and experiments together | `templates/idea-portfolio.md` |
 
 ### Step 3: Run the loop
 
@@ -110,9 +110,9 @@ AI makes ideas and prototypes cheap; it does not make evidence. Only tests with 
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/references/readiness-checklist.md` — Readiness check before starting ideation
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/workshop-plan.md` — Facilitation guide for an ideation workshop
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/ideation-brief.md` — One-concept brief (formerly the Innovation Brief)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/experiment-plan.md` — One-page experiment plan
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/opportunity-scorecard.md` — Weighted scorecard for comparing concepts
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-ideation/templates/idea-portfolio.md` — Idea portfolio assessment across many concepts
+- `references/readiness-checklist.md` — Readiness check before starting ideation
+- `templates/workshop-plan.md` — Facilitation guide for an ideation workshop
+- `templates/ideation-brief.md` — One-concept brief (formerly the Innovation Brief)
+- `templates/experiment-plan.md` — One-page experiment plan
+- `templates/opportunity-scorecard.md` — Weighted scorecard for comparing concepts
+- `templates/idea-portfolio.md` — Idea portfolio assessment across many concepts

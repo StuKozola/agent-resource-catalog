@@ -43,17 +43,17 @@ Content is a collaboration. **Product marketers** supply insight into buyers, us
 Adapt based on where the user is — some start from scratch, others need to audit and fill gaps.
 
 ### Step 1: Validate Strategic Inputs
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/input-validation.md`.
+> Load `references/input-validation.md`.
 
 **Must-have:** positioning (or at least a value proposition and pillars), primary buyer persona, buyer journey map (even rough). **For adoption content:** user personas and a definition of meaningful use. **Valuable:** use scenarios, competitive landscape, marketing plan, win/loss insights. If inputs are missing, build lightweight working versions; content without them drifts inside-out.
 
 ### Step 2: Audit Existing Content
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/content-audit.md`.
+> Load `references/content-audit.md`.
 
 Answer: what do we have, how well does it perform, and where are the gaps? Include customer-facing help, training and onboarding material, not only marketing content. Output a coverage matrix across personas and stages.
 
 ### Step 3: Map Content to Buying and Adoption Stages
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/content-mapping.md`.
+> Load `references/content-mapping.md`.
 
 For each persona and stage, ask: "What does this person need to know, believe, feel or be able to do at this stage to move forward?"
 
@@ -69,17 +69,17 @@ For each persona and stage, ask: "What does this person need to know, believe, f
 For each cell define the key questions, content objective, formats, channels and success measures.
 
 ### Step 4: Develop Content Briefs
-> Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/templates/content-brief.md`.
+> Use `templates/content-brief.md`.
 
 Tie each asset to its persona, stage, positioning pillar (or, for adoption content, the user task), the question it answers and the action it should drive.
 
 ### Step 5: Build the Calendar and Production Plan
-> Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/templates/content-plan.md`.
+> Use `templates/content-plan.md`.
 
 Prioritize by gap severity, program and launch needs, adoption blockers (where users stall), reuse potential and production capacity. Name who supplies insight and who produces for each item.
 
 ### Step 6: Measure and Iterate
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/content-measurement.md`.
+> Load `references/content-measurement.md`.
 
 Measure at three levels: asset (engagement, consumption), journey (progression between buying stages; activation and continued use for adoption content) and business (influenced pipeline, revenue, support deflection, retention).
 
@@ -125,9 +125,9 @@ For internal platforms, content is mostly adoption content: docs, getting-starte
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/input-validation.md` — upstream input checklist (Step 1)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/content-audit.md` — inventory and evaluation method (Step 2)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/content-mapping.md` — persona × stage mapping, including adoption stages (Step 3)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/references/content-measurement.md` — content metrics (Step 6)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/templates/content-brief.md` — brief for a single piece (Step 4)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-content/templates/content-plan.md` — calendar and production plan (Step 5)
+- `references/input-validation.md` — upstream input checklist (Step 1)
+- `references/content-audit.md` — inventory and evaluation method (Step 2)
+- `references/content-mapping.md` — persona × stage mapping, including adoption stages (Step 3)
+- `references/content-measurement.md` — content metrics (Step 6)
+- `templates/content-brief.md` — brief for a single piece (Step 4)
+- `templates/content-plan.md` — calendar and production plan (Step 5)

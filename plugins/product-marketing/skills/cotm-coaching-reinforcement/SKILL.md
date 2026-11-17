@@ -35,7 +35,7 @@ Protect the time: if managers are expected to coach, remove lower-value reportin
 
 ### 2. Coach with a scorecard
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-coaching-reinforcement/templates/call-review-scorecard.md` to review calls against the framework: did the rep establish the before state, quantify consequences, get the buyer to describe outcomes and metrics, use trap-setting questions, deliver relevant differentiation and proof, and secure a next step?
+Use `templates/call-review-scorecard.md` to review calls against the framework: did the rep establish the before state, quantify consequences, get the buyer to describe outcomes and metrics, use trap-setting questions, deliver relevant differentiation and proof, and secure a next step?
 
 Focus each coaching session on one or two behaviors. Use the rep's own words from the recording. Ask before telling ("What did you learn about how they measure success?").
 
@@ -55,7 +55,7 @@ Have top reps share recordings of strong discovery or trap-setting moments. Buil
 
 ### 6. Refresh the message
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-coaching-reinforcement/templates/reinforcement-plan.md`. At least quarterly, and after launches, pricing changes or competitive shifts:
+Use `templates/reinforcement-plan.md`. At least quarterly, and after launches, pricing changes or competitive shifts:
 
 - Review win/loss findings (`pragmatic-win-loss-analysis`) and call trends for new before scenarios, objections and proof.
 - Update the Value Framework (`cotm-value-framework`) through its change process.
@@ -97,5 +97,5 @@ AI scoring supports manager judgment; it doesn't replace the coaching conversati
 
 ## Template files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-coaching-reinforcement/templates/call-review-scorecard.md` — Framework-based call scorecard with coaching notes.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-coaching-reinforcement/templates/reinforcement-plan.md` — Quarterly reinforcement calendar and framework refresh checklist.
+- `templates/call-review-scorecard.md` — Framework-based call scorecard with coaching notes.
+- `templates/reinforcement-plan.md` — Quarterly reinforcement calendar and framework refresh checklist.

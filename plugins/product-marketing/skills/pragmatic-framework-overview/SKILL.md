@@ -16,7 +16,7 @@ description: >
 
 The Pragmatic Framework helps product teams understand market needs, decide where to invest, coordinate product work and evaluate results. The 2027 refresh kept **7 categories and 37 focus areas** and the same purpose: make products the market wants to buy. It modernized terminology and added a full **Operations** category for the work after launch.
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-framework-overview/references/framework-2027.md` for the full table of focus areas, their questions, the skill for each, the explicit boundaries between neighbors, and the pre-2027 → 2027 rename table.
+Read `references/framework-2027.md` for the full table of focus areas, their questions, the skill for each, the explicit boundaries between neighbors, and the pre-2027 → 2027 rename table.
 
 ## How the Framework is arranged
 
@@ -87,7 +87,7 @@ Ask what decision or deliverable they're working toward, what product and market
 | Critical customer issues, severity, post-incident learning | `pragmatic-escalations` |
 | Whether customers achieved their intended outcomes | `pragmatic-customer-value-realization` |
 
-If the user uses a pre-2027 name (Buyer Experience, Nurturing, Sales Tools, Revenue Retention and so on), use the rename table in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-framework-overview/references/framework-2027.md` and tell them the current name once.
+If the user uses a pre-2027 name (Buyer Experience, Nurturing, Sales Tools, Revenue Retention and so on), use the rename table in `references/framework-2027.md` and tell them the current name once.
 
 ### 3. Sequence connected focus areas
 
@@ -103,7 +103,7 @@ Check what inputs exist before starting downstream work. Positioning without val
 
 ### 4. Map the team to the Framework
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-framework-overview/templates/team-framework-worksheet.md`. It's a discussion tool, not a validated diagnostic.
+Use `templates/team-framework-worksheet.md`. It's a discussion tool, not a validated diagnostic.
 
 1. **Who leads and who contributes.** Name a lead for each of the 37 focus areas. Flag areas with no owner or several owners.
 2. **Rate each area today:** Strong, Partial or Gap. A gap can affect related areas anywhere in the Framework, not only the work to its right.
@@ -128,5 +128,5 @@ The 2027 Framework has no AI box. AI is part of how teams practice product work 
 
 ## Reference files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-framework-overview/references/framework-2027.md`: all 37 focus areas with questions, bar position and skill; boundaries; rename table; Core Courses.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-framework-overview/templates/team-framework-worksheet.md`: lead and Strong/Partial/Gap worksheet for team discussion.
+- `references/framework-2027.md`: all 37 focus areas with questions, bar position and skill; boundaries; rename table; Core Courses.
+- `templates/team-framework-worksheet.md`: lead and Strong/Partial/Gap worksheet for team discussion.

@@ -25,7 +25,7 @@ The Pragmatic approach to pricing is **market-driven and value-based**. Rather t
 
 When a user asks for help with pricing, follow this process:
 
-1. **Assess where they are** — Are they starting from scratch, revising existing pricing, or building governance around an established model? Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-pricing/references/pricing-process.md` for the full step-by-step workflow.
+1. **Assess where they are** — Are they starting from scratch, revising existing pricing, or building governance around an established model? Read `references/pricing-process.md` for the full step-by-step workflow.
 2. **Identify what they need** — Pricing work has four pillars (model, schedules, guidelines, procedures). Determine which pillars the user needs help with.
 3. **Apply the right tools** — Depending on the task, guide them through willingness-to-pay research, price testing, segmentation strategy, pricing model selection, or governance design. Details for each are in the references.
 4. **Check for an internal product** — If the "customers" are internal teams, use the internal-product variant below.
@@ -136,14 +136,14 @@ For internal products (platforms, shared services, internal tools) there may be 
 - **ROI** — Express value in the business's terms: cost avoided, time saved, risk reduced, revenue enabled. This becomes the baseline Business Outcomes tracks.
 - **Same pitfalls** — Opaque or overly complex allocation formulas cause the same distrust as confusing external pricing, and teams may route around the platform.
 
-See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-pricing/references/pricing-process.md` for an internal-product worksheet.
+See `references/pricing-process.md` for an internal-product worksheet.
 
 ## Common Pitfalls (summary)
 
 - **Delays** — Pricing decided at the last minute before launch, or needed price changes stalled for months. Start pricing work alongside the business plan.
 - **Overly complex models** — Too many tiers, metrics, add-ons and exceptions. If sales can't quote it and buyers can't predict the bill, simplify.
 - **Skipping price testing** — Launching an untested price. Run at least a lightweight willingness-to-pay study or in-market test.
-- Also: cost-plus as default, set-and-forget, undisciplined discounting, copying competitors. Full list in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-pricing/references/pricing-process.md`.
+- Also: cost-plus as default, set-and-forget, undisciplined discounting, copying competitors. Full list in `references/pricing-process.md`.
 
 ## Connecting Pricing to Other Focus Areas
 
@@ -169,4 +169,4 @@ AI can help summarize willingness-to-pay survey results and open-ended responses
 ## Reference Files
 
 For detailed step-by-step workflows and templates, read:
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-pricing/references/pricing-process.md` — The complete end-to-end pricing process (discovery, willingness to pay, price testing, model design, packaging, governance, measurement), the internal-product worksheet, templates, and the full pitfalls list
+- `references/pricing-process.md` — The complete end-to-end pricing process (discovery, willingness to pay, price testing, model design, packaging, governance, measurement), the internal-product worksheet, templates, and the full pitfalls list

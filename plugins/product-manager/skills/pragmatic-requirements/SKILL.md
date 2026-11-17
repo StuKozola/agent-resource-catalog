@@ -48,12 +48,12 @@ Read the relevant reference file before proceeding.
 
 | User says | Go to |
 |---|---|
-| "Write requirements / an MRD from scratch" | Phase 1: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/gathering-inputs.md`, then `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md` |
-| "I have market problems and personas — turn them into requirements" | Phase 2: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md` |
-| "Write / review use scenarios" | Use Scenarios section below; `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/use-scenario-template.md`, `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-examples.md`, `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-quality-checklist.md` |
-| "Help me prioritize my draft MRD" | Phase 3: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/prioritization-guide.md` |
-| "Produce the final MRD" | Phase 4: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/mrd-template.md` |
-| "Hand off to dev / work with agile / feed AI tools" | Phase 5: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/dev-handoff-and-agile.md` |
+| "Write requirements / an MRD from scratch" | Phase 1: `references/gathering-inputs.md`, then `references/writing-requirements.md` |
+| "I have market problems and personas — turn them into requirements" | Phase 2: `references/writing-requirements.md` |
+| "Write / review use scenarios" | Use Scenarios section below; `templates/use-scenario-template.md`, `references/use-scenario-examples.md`, `references/use-scenario-quality-checklist.md` |
+| "Help me prioritize my draft MRD" | Phase 3: `references/prioritization-guide.md` |
+| "Produce the final MRD" | Phase 4: `templates/mrd-template.md` |
+| "Hand off to dev / work with agile / feed AI tools" | Phase 5: `references/dev-handoff-and-agile.md` |
 | "MRD vs. PRD?" or other concept questions | Key Concepts below |
 
 ## Key Concepts
@@ -73,7 +73,7 @@ Example: "Sarah, the college student, needs to pay her tuition each semester usi
 
 ### Writing for people and AI tools
 
-Requirements now go to AI coding, design and test tools as well as to people. Anything left implicit will be guessed. Name the persona and situation, give frequencies and volumes as numbers, state constraints and "solved when..." signals explicitly, and define domain terms. Being specific about the problem is not the same as prescribing the solution. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md`.
+Requirements now go to AI coding, design and test tools as well as to people. Anything left implicit will be guessed. Name the persona and situation, give frequencies and volumes as numbers, state constraints and "solved when..." signals explicitly, and define domain terms. Being specific about the problem is not the same as prescribing the solution. See `references/writing-requirements.md`.
 
 ### Requirement types
 
@@ -104,12 +104,12 @@ Use scenarios are **not** use cases (system interactions), user stories ("As a [
 2. **Pick one persona + one problem** — and how often the persona hits it.
 3. **Draft the narrative** — 2–6 sentences, third person: introduce the persona in context, the situation that surfaces the problem, what happens, the consequence. End at the problem, never at a solution.
 4. **Write 2–4 scenarios per requirement** where useful, each showing a different trigger or facet.
-5. **Validate** with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-quality-checklist.md`: one persona, one problem, solution-free, grounded in real market observation, clear on why it matters.
+5. **Validate** with `references/use-scenario-quality-checklist.md`: one persona, one problem, solution-free, grounded in real market observation, clear on why it matters.
 6. **Link to the parent requirement** in the MRD so teams can trace problems to decisions.
 
 **Solution-creep test:** if "should," "could," "would allow," "needs a way to," a feature name or a UI element appears, the scenario has crossed into solution territory. Remove it.
 
-Template: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/use-scenario-template.md`. Annotated examples: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-examples.md`.
+Template: `templates/use-scenario-template.md`. Annotated examples: `references/use-scenario-examples.md`.
 
 ## Phases Overview
 
@@ -148,11 +148,11 @@ Check AI drafts against real market evidence; a well-formed requirement for a pr
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/gathering-inputs.md` — Phase 1: collecting and checking upstream inputs
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/writing-requirements.md` — Phase 2: writing problem-based requirements, for people and AI tools
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/prioritization-guide.md` — Phase 3: evidence-based scoring
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/dev-handoff-and-agile.md` — Phase 5: handoff, agile, closing the loop
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-examples.md` — Annotated use scenario examples
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/references/use-scenario-quality-checklist.md` — Use scenario review checklist
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/mrd-template.md` — Market Requirements Document template
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-requirements/templates/use-scenario-template.md` — Use scenario template
+- `references/gathering-inputs.md` — Phase 1: collecting and checking upstream inputs
+- `references/writing-requirements.md` — Phase 2: writing problem-based requirements, for people and AI tools
+- `references/prioritization-guide.md` — Phase 3: evidence-based scoring
+- `references/dev-handoff-and-agile.md` — Phase 5: handoff, agile, closing the loop
+- `references/use-scenario-examples.md` — Annotated use scenario examples
+- `references/use-scenario-quality-checklist.md` — Use scenario review checklist
+- `templates/mrd-template.md` — Market Requirements Document template
+- `templates/use-scenario-template.md` — Use scenario template

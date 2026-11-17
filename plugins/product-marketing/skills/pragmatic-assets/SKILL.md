@@ -41,10 +41,10 @@ Identify where teams need support, aligned to how the market buys and uses the p
 - **Selling moments** — prospecting, discovery, demo, competitive handling, business case, proposal, negotiation, closing
 - **Support and explanation moments** — onboarding kickoff, QBRs and renewals, expansion conversations, explaining a limitation or change, partner enablement, executive briefings
 
-Ask where deals stall or are lost, and where customer-facing teams give inconsistent answers. Prioritize those moments. For an existing toolkit, start with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/asset-audit-template.md`.
+Ask where deals stall or are lost, and where customer-facing teams give inconsistent answers. Prioritize those moments. For an existing toolkit, start with `templates/asset-audit-template.md`.
 
 ### Step 2: Choose the Asset Type
-> Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/references/tool-types.md`.
+> Load `references/tool-types.md`.
 
 - **Battle cards**: how to handle a competitor during a call. The competitive analysis behind them comes from `pragmatic-competitive-landscape`, and Assets turns it into the finished card.
 - **Objection handling guides** — responses to common pushback
@@ -64,11 +64,11 @@ For each asset decide which persona the user will face, what problems that perso
 
 ### Step 4: Draft the Asset
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/references/tool-types.md` for structure and the templates:
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/battle-card-template.md` — competitive battle cards
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/objection-handler-template.md` — objection handling guides
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/case-study-template.md` with `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/references/case-study-framework.md` — case studies (interview guide, litmus test, approvals)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/asset-audit-template.md` — auditing asset coverage
+Use `references/tool-types.md` for structure and the templates:
+- `templates/battle-card-template.md` — competitive battle cards
+- `templates/objection-handler-template.md` — objection handling guides
+- `templates/case-study-template.md` with `references/case-study-framework.md` — case studies (interview guide, litmus test, approvals)
+- `templates/asset-audit-template.md` — auditing asset coverage
 
 Design principles:
 1. **One asset, one purpose** — a specific moment and scenario
@@ -93,7 +93,7 @@ For each asset: when to use it (the trigger), how to navigate it, what to custom
 
 ## Case Studies
 
-Case studies moved here from the retired Advocacy focus area. Customer Satisfaction finds and recruits the customers; Assets turns their stories into tools. Load `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/references/case-study-framework.md` for the problem → solution → results structure, the litmus test, interview guide, formats and approvals, and use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/case-study-template.md`. Use Customer Value Realization evidence to make results concrete, and produce derivatives (one-paragraph summaries, proof-point sheets, deck slides) for other assets.
+Case studies moved here from the retired Advocacy focus area. Customer Satisfaction finds and recruits the customers; Assets turns their stories into tools. Load `references/case-study-framework.md` for the problem → solution → results structure, the litmus test, interview guide, formats and approvals, and use `templates/case-study-template.md`. Use Customer Value Realization evidence to make results concrete, and produce derivatives (one-paragraph summaries, proof-point sheets, deck slides) for other assets.
 
 ## Internal products
 
@@ -119,9 +119,9 @@ The Pragmatic Institute **Launch** course covers Assets alongside Launch, Measur
 
 | File | Use |
 |---|---|
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/references/tool-types.md` | Structure and usage for each asset type; selection matrix by moment and by team |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/references/case-study-framework.md` | Case study structure, litmus test, interview guide, formats, approvals |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/battle-card-template.md` | Competitive battle card |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/objection-handler-template.md` | Objection handling guide |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/case-study-template.md` | Case study |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-assets/templates/asset-audit-template.md` | Asset coverage and quality audit |
+| `references/tool-types.md` | Structure and usage for each asset type; selection matrix by moment and by team |
+| `references/case-study-framework.md` | Case study structure, litmus test, interview guide, formats, approvals |
+| `templates/battle-card-template.md` | Competitive battle card |
+| `templates/objection-handler-template.md` | Objection handling guide |
+| `templates/case-study-template.md` | Case study |
+| `templates/asset-audit-template.md` | Asset coverage and quality audit |

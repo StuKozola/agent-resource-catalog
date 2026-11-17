@@ -75,7 +75,7 @@ Understand what the organization is trying to achieve before choosing any metric
 - The user's scope — a product, a strategy, a launch, a go-to-market motion, or all of these
 - Current measurement maturity (nothing formal → basic reporting → data-driven tuning)
 
-**Load reference file:** Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-measurement/references/measurement-framework.md` for the goal cascade, leading/lagging pairs and metric definitions.
+**Load reference file:** Read `references/measurement-framework.md` for the goal cascade, leading/lagging pairs and metric definitions.
 
 ### Step 2 — Map Work to Outcomes
 Connect each initiative (product, strategy or go-to-market) to the outcome it is expected to influence. Measure results, not effort.
@@ -103,7 +103,7 @@ Keep it focused: more than 10 means none are truly key.
 - Confirm the data can actually be collected
 
 ### Step 5 — Build the Measurement Framework
-**Load template:** Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-measurement/templates/measurement-framework-template.md`.
+**Load template:** Read `templates/measurement-framework-template.md`.
 
 Include: goals → indicators cascade; each indicator with type (leading/lagging), definition, formula, source, owner, cadence, target and thresholds; dashboard design; review cadence (weekly operational, monthly strategic, quarterly executive).
 
@@ -141,5 +141,5 @@ AI can help propose candidate indicators and leading/lagging pairs, write metric
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-measurement/references/measurement-framework.md` — Goal cascade, leading vs. lagging indicators, seven essential product and go-to-market metrics, indicators by focus area, KPI selection criteria, common mistakes, attribution, reporting cadences, the tune process, SaaS and B2B/B2C considerations
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-measurement/templates/measurement-framework-template.md` — Fill-in template for a measurement framework
+- `references/measurement-framework.md` — Goal cascade, leading vs. lagging indicators, seven essential product and go-to-market metrics, indicators by focus area, KPI selection criteria, common mistakes, attribution, reporting cadences, the tune process, SaaS and B2B/B2C considerations
+- `templates/measurement-framework-template.md` — Fill-in template for a measurement framework

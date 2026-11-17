@@ -64,7 +64,7 @@ Help the user pick the 2–5 roles that matter most for their sale. Segment chan
 
 ### Step 3 — Build each persona document
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/persona-template.md` for the full template and field-by-field guidance. At minimum, each persona covers:
+Read `references/persona-template.md` for the full template and field-by-field guidance. At minimum, each persona covers:
 
 - **Goals** — what they want to achieve, personally and for their organization
 - **Concerns** — risks, objections and past bad experiences
@@ -74,12 +74,12 @@ Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/sk
 Principles:
 
 - **Archetypes, not stereotypes.** Represent the pattern of a buyer segment, not a caricature. Avoid stock-photo bias and overly narrow demographics.
-- **Research-based, not fictional.** The best personas come from win/loss and market interviews and surveys, not a conference-room brainstorm. Without research, label the persona a hypothesis to validate. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/research-discovery-guide.md`.
+- **Research-based, not fictional.** The best personas come from win/loss and market interviews and surveys, not a conference-room brainstorm. Without research, label the persona a hypothesis to validate. See `references/research-discovery-guide.md`.
 - **Buying role, not just job title.** The same title plays different roles in different deals.
 - **Keep it small.** 3–5 buyer personas usually cover 90%+ of sales. More scatters effort; zero leaves teams guessing.
-- **Keep it alive.** Refresh regularly; companies that beat revenue goals are far more likely to have refreshed personas in the last six months. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/validation-maintenance-guide.md`.
+- **Keep it alive.** Refresh regularly; companies that beat revenue goals are far more likely to have refreshed personas in the last six months. See `references/validation-maintenance-guide.md`.
 
-A valid persona feels like someone you could work alongside or meet at a user conference. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/example-b2b-personas.md` for a worked example.
+A valid persona feels like someone you could work alongside or meet at a user conference. See `references/example-b2b-personas.md` for a worked example.
 
 ### Step 4 — Connect personas to other focus areas
 
@@ -115,7 +115,7 @@ AI will produce convincing personas from nothing; that is the risk. Check every 
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/persona-template.md` — Field-by-field persona template and buying committee summary
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/research-discovery-guide.md` — How to research buyers, interview questions by buyer type, synthesis
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/validation-maintenance-guide.md` — Confidence levels, validation and refresh cadence
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-personas/references/example-b2b-personas.md` — Completed example personas for a B2B SaaS product
+- `references/persona-template.md` — Field-by-field persona template and buying committee summary
+- `references/research-discovery-guide.md` — How to research buyers, interview questions by buyer type, synthesis
+- `references/validation-maintenance-guide.md` — Confidence levels, validation and refresh cadence
+- `references/example-b2b-personas.md` — Completed example personas for a B2B SaaS product

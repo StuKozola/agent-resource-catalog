@@ -57,10 +57,10 @@ Trigger on any of these user intents:
 The SKILL.md you're reading now contains the complete methodology. For deeper reference
 on specific phases, load the appropriate file from `references/`:
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-win-loss-analysis/references/interview-guide.md` — Full interview question bank organized by topic area,
+- `references/interview-guide.md` — Full interview question bank organized by topic area,
   with guidance on adaptation, laddering, and question sequencing. Read this whenever the
   user needs to create or refine interview questions.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-win-loss-analysis/references/analysis-and-reporting.md` — Frameworks for coding interview data, calculating
+- `references/analysis-and-reporting.md` — Frameworks for coding interview data, calculating
   metrics, identifying patterns, and structuring findings into actionable reports. Read this
   when the user needs to analyze results or produce deliverables.
 
@@ -145,7 +145,7 @@ the buyer's reality — that gap is often where the most valuable insights live.
 - Use video conferencing or phone; avoid email-only surveys (they miss nuance)
 
 For the complete question bank and sequencing guidance, read
-`https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-win-loss-analysis/references/interview-guide.md`.
+`references/interview-guide.md`.
 
 ---
 
@@ -159,7 +159,7 @@ decision drivers → close. Plan 20–30 minutes.
 Two habits matter most. When a buyer cites "price," dig deeper: it usually means the rest
 of the value proposition didn't justify the difference. And ladder every decision driver
 3–4 levels deep to get past surface explanations. Timings, question bank and laddering
-technique are in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-win-loss-analysis/references/interview-guide.md`.
+technique are in `references/interview-guide.md`.
 
 ---
 
@@ -167,7 +167,7 @@ technique are in `https://raw.githubusercontent.com/StuKozola/agent-resource-cat
 
 After collecting interviews, the work shifts to pattern recognition and actionable
 synthesis. For the complete analysis framework, metrics formulas, coding taxonomy,
-and report templates, read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-win-loss-analysis/references/analysis-and-reporting.md`.
+and report templates, read `references/analysis-and-reporting.md`.
 
 Key principles:
 - Code each interview using a consistent taxonomy (product, pricing, sales experience,
@@ -218,9 +218,9 @@ When the user asks for help with win/loss analysis, produce the appropriate deli
 | User request | Deliverable |
 |---|---|
 | "Help me set up a win/loss program" | Program design document (Phase 1 summary with recommendations tailored to their context) |
-| "Create interview questions" | Structured interview guide (read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-win-loss-analysis/references/interview-guide.md` first) |
+| "Create interview questions" | Structured interview guide (read `references/interview-guide.md` first) |
 | "Analyze these interview notes" | Coded findings summary with themes, metrics, and recommended actions |
-| "Write a win/loss report" | Executive summary + detailed findings report (read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-win-loss-analysis/references/analysis-and-reporting.md` first) |
+| "Write a win/loss report" | Executive summary + detailed findings report (read `references/analysis-and-reporting.md` first) |
 | "Calculate our win/loss metrics" | Quantitative analysis with formulas, benchmarks, and visualization |
 | "Help me with a specific deal debrief" | Single-deal analysis template with guided questions |
 

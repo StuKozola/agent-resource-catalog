@@ -41,8 +41,8 @@ Sales often leads engagement, especially in complex B2B deals. Marketing runs pr
 
 ## When to Read Reference Files
 
-1. **New engagement strategy or audit** → `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-engagement/references/engagement-strategy-guide.md` (lifecycle stages, scoring, content mapping, workflow patterns, multi-channel orchestration, objections, trials, metrics).
-2. **Writing the program document** → use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-engagement/templates/engagement-program-template.md` as the deliverable structure.
+1. **New engagement strategy or audit** → `references/engagement-strategy-guide.md` (lifecycle stages, scoring, content mapping, workflow patterns, multi-channel orchestration, objections, trials, metrics).
+2. **Writing the program document** → use `templates/engagement-program-template.md` as the deliverable structure.
 
 ## Workflow
 
@@ -75,7 +75,7 @@ For each stage define entry and exit criteria, owner (marketing, sales, CS, prod
 
 ### Step 3: Build the Lead Scoring Model
 
-Combine **fit** (who they are: persona, segment, role, company size) with **engagement** (what they do: high-intent actions such as pricing page, demo or trial requests; mid-intent such as case studies and webinars; low-intent such as blog reads; negative signals such as inactivity). Set MQL, recycle and decay thresholds. Details in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-engagement/references/engagement-strategy-guide.md`.
+Combine **fit** (who they are: persona, segment, role, company size) with **engagement** (what they do: high-intent actions such as pricing page, demo or trial requests; mid-intent such as case studies and webinars; low-intent such as blog reads; negative signals such as inactivity). Set MQL, recycle and decay thresholds. Details in `references/engagement-strategy-guide.md`.
 
 ### Step 4: Map Content, Objections and Differentiation to Stages
 
@@ -136,11 +136,11 @@ For internal platforms, "evaluation and trial" means teams piloting the platform
 
 ## Deliverable
 
-The primary output is an **Engagement Program Document** using `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-engagement/templates/engagement-program-template.md`, actionable enough for marketing operations and sales to implement.
+The primary output is an **Engagement Program Document** using `templates/engagement-program-template.md`, actionable enough for marketing operations and sales to implement.
 
 ## Reference Files
 
 | File | Use |
 |---|---|
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-engagement/references/engagement-strategy-guide.md` | Full methodology: lifecycle, scoring, content mapping, workflows, multi-channel, handoffs, objections, trials, metrics, pitfalls |
-| `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-engagement/templates/engagement-program-template.md` | Program document template |
+| `references/engagement-strategy-guide.md` | Full methodology: lifecycle, scoring, content mapping, workflows, multi-channel, handoffs, objections, trials, metrics, pitfalls |
+| `templates/engagement-program-template.md` | Program document template |

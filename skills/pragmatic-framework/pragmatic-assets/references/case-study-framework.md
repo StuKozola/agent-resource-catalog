@@ -1,6 +1,6 @@
 # Case Study Framework
 
-> Case studies are one of the most-used assets for selling, supporting and explaining the product. This framework moved here from the retired Advocacy focus area. Finding and recruiting the customers who tell the story belongs to Customer Satisfaction (`pragmatic-customer-satisfaction`, Go-to-Market), whose `references/advocacy-program-guide.md` covers advocate identification and reference programs. Evidence that a customer achieved their intended outcome comes from Customer Value Realization (`pragmatic-customer-value-realization`, Operations); use it to make the Results section concrete.
+> Case studies are one of the most-used assets for selling, supporting and explaining the product. This framework moved here from the retired Advocacy focus area. Finding and recruiting the customers who tell the story belongs to Customer Satisfaction (`pragmatic-customer-satisfaction`, Go-to-Market), whose `../../pragmatic-customer-satisfaction/references/advocacy-program-guide.md` covers advocate identification and reference programs. Evidence that a customer achieved their intended outcome comes from Customer Value Realization (`pragmatic-customer-value-realization`, Operations); use it to make the Results section concrete.
 
 ## Table of Contents
 

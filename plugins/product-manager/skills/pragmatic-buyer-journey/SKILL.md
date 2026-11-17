@@ -57,7 +57,7 @@ For internal products and platforms, the "buyers" are the stakeholders who appro
 
 ## How to Gather Buyer Journey Data
 
-The gold standard is **interviews with recent evaluators**: people who recently made a buying decision, whether they chose you, a competitor or nothing. This overlaps with win/loss analysis but focuses on the *process* rather than the *outcome*. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-journey/references/interview-guide.md`.
+The gold standard is **interviews with recent evaluators**: people who recently made a buying decision, whether they chose you, a competitor or nothing. This overlaps with win/loss analysis but focuses on the *process* rather than the *outcome*. See `references/interview-guide.md`.
 
 ### Who to interview
 - Recent buyers (won deals), 2–4 weeks after the decision, before they shift to a user mindset
@@ -85,7 +85,7 @@ The gold standard is **interviews with recent evaluators**: people who recently 
 
 ## Document Structure
 
-Read `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-journey/references/document-template.md` for the full template with field-level guidance.
+Read `references/document-template.md` for the full template with field-level guidance.
 
 1. **Executive Summary** — Who this document covers, why it was created, and the key insight
 2. **Buyer Persona Summary** — Brief recap of the buyers, sponsors and approvers this journey maps to
@@ -157,5 +157,5 @@ AI can't replace talking to recent evaluators; it can only organize what they to
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-journey/references/document-template.md` — Full document template with field-level instructions and example content
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-buyer-journey/references/interview-guide.md` — Question bank for buyer journey research interviews
+- `references/document-template.md` — Full document template with field-level instructions and example content
+- `references/interview-guide.md` — Question bank for buyer journey research interviews

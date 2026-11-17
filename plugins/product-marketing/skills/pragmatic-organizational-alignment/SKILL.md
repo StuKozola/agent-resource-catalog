@@ -34,7 +34,7 @@ Adapt to the request. A narrow request ("align our sales stages to how buyers bu
 
 ### Part A: Align All Internal Teams
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/templates/organizational-alignment-plan.md`.
+Use `templates/organizational-alignment-plan.md`.
 
 1. **Write the shared picture once.** Audience (segments, buyers, users), problems solved, value proposition, why us vs. alternatives including doing nothing, and expected outcomes for the business and for customers. Pull from upstream focus areas; don't reinvent.
 2. **Diagnose divergence.** Ask each team lead separately to describe the target customer, the top problem and why customers choose you. Differences are your alignment gaps.
@@ -47,12 +47,12 @@ Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/ski
 
 Aligns how the organization sells to how the market wants to buy. Responsibilities: align the selling process to the buying process; describe information needs for key personas at each step; align sales content to each stage.
 
-1. **Gather inputs.** Buyer personas (financial, functional, technical buyers; sponsors, approvers), buyer journey, positioning by persona, win/loss patterns, current sales stages and CRM. If missing, build lightweight versions using `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/buying-process-framework.md` as scaffolding. Key diagnostic: how do current sales stages map to what buyers are actually doing?
+1. **Gather inputs.** Buyer personas (financial, functional, technical buyers; sponsors, approvers), buyer journey, positioning by persona, win/loss patterns, current sales stages and CRM. If missing, build lightweight versions using `references/buying-process-framework.md` as scaffolding. Key diagnostic: how do current sales stages map to what buyers are actually doing?
 2. **Map the buying process.** Typical B2B stages: problem recognition, research and education, solution exploration, requirements definition, evaluation and validation, decision and negotiation, implementation and adoption. For each: what buyers do and think, who's involved, barriers, information needs.
 3. **Map the selling process.** Prospecting/qualification, discovery, solution presentation, proposal/business case, negotiation/close, onboarding/handoff. For each: seller activities, exit criteria, content and assets used, failure points.
-4. **Align selling to buying.** Build the side-by-side map and find: where selling matches buyer needs; where selling runs ahead of the buyer; where it lags; content gaps; persona mismatches. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/content-mapping-guide.md`.
+4. **Align selling to buying.** Build the side-by-side map and find: where selling matches buyer needs; where selling runs ahead of the buyer; where it lags; content gaps; persona mismatches. See `references/content-mapping-guide.md`.
 5. **Identify gaps.** Content, process (handoffs, CRM stages that don't reflect buyer progress), skill (discovery, technical depth, executive communication) and asset gaps (battle cards, ROI tools, references, demo environments).
-6. **Document.** Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/templates/sales-alignment-template.md`: executive summary, buying and selling process maps, alignment matrix, content map, gap analysis, recommendations, success metrics.
+6. **Document.** Use `templates/sales-alignment-template.md`: executive summary, buying and selling process maps, alignment matrix, content map, gap analysis, recommendations, success metrics.
 
 Extend the same buyer-journey view to customer success and support: they should know which promises sales made and what outcome the customer bought for.
 
@@ -60,9 +60,9 @@ Extend the same buyer-journey view to customer success and support: they should 
 
 Operations teams build and run the systems that execute go-to-market: marketing automation, CRM, lead scoring and routing, CPQ, attribution and reporting. Without market context they configure those systems in a vacuum.
 
-1. **Assess the ops landscape.** Which groups exist — **MOps** (marketing automation, lead scoring, engagement workflows), **SOps** (CRM, pipeline stages, routing, territories, CPQ), **RevOps** (cross-lifecycle systems, attribution, data governance), **BizOps** (planning, forecasting, resource allocation)? What systems do they own, where do they get market information today, and what's missing? Interview their leaders (NIHITO applies internally too). See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/operations-needs-assessment.md`.
+1. **Assess the ops landscape.** Which groups exist — **MOps** (marketing automation, lead scoring, engagement workflows), **SOps** (CRM, pipeline stages, routing, territories, CPQ), **RevOps** (cross-lifecycle systems, attribution, data governance), **BizOps** (planning, forecasting, resource allocation)? What systems do they own, where do they get market information today, and what's missing? Interview their leaders (NIHITO applies internally too). See `references/operations-needs-assessment.md`.
 2. **Map information needs.** Persona and segment attributes in system-ready form; buying stages mapped to lifecycle and pipeline stages; solution and packaging mapped to SKUs; competitive triggers and fields; messaging frameworks for campaigns.
-3. **Write the operations support brief.** Structured, field-level, versioned. See `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/operations-support-brief.md` and `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/templates/operations-support-brief-template.md`.
+3. **Write the operations support brief.** Structured, field-level, versioned. See `references/operations-support-brief.md` and `templates/operations-support-brief-template.md`.
 4. **Keep it current.** Update with every launch, persona or segment change and competitive shift; give ops lead time before launches.
 
 ## Internal Products
@@ -114,10 +114,10 @@ For internal platforms, the "teams" are the platform team, internal champions, h
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/buying-process-framework.md` — Buying stages, persona roles and diagnostics (sales alignment)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/content-mapping-guide.md` — Content alignment matrix and gap analysis (sales alignment)
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/operations-needs-assessment.md` — Assessing what MOps, SOps, RevOps and BizOps need
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/references/operations-support-brief.md` — Structure and practices for operations support briefs
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/templates/organizational-alignment-plan.md` — Shared picture, team-by-team alignment, handoffs, cadence, measures
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/templates/sales-alignment-template.md` — Sales alignment document
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-organizational-alignment/templates/operations-support-brief-template.md` — Operations support brief
+- `references/buying-process-framework.md` — Buying stages, persona roles and diagnostics (sales alignment)
+- `references/content-mapping-guide.md` — Content alignment matrix and gap analysis (sales alignment)
+- `references/operations-needs-assessment.md` — Assessing what MOps, SOps, RevOps and BizOps need
+- `references/operations-support-brief.md` — Structure and practices for operations support briefs
+- `templates/organizational-alignment-plan.md` — Shared picture, team-by-team alignment, handoffs, cadence, measures
+- `templates/sales-alignment-template.md` — Sales alignment document
+- `templates/operations-support-brief-template.md` — Operations support brief

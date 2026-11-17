@@ -48,11 +48,11 @@ Practice should take at least half of live time. Use reps' own current opportuni
 
 ### 3. Build role-play scenarios
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-training-certification/templates/role-play-scenario.md`. Each scenario defines a buyer persona, their hidden before state and consequences, what they care about, likely objections, and what a strong rep would uncover. Give the buyer role-player a separate brief so the rep has to discover information through questions.
+Use `templates/role-play-scenario.md`. Each scenario defines a buyer persona, their hidden before state and consequences, what they care about, likely objections, and what a strong rep would uncover. Give the buyer role-player a separate brief so the rep has to discover information through questions.
 
 ### 4. Certify
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-training-certification/templates/certification-rubric.md`. Common certification components:
+Use `templates/certification-rubric.md`. Common certification components:
 
 - **Mantra delivery:** clear, in the buyer's terms, under a minute.
 - **Three essential questions:** answered for an assigned persona.
@@ -99,6 +99,6 @@ Humans make certification decisions. Tell participants when AI is used to review
 
 ## Template files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-training-certification/templates/training-plan.md` — Role-based training plan and schedule.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-training-certification/templates/role-play-scenario.md` — Scenario with separate rep and buyer briefs.
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-training-certification/templates/certification-rubric.md` — Scoring rubric for certification components.
+- `templates/training-plan.md` — Role-based training plan and schedule.
+- `templates/role-play-scenario.md` — Scenario with separate rep and buyer briefs.
+- `templates/certification-rubric.md` — Scoring rubric for certification components.

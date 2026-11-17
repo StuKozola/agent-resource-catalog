@@ -63,7 +63,7 @@ Report correlations honestly; don't claim causation the data can't support.
 
 ### 4. Specify the dashboard
 
-Use `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-impact-measurement/templates/measurement-plan.md`. A useful dashboard has three views: adoption (leading), outcomes (lagging), and the link between them (e.g. win rate for deals with vs. without confirmed metrics). Work with RevOps to build it in the CRM or BI tool.
+Use `templates/measurement-plan.md`. A useful dashboard has three views: adoption (leading), outcomes (lagging), and the link between them (e.g. win rate for deals with vs. without confirmed metrics). Work with RevOps to build it in the CRM or BI tool.
 
 ### 5. Report and act
 
@@ -97,4 +97,4 @@ Check AI calculations against the source data and keep revenue data in approved 
 
 ## Template files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/command-of-the-message/cotm-impact-measurement/templates/measurement-plan.md` — Baselines, targets, dashboard views and reporting cadence.
+- `templates/measurement-plan.md` — Baselines, targets, dashboard views and reporting cadence.

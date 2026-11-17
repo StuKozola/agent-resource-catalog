@@ -61,12 +61,12 @@ List the people and groups affected by, contributing to, or able to block the wo
 
 For each, capture: interest, influence, what they need from you, cadence, channel and owner.
 
-> Template: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/stakeholder-map.md` (stakeholder map, interest/influence grid, decision RACI, trade-off log).
-> Reference: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/references/stakeholder-audience-guide.md` (each audience's information needs and triggers).
+> Template: `templates/stakeholder-map.md` (stakeholder map, interest/influence grid, decision RACI, trade-off log).
+> Reference: `references/stakeholder-audience-guide.md` (each audience's information needs and triggers).
 
 ### Step 2 — Make decision rights explicit
 
-Shared clarity breaks down most often over *who decides*. For the key decisions on the initiative (which problems to solve next, scope and trade-offs, timing, positioning, pricing, launch go/no-go, external roadmap commitments), record who is Responsible, Accountable, Consulted and Informed. Exactly one accountable person per decision. Use the RACI in `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/stakeholder-map.md`.
+Shared clarity breaks down most often over *who decides*. For the key decisions on the initiative (which problems to solve next, scope and trade-offs, timing, positioning, pricing, launch go/no-go, external roadmap commitments), record who is Responsible, Accountable, Consulted and Informed. Exactly one accountable person per decision. Use the RACI in `templates/stakeholder-map.md`.
 
 ### Step 3 — Determine what each audience needs
 
@@ -94,17 +94,17 @@ For each audience: purpose, key content, format, frequency, owner, and how you'l
 | Key customers | Relationship + feedback | Problems being worked on, not dates | Roadmap conversation | Quarterly | PM |
 | Partners | Readiness | Timelines, integration and training needs | Partner update | Quarterly + per release | PMM |
 
-> Template: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/communication-plan-template.md`.
+> Template: `templates/communication-plan-template.md`.
 
 ### Step 6 — Present the roadmap per audience
 
 The roadmap is one of the most common stakeholder artifacts. Building it belongs to Product Roadmap (Focus, `pragmatic-product-roadmap`); here the job is presenting it so each audience gets the right view: executives see themes and outcomes, sales sees problems solved and competitive impact, engineering sees initiatives and sequencing, customers see problems being solved. Dated roadmaps create commitment expectations; undated (now/next/later) roadmaps communicate direction without locking dates.
 
-> Reference: `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/references/roadmap-formats.md`.
+> Reference: `references/roadmap-formats.md`.
 
 ### Step 7 — Communicate trade-offs and changes
 
-When priorities shift, tell the people affected before they hear it elsewhere: what changed, why (market evidence), what was given up, who decided, and what it means for them. Log decisions and trade-offs (Part 3 of `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/stakeholder-map.md`). Define out-of-cycle triggers: major scope change, competitive move, missed milestone, priority shift, escalation.
+When priorities shift, tell the people affected before they hear it elsewhere: what changed, why (market evidence), what was given up, who decided, and what it means for them. Log decisions and trade-offs (Part 3 of `templates/stakeholder-map.md`). Define out-of-cycle triggers: major scope change, competitive move, missed milestone, priority shift, escalation.
 
 ### Step 8 — Maintain cadence and measure
 
@@ -112,11 +112,11 @@ Make it routine: calendar holds, reusable templates, feedback loops (questions r
 
 ## Common Output Artifacts
 
-1. **Stakeholder map and decision RACI** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/stakeholder-map.md`
-2. **Communication plan** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/communication-plan-template.md`
-3. **Executive briefing** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/executive-briefing-template.md`
-4. **Release communication** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/release-communication-template.md`
-5. **Audience-specific roadmap views** — `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/references/roadmap-formats.md`
+1. **Stakeholder map and decision RACI** — `templates/stakeholder-map.md`
+2. **Communication plan** — `templates/communication-plan-template.md`
+3. **Executive briefing** — `templates/executive-briefing-template.md`
+4. **Release communication** — `templates/release-communication-template.md`
+5. **Audience-specific roadmap views** — `references/roadmap-formats.md`
 6. **Progress report** — metrics vs. goals, milestones, risks, trade-offs and decisions needed
 
 ## Related Focus Areas
@@ -155,9 +155,9 @@ AI can draft the message, but relationships and trust are built by people; revie
 
 ## Reference Files
 
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/references/stakeholder-audience-guide.md` — Stakeholder types, information needs and communication triggers
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/references/roadmap-formats.md` — Presenting dated and undated roadmaps to different audiences
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/stakeholder-map.md` — Stakeholder map, interest/influence grid, decision RACI and trade-off log
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/communication-plan-template.md` — Communication plan
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/executive-briefing-template.md` — Executive update format
-- `https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/skills/pragmatic-framework/pragmatic-stakeholder-management/templates/release-communication-template.md` — Release announcement structure
+- `references/stakeholder-audience-guide.md` — Stakeholder types, information needs and communication triggers
+- `references/roadmap-formats.md` — Presenting dated and undated roadmaps to different audiences
+- `templates/stakeholder-map.md` — Stakeholder map, interest/influence grid, decision RACI and trade-off log
+- `templates/communication-plan-template.md` — Communication plan
+- `templates/executive-briefing-template.md` — Executive update format
+- `templates/release-communication-template.md` — Release announcement structure
