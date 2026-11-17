@@ -30,7 +30,7 @@ claude plugin install product-manager@agent-resource-catalog
 | Plugin | Description | Skills | Connectors |
 |--------|-------------|--------|------------|
 | [`product-manager`](plugins/product-manager/) | 2027 Pragmatic Framework from market problems and product strategy through requirements, roadmaps, business outcomes and post-launch operations, combined with Seven Powers competitive strategy. | 35 | Linear, Notion, Slack, Figma, Dovetail |
-| [`product-marketing`](plugins/product-marketing/) | 2027 Pragmatic Framework go-to-market and enablement toolkit (positioning, buyer journey, launch, growth, retention, engagement, content, assets, channel support, measurement) combined with Seven Powers competitive strategy. | 31 | Notion, Slack, Salesforce, Dovetail, Amplitude |
+| [`product-marketing`](plugins/product-marketing/) | 2027 Pragmatic Framework go-to-market and enablement toolkit (positioning, buyer journey, launch, growth, retention, engagement, content, assets, channel support, measurement), Command of the Message value-based sales messaging, combined with Seven Powers competitive strategy. | 39 | Notion, Slack, Salesforce, Dovetail, Amplitude |
 
 ## Skills Library
 
