@@ -4,7 +4,12 @@
   "title": "Claude Plugin Manifest",
   "description": "JSON Schema for .claude-plugin/plugin.json manifests used in the agent-resource-catalog.",
   "type": "object",
-  "required": ["name", "version", "description", "author"],
+  "required": [
+    "name",
+    "version",
+    "description",
+    "author"
+  ],
   "additionalProperties": false,
   "properties": {
     "name": {
@@ -23,17 +28,28 @@
       "minLength": 10
     },
     "author": {
-      "type": "string",
-      "description": "Plugin author or maintainer name."
+      "type": "object",
+      "description": "Plugin author or maintainer (Claude Code plugin manifest format).",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false
     },
-    "category": {
-      "type": "string",
-      "description": "High-level category for catalog filtering.",
-      "enum": ["role", "workflow", "domain"]
-    },
-    "tags": {
+    "keywords": {
       "type": "array",
-      "description": "Kebab-case tags for discovery and filtering.",
+      "description": "Kebab-case keywords for discovery and filtering.",
       "items": {
         "type": "string",
         "pattern": "^[a-z][a-z0-9-]*$"
@@ -48,11 +64,6 @@
       "type": "string",
       "description": "URL to the plugin's homepage or documentation.",
       "format": "uri"
-    },
-    "plugin_format_version": {
-      "type": "string",
-      "description": "Version of the Claude plugin format this manifest targets.",
-      "default": "1"
     }
   }
 }

@@ -1,18 +1,56 @@
 {
   "name": "agent-resource-catalog",
-  "version": "1.0.0",
-  "description": "A browsable, installable catalog of agentic plugins, standalone tools, and templates for Claude Cowork and Claude Code.",
+  "owner": {
+    "name": "StuKozola"
+  },
   "plugins": [
     {
       "name": "product-manager",
       "version": "2.0.0",
-      "description": "Comprehensive skills for product managers — the 2027 Pragmatic Framework from market problems and product strategy through requirements, roadmaps, business outcomes and post-launch operations (adoption, scaling, exceptions, escalations, customer value realization), combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding)."
+      "description": "Comprehensive skills for product managers — the 2027 Pragmatic Framework from market problems and product strategy through requirements, roadmaps, business outcomes and post-launch operations (adoption, scaling, exceptions, escalations, customer value realization), combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
+      "category": "role",
+      "source": "./plugins/product-manager",
+      "author": {
+        "name": "agent-resource-catalog contributors"
+      },
+      "keywords": [
+        "product-management",
+        "pragmatic-framework",
+        "seven-powers",
+        "product-strategy",
+        "roadmap",
+        "requirements",
+        "product-operations",
+        "competitive-strategy",
+        "moats"
+      ]
     },
     {
       "name": "product-marketing",
       "version": "2.1.0",
-      "description": "Comprehensive skills for product marketers — the 2027 Pragmatic Framework go-to-market and enablement toolkit (positioning, buyer journey, marketing plan, growth, retention, launch, organizational alignment, awareness, engagement, customer satisfaction, content, assets, channel support, measurement), Command of the Message value-based sales messaging (value framework, field tools, training, MEDDPICC integration, coaching, measurement), combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding)."
+      "description": "Comprehensive skills for product marketers — the 2027 Pragmatic Framework go-to-market and enablement toolkit (positioning, buyer journey, marketing plan, growth, retention, launch, organizational alignment, awareness, engagement, customer satisfaction, content, assets, channel support, measurement), Command of the Message value-based sales messaging (value framework, field tools, training, MEDDPICC integration, coaching, measurement), combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
+      "category": "role",
+      "source": "./plugins/product-marketing",
+      "author": {
+        "name": "agent-resource-catalog contributors"
+      },
+      "keywords": [
+        "product-marketing",
+        "pragmatic-framework",
+        "seven-powers",
+        "positioning",
+        "launch",
+        "go-to-market",
+        "enablement",
+        "competitive-strategy",
+        "command-of-the-message",
+        "value-selling",
+        "sales-messaging"
+      ]
     }
   ],
-  "generated_at": "2026-11-17T15:51:07Z"
+  "metadata": {
+    "description": "A browsable, installable catalog of agentic plugins, standalone tools, and templates for Claude Cowork and Claude Code.",
+    "version": "1.0.0"
+  }
 }

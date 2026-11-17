@@ -2,9 +2,10 @@
   "name": "product-marketing",
   "version": "2.1.0",
   "description": "Comprehensive skills for product marketers — the 2027 Pragmatic Framework go-to-market and enablement toolkit (positioning, buyer journey, marketing plan, growth, retention, launch, organizational alignment, awareness, engagement, customer satisfaction, content, assets, channel support, measurement), Command of the Message value-based sales messaging (value framework, field tools, training, MEDDPICC integration, coaching, measurement), combined with Seven Powers competitive strategy (moats, counter-positioning, network effects, process power, branding).",
-  "author": "agent-resource-catalog contributors",
-  "category": "role",
-  "tags": [
+  "author": {
+    "name": "agent-resource-catalog contributors"
+  },
+  "keywords": [
     "product-marketing",
     "pragmatic-framework",
     "seven-powers",
@@ -16,6 +17,5 @@
     "command-of-the-message",
     "value-selling",
     "sales-messaging"
-  ],
-  "plugin_format_version": "1"
+  ]
 }

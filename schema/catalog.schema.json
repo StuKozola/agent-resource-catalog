@@ -83,7 +83,7 @@
         },
         "connectors": {
           "type": "array",
-          "description": "List of MCP connector IDs wired in .mcp.json.",
+          "description": "List of MCP connector IDs declared in the plugin's connectors.json.",
           "items": {
             "type": "string"
           }

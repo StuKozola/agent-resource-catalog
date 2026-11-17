@@ -13,11 +13,7 @@ Register the catalog as a marketplace source:
 claude plugin marketplace add StuKozola/agent-resource-catalog
 ```
 
-Browse available plugins:
-
-```bash
-claude plugin search @agent-resource-catalog
-```
+Browse available plugins by running `/plugin` inside Claude Code and opening the `agent-resource-catalog` marketplace.
 
 Install a plugin:
 
@@ -61,7 +57,7 @@ curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/ski
 Fetch a plugin skill:
 
 ```bash
-curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager/skills/pragmatic-competitive-landscape.md
+curl https://raw.githubusercontent.com/StuKozola/agent-resource-catalog/main/plugins/product-manager/skills/pragmatic-competitive-landscape/SKILL.md
 ```
 
 Or use the fetch helper scripts:

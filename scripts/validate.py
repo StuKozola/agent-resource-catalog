@@ -3,7 +3,7 @@
 Validates every plugin manifest, standalone manifest, and the root catalog.json
 against their corresponding JSON schemas.  Also performs a set of structural
 checks on each plugin (directory-name alignment, referenced-file existence,
-.mcp.json validity, YAML frontmatter in skill .md files) and a cross-plugin
+connectors.json validity, skills/<name>/SKILL.md layout and frontmatter) and a cross-plugin
 SHA-256 drift check that warns when two plugins ship identically-named skill
 files with divergent content.
 
@@ -197,17 +197,33 @@ def _validate_plugin(plugin_dir: Path, plugin_schema: dict) -> None:
             else:
                 _fail(label, f"referenced file '{entry}' in '{section}' not found at {target}")
 
-    # 5. If .mcp.json exists it must be valid JSON.
-    mcp_path = plugin_dir / ".mcp.json"
+    # 5. Plugins must not ship .mcp.json: Claude Code treats it as runnable
+    #    server config. Connector declarations go in connectors.json.
+    if (plugin_dir / ".mcp.json").exists():
+        _fail(
+            str((plugin_dir / ".mcp.json").relative_to(REPO_ROOT)),
+            "rename to connectors.json — Claude Code rejects .mcp.json entries without a command or url",
+        )
+
+    # 5b. If connectors.json exists it must be valid JSON.
+    mcp_path = plugin_dir / "connectors.json"
     if mcp_path.exists():
         mcp_data = _load_json(mcp_path)
         if mcp_data is not None:
             _pass(str(mcp_path.relative_to(REPO_ROOT)) + " [valid JSON]")
 
-    # 6. Every .md file in skills/ must have YAML frontmatter with name + description.
+    # 6. Skills must use the skills/<name>/SKILL.md layout Claude Code loads.
     skills_dir = plugin_dir / "skills"
     if skills_dir.is_dir():
-        for md_file in sorted(skills_dir.glob("**/*.md")):
+        for loose in sorted(skills_dir.glob("*.md")):
+            _fail(
+                str(loose.relative_to(REPO_ROOT)),
+                f"move to skills/{loose.stem}/SKILL.md — Claude Code does not load loose skill files",
+            )
+
+    # 7. Every SKILL.md must have YAML frontmatter with name + description.
+    if skills_dir.is_dir():
+        for md_file in sorted(skills_dir.glob("*/SKILL.md")):
             md_label = str(md_file.relative_to(REPO_ROOT))
             text = md_file.read_text(encoding="utf-8")
             keys = _parse_frontmatter_keys(text)
@@ -243,7 +259,7 @@ def _validate_standalone(manifest_path: Path, standalone_schema: dict) -> None:
 
 def _check_skill_drift(plugins_dir: Path) -> None:
     """
-    For every skill filename stem that appears in more than one plugin's
+    For every skill name that appears in more than one plugin's
     skills/ directory, compare SHA-256 hashes.  If they differ, emit [WARN].
 
     We do NOT fail on drift — it may be intentional — but we surface it so
@@ -261,8 +277,8 @@ def _check_skill_drift(plugins_dir: Path) -> None:
         skills_dir = plugin_dir / "skills"
         if not skills_dir.is_dir():
             continue
-        for md_file in sorted(skills_dir.glob("**/*.md")):
-            stem = md_file.stem
+        for md_file in sorted(skills_dir.glob("*/SKILL.md")):
+            stem = md_file.parent.name
             try:
                 digest = _sha256(md_file)
             except OSError:
@@ -277,7 +293,7 @@ def _check_skill_drift(plugins_dir: Path) -> None:
         if len(unique_digests) > 1:
             # Build a human-readable diff-friendly summary.
             lines = [
-                f"skill file '{stem}.md' has diverged copies across plugins:",
+                f"skill '{stem}' has diverged copies across plugins:",
             ]
             for plugin_name, path, digest in occurrences:
                 lines.append(f"  {plugin_name}: {digest[:12]}…  ({path})")
