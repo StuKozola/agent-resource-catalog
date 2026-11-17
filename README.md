@@ -39,6 +39,7 @@ The `skills/` directory is a standalone library of reusable skill files organize
 | Category | Skills | What it covers |
 |----------|--------|----------------|
 | [`pragmatic-framework`](skills/pragmatic-framework/) | 38 | The 2027 Pragmatic Framework: one skill for each of the 37 focus areas across Market, Focus, Business, Planning, Go-to-Market, Enablement and Operations, plus an overview and router. See the [folder README](skills/pragmatic-framework/README.md) for skills renamed in 2027. |
+| [`command-of-the-message`](skills/command-of-the-message/) | 8 | Command of the Message® value-based sales messaging: one skill per rollout step — overview and readiness, executive alignment, Value Framework, field tools, training and certification, sales process integration (MEDDPICC, CRM), coaching and reinforcement, impact measurement. Independent guide, not affiliated with Force Management. |
 | [`seven-powers-framework`](skills/seven-powers-framework/) | 7 | Competitive strategy and business moats — branding, cornered resource, counter-positioning, network economies, process power, scale economies, switching costs |
 | [`agentic-systems`](skills/agentic-systems/) | 1 | AI agent operation and meta-reasoning — context management, subagent routing |
 | [`matlab`](skills/matlab/) | 1 | MATLAB-specific skills — toolbox packaging and distribution |
@@ -83,6 +84,7 @@ agent-resource-catalog/
 │   └── product-marketing/
 ├── skills/                    # Reusable skill library (source of truth)
 │   ├── pragmatic-framework/
+│   ├── command-of-the-message/
 │   ├── seven-powers-framework/
 │   ├── agentic-systems/
 │   └── matlab/
